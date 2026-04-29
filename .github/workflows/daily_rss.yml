@@ -3,7 +3,7 @@ name: HTML to RSS Pusher
 on:
   schedule:
     - cron: '0 0 * * 1,4' 
-  workflow_dispatch: # 支持手动触发
+  workflow_dispatch: 
 
 permissions:
   contents: write
@@ -33,52 +33,48 @@ jobs:
           from bs4 import BeautifulSoup
 
           # ================= 配置区 =================
-          READING_SPEED = 300   # 每分钟阅读字数
-          RSS_SIZE = 15         # RSS 保留的条目数
-          CONTENT_DIR = 'html_files' # 存放 HTML 文件的文件夹
+          READING_SPEED = 300   
+          RSS_SIZE = 15         
+          CONTENT_DIR = 'html_files' 
           repo_full_name = os.getenv('GITHUB_REPOSITORY')
           # ==========================================
 
           if not os.path.exists(CONTENT_DIR): os.makedirs(CONTENT_DIR, exist_ok=True)
 
-          # 读取进度
           try:
               with open('progress.txt', 'r') as f:
                   current_index = int(f.read().strip())
           except:
               current_index = 1
 
-          # 寻找目标 HTML 文件 (支持 001.html 或 1.html)
-          search_patterns = [f"{current_index:0>3}.html", f"{current_index}.html"]
+          # --- 改进：支持 001-TEST.html 这种命名 ---
           target_file = None
-          for pattern in search_patterns:
-              path = os.path.join(CONTENT_DIR, pattern)
-              if os.path.exists(path):
-                  target_file = path
-                  break
+          prefix = f"{current_index:0>3}"
+          if os.path.exists(CONTENT_DIR):
+              for f_name in os.listdir(CONTENT_DIR):
+                  if f_name.startswith(prefix) and f_name.endswith('.html'):
+                      target_file = os.path.join(CONTENT_DIR, f_name)
+                      break
 
           if not target_file:
-              print(f"DEBUG: 未找到序号 {current_index} 的 HTML 文件，停止运行。")
+              print(f"DEBUG: 未找到以 {prefix} 开头的 HTML 文件。")
+              # 如果没找到，我们创建一个空的 progress 以避免 Git 报错，或者直接退出
               exit(0)
 
-          # 读取 HTML 内容
+          print(f"正在处理文件: {target_file}")
+
           with open(target_file, 'r', encoding='utf-8') as f:
               content_html = f.read()
 
-          # 计算字数和阅读时间 (剥离 HTML 标签后计算文字)
           soup = BeautifulSoup(content_html, 'html.parser')
-          plain_text = soup.get_text()
-          word_count = len(plain_text.strip())
+          word_count = len(soup.get_text().strip())
           reading_time = math.ceil(word_count / READING_SPEED)
           
-          # 构造页眉信息
           time_header = f"<div style='color: #888; margin-bottom: 10px;'>⏱ 预计阅读时间：{reading_time} 分钟 ({word_count} 字)</div><hr>"
           full_content = time_header + content_html
 
-          # 构造新的 RSS Item
-          # 标题尝试抓取 <h1> 或文件名
-          title_tag = soup.find(['h1', 'h2', 'title'])
-          entry_title = title_tag.get_text() if title_tag else f"Lesson {current_index}: {os.path.basename(target_file)}"
+          title_tag = soup.find(['h1', 'th', 'title'])
+          entry_title = title_tag.get_text() if title_tag else f"Lesson {current_index}"
           
           pub_date = datetime.datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
           
@@ -86,23 +82,19 @@ jobs:
               <title><![CDATA[{entry_title}]]></title>
               <description><![CDATA[{full_content}]]></description>
               <pubDate>{pub_date}</pubDate>
-              <guid isPermaLink="false">lesson-{current_index}</guid>
+              <guid isPermaLink="false">lesson-{current_index}-{datetime.datetime.now().timestamp()}</guid>
           </item>"""
 
-          # 合并旧的 RSS 条目
           all_items = [new_item]
           if os.path.exists('feed.xml'):
               with open('feed.xml', 'r', encoding='utf-8') as f:
                   old_feed = f.read()
-                  # 正则提取旧的 item
                   old_items = re.findall(r'<item>.*?</item>', old_feed, re.DOTALL)
                   all_items.extend(old_items)
 
-          # 限制 RSS 长度并组合
           all_items = all_items[:RSS_SIZE]
           items_xml = "\n".join(all_items)
 
-          # 生成最终的 RSS XML
           rss_feed = f"""<?xml version="1.0" encoding="UTF-8" ?>
           <rss version="2.0">
           <channel>
@@ -113,7 +105,6 @@ jobs:
           </channel>
           </rss>"""
 
-          # 写回文件
           with open('feed.xml', 'w', encoding='utf-8') as f: f.write(rss_feed)
           with open('progress.txt', 'w') as f: f.write(str(current_index + 1))
           EOF
@@ -122,6 +113,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed.xml progress.txt
-          git commit -m "Update RSS: Lesson content" || echo "Nothing to commit"
-          git push
+          # 使用 git add . 并在提交前检查是否有变化，防止报错
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update RSS content" && git push)
