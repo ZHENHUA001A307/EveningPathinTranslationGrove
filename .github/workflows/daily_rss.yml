@@ -23,79 +23,95 @@ jobs:
       - name: Install Dependencies
         run: pip install beautifulsoup4
 
-      - name: Run Script
+- name: Run Script
         run: |
           python <<EOF
           import os
           import datetime
           import re
           import math
+          import sys
           from bs4 import BeautifulSoup
 
           # ================= 配置区 =================
           READING_SPEED = 300   
           RSS_SIZE = 15         
-          CONTENT_DIR = 'html_files' 
+          CONTENT_DIR = 'html_files' # 确保文件夹名字正确
           repo_full_name = os.getenv('GITHUB_REPOSITORY')
           # ==========================================
 
-          if not os.path.exists(CONTENT_DIR): os.makedirs(CONTENT_DIR, exist_ok=True)
-
+          # 1. 检查进度
           try:
-              with open('progress.txt', 'r') as f:
-                  current_index = int(f.read().strip())
-          except:
+              if os.path.exists('progress.txt'):
+                  with open('progress.txt', 'r') as f:
+                      current_index = int(f.read().strip())
+              else:
+                  current_index = 1
+          except Exception as e:
+              print(f"读取进度失败: {e}")
               current_index = 1
 
-          # --- 改进：支持 001-TEST.html 这种命名 ---
+          print(f"当前搜索序号: {current_index}")
+
+          # 2. 查找文件 (同时检查根目录和 CONTENT_DIR，增加容错)
           target_file = None
           prefix = f"{current_index:0>3}"
-          if os.path.exists(CONTENT_DIR):
-              for f_name in os.listdir(CONTENT_DIR):
-                  if f_name.startswith(prefix) and f_name.endswith('.html'):
-                      target_file = os.path.join(CONTENT_DIR, f_name)
-                      break
+          
+          search_locations = [CONTENT_DIR, '.'] # 搜索 html_files 目录和根目录
+          
+          for loc in search_locations:
+              if os.path.exists(loc):
+                  print(f"正在 {loc} 目录中搜索前缀为 {prefix} 的文件...")
+                  for f_name in os.listdir(loc):
+                      if f_name.startswith(prefix) and f_name.endswith('.html'):
+                          target_file = os.path.join(loc, f_name)
+                          break
+              if target_file: break
 
           if not target_file:
-              print(f"DEBUG: 未找到以 {prefix} 开头的 HTML 文件。")
-              # 如果没找到，我们创建一个空的 progress 以避免 Git 报错，或者直接退出
-              exit(0)
+              print(f"❌ 错误: 未找到以 {prefix} 开头的 HTML 文件！")
+              print(f"请检查 {CONTENT_DIR} 文件夹是否存在，以及文件名是否正确。")
+              sys.exit(1) # 改为异常退出，让 Action 报红
 
-          print(f"正在处理文件: {target_file}")
+          print(f"✅ 找到目标文件: {target_file}")
 
-          with open(target_file, 'r', encoding='utf-8') as f:
-              content_html = f.read()
+          # 3. 读取并处理内容
+          try:
+              with open(target_file, 'r', encoding='utf-8') as f:
+                  content_html = f.read()
 
-          soup = BeautifulSoup(content_html, 'html.parser')
-          word_count = len(soup.get_text().strip())
-          reading_time = math.ceil(word_count / READING_SPEED)
-          
-          time_header = f"<div style='color: #888; margin-bottom: 10px;'>⏱ 预计阅读时间：{reading_time} 分钟 ({word_count} 字)</div><hr>"
-          full_content = time_header + content_html
+              soup = BeautifulSoup(content_html, 'html.parser')
+              word_count = len(soup.get_text().strip())
+              reading_time = math.ceil(word_count / READING_SPEED)
+              
+              time_header = f"<div style='color: #888; margin-bottom: 10px;'>⏱ 预计阅读时间：{reading_time} 分钟 ({word_count} 字)</div><hr>"
+              full_content = time_header + content_html
 
-          title_tag = soup.find(['h1', 'th', 'title'])
-          entry_title = title_tag.get_text() if title_tag else f"Lesson {current_index}"
-          
-          pub_date = datetime.datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
-          
-          new_item = f"""        <item>
+              # 提取标题：优先取 <th>, <h1>，如果没有则用文件名
+              title_tag = soup.find(['th', 'h1', 'title'])
+              entry_title = title_tag.get_text().strip() if title_tag else f"Lesson {current_index}"
+              
+              pub_date = datetime.datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
+              
+              new_item = f"""        <item>
               <title><![CDATA[{entry_title}]]></title>
               <description><![CDATA[{full_content}]]></description>
               <pubDate>{pub_date}</pubDate>
-              <guid isPermaLink="false">lesson-{current_index}-{datetime.datetime.now().timestamp()}</guid>
+              <guid isPermaLink="false">lesson-{current_index}-{int(datetime.datetime.now().timestamp())}</guid>
           </item>"""
 
-          all_items = [new_item]
-          if os.path.exists('feed.xml'):
-              with open('feed.xml', 'r', encoding='utf-8') as f:
-                  old_feed = f.read()
-                  old_items = re.findall(r'<item>.*?</item>', old_feed, re.DOTALL)
-                  all_items.extend(old_items)
+              # 4. 更新 feed.xml
+              all_items = [new_item]
+              if os.path.exists('feed.xml'):
+                  with open('feed.xml', 'r', encoding='utf-8') as f:
+                      old_feed = f.read()
+                      old_items = re.findall(r'<item>.*?</item>', old_feed, re.DOTALL)
+                      all_items.extend(old_items)
 
-          all_items = all_items[:RSS_SIZE]
-          items_xml = "\n".join(all_items)
+              all_items = all_items[:RSS_SIZE]
+              items_xml = "\n".join(all_items)
 
-          rss_feed = f"""<?xml version="1.0" encoding="UTF-8" ?>
+              rss_feed = f"""<?xml version="1.0" encoding="UTF-8" ?>
           <rss version="2.0">
           <channel>
               <title>我的外语学习推送</title>
@@ -105,14 +121,13 @@ jobs:
           </channel>
           </rss>"""
 
-          with open('feed.xml', 'w', encoding='utf-8') as f: f.write(rss_feed)
-          with open('progress.txt', 'w') as f: f.write(str(current_index + 1))
-          EOF
+              with open('feed.xml', 'w', encoding='utf-8') as f: 
+                  f.write(rss_feed)
+              with open('progress.txt', 'w') as f: 
+                  f.write(str(current_index + 1))
+              print(f"🎉 成功生成 feed.xml 并更新进度至 {current_index + 1}")
 
-      - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # 使用 git add . 并在提交前检查是否有变化，防止报错
-          git add .
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update RSS content" && git push)
+          except Exception as e:
+              print(f"处理 HTML 时发生错误: {e}")
+              sys.exit(1)
+          EOF
