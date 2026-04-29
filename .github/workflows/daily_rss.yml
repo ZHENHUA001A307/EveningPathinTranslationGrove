@@ -1,0 +1,177 @@
+name: EPUB to RSS Pusher
+
+on:
+  schedule:
+    - cron: '0 0 */3 * *' # 每两天运行一次
+  workflow_dispatch: # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install ebooklib beautifulsoup4 lxml
+
+      - name: Run Script
+        run: |
+          python <<EOF
+          import os
+          import datetime
+          import ebooklib
+          import re
+          import math
+          import zipfile
+          from ebooklib import epub
+          from bs4 import BeautifulSoup
+
+          # ================= 配置区 =================
+          READING_SPEED = 300 
+          RSS_SIZE = 15 
+          repo_full_name = os.getenv('GITHUB_REPOSITORY')
+          # 默认分支名，如果你的仓库是 master 请修改此处
+          base_image_url = f"https://raw.githubusercontent.com/{repo_full_name}/main/image/"
+          # ==========================================
+
+          if not os.path.exists('image'): os.makedirs('image', exist_ok=True)
+          if not os.path.exists('books'): os.makedirs('books', exist_ok=True)
+
+          try:
+              with open('progress.txt', 'r') as f:
+                  current_index = int(f.read().strip())
+          except:
+              current_index = 1
+
+          search_str = f"{current_index:0>3}"
+          target_file = None
+          for f in os.listdir('books'):
+              if search_str in f and f.lower().endswith('.epub'):
+                  target_file = os.path.join('books', f)
+                  break
+
+          if not target_file:
+              print(f"DEBUG: 未找到序号 {search_str} 的文件。")
+              exit(0)
+
+          content_html = ""
+          image_map = {}
+
+          def sanitize_name(name):
+              return re.sub(r'[^\w\.-]', '_', os.path.basename(name))
+
+          # --- 核心修复：双模解析逻辑 ---
+          try:
+              # 模式 A: 标准解析
+              print(f"尝试标准解析: {target_file}")
+              book = epub.read_epub(target_file)
+              # 提取图片
+              for item in book.get_items_of_type(ebooklib.ITEM_IMAGE):
+                  try:
+                      safe_name = f"{current_index}_{sanitize_name(item.get_name())}"
+                      with open(os.path.join('image', safe_name), 'wb') as img_f:
+                          img_f.write(item.get_content())
+                      image_map[item.get_name()] = safe_name
+                  except: continue # 跳过无法读取的异常资源（如网络URL）
+
+              # 提取文字
+              for item in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
+                  soup = BeautifulSoup(item.get_content().decode('utf-8', 'ignore'), 'html.parser')
+                  for img in soup.find_all('img'):
+                      src = img.get('src', '')
+                      for epub_path, disk_name in image_map.items():
+                          if os.path.basename(src) == os.path.basename(epub_path):
+                              img['src'] = base_image_url + disk_name
+                              break
+                  body = soup.find('body')
+                  if body: content_html += "".join([str(c) for c in body.contents])
+
+          except Exception as e:
+              # 模式 B: 容错手动解析（解决 KeyError: "There is no item named..."）
+              print(f"标准解析失败，进入容错模式: {e}")
+              content_html = ""
+              with zipfile.ZipFile(target_file, 'r') as z:
+                  all_files = z.namelist()
+                  # 1. 先扫图片
+                  img_exts = ('.jpg', '.jpeg', '.png', '.gif', '.webp')
+                  for f_path in all_files:
+                      if f_path.lower().endswith(img_exts):
+                          safe_name = f"{current_index}_{sanitize_name(f_path)}"
+                          with open(os.path.join('image', safe_name), 'wb') as img_f:
+                              img_f.write(z.read(f_path))
+                          image_map[f_path] = safe_name
+
+                  # 2. 再扫文字内容（按文件名排序尝试保持顺序）
+                  html_files = sorted([f for f in all_files if f.lower().endswith(('.html', '.xhtml'))])
+                  for f_path in html_files:
+                      soup = BeautifulSoup(z.read(f_path).decode('utf-8', 'ignore'), 'html.parser')
+                      # 修正图片路径
+                      for img in soup.find_all('img'):
+                          src = img.get('src', '')
+                          for epub_path, disk_name in image_map.items():
+                              if os.path.basename(src) == os.path.basename(epub_path):
+                                  img['src'] = base_image_url + disk_name
+                                  break
+                      body = soup.find('body')
+                      if body: content_html += "".join([str(c) for c in body.contents])
+
+          # --- 后续处理：计算字数/生成RSS/清理 ---
+          word_count = len(BeautifulSoup(content_html, 'html.parser').get_text().strip())
+          reading_time = math.ceil(word_count / READING_SPEED)
+          time_header = f"<p style='color: #888;'>⏱ 预计阅读时间：{reading_time} 分钟 ({word_count} 字)</p><hr>"
+          content_html = time_header + content_html
+
+          pub_date = datetime.datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
+          new_item = f"""        <item>
+              <title>{os.path.basename(target_file)}</title>
+              <description><![CDATA[{content_html}]]></description>
+              <pubDate>{pub_date}</pubDate>
+              <guid isPermaLink="false">{current_index}</guid>
+          </item>"""
+
+          all_items = [new_item]
+          if os.path.exists('feed.xml'):
+              with open('feed.xml', 'r', encoding='utf-8') as f:
+                  old_feed = f.read()
+                  all_items.extend(re.findall(r'<item>.*?</item>', old_feed, re.DOTALL))
+
+          all_items = all_items[:RSS_SIZE]
+          items_html = "\n".join(all_items)
+
+          # 清理不在当前 RSS 列表中的图片
+          needed_images = set(re.findall(r'image/([\w\.-]+)', items_html))
+          if os.path.exists('image'):
+              for img_file in os.listdir('image'):
+                  if img_file not in needed_images:
+                      os.remove(os.path.join('image', img_file))
+
+          rss_feed = f"""<?xml version="1.0" encoding="UTF-8" ?>
+          <rss version="2.0">
+          <channel>
+              <title>我的每日小说</title>
+              <link>https://github.com/{repo_full_name}</link>
+              <description>从 EPUB 自动生成的 RSS 订阅源</description>
+          {items_html}
+          </channel>
+          </rss>"""
+
+          with open('feed.xml', 'w', encoding='utf-8') as f: f.write(rss_feed)
+          with open('progress.txt', 'w') as f: f.write(str(current_index + 1))
+          EOF
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.xml progress.txt image/
+          git commit -m "Update RSS: content & images" || echo "Nothing to commit"
+          git push
