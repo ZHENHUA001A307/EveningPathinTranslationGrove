@@ -1,0 +1,46 @@
+name: Auto Learning Flow
+
+on:
+  push:
+    paths:
+      - 'input/**'
+  schedule:
+    - cron: '0 0 * * 1,4' # 周一和周四自动运行
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  process-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install google-generativeai beautifulsoup4
+
+      - name: Run AI Processor
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/process.py
+
+      - name: Run RSS Pusher
+        run: |
+          # 这里放你原来的 RSS 推送 Python 逻辑（也可以拆成独立脚本调用）
+          # python scripts/rss_pusher.py 
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "StudyBot"
+          git config --global user.email "bot@github.com"
+          git add .
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update learning content"
+            git push
+          fi
