@@ -5,7 +5,7 @@ import google.generativeai as genai
 from pathlib import Path
 
 # --- 配置区 ---
-genai.configure(api_key=os.environ["AIzaSyBOogDSMLy-vBNfembDrmrGfUfOJUJNtCI"])
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 def smart_split(text, chunk_size=10):
