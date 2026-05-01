@@ -1,7 +1,7 @@
 import os
 import json
 import pandas as pd
-from google import genai
+import google.generativeai as genai
 from datetime import datetime
 
 # --- 配置区 ---
@@ -16,11 +16,11 @@ print(f"--- 任务启动: {datetime.now()} ---")
 # --- 1. 初始化 AI ---
 api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
-    print("错误: 找不到环境变量 GEMINI_API_KEY，请检查 GitHub Secrets")
+    print("错误: 找不到环境变量 GEMINI_API_KEY")
     exit(1)
 
-# 初始化 Client
-client = genai.Client(api_key=api_key)
+# 使用稳定版 API 配置
+genai.configure(api_key=api_key)
 
 def load_system_instruction():
     if not os.path.exists(PROMPT_FILE):
@@ -44,7 +44,6 @@ def get_last_index():
 def update_rss(html_content, source_info):
     print("正在尝试写入 feed.xml...")
     now = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
-    # 清理一下生成的 HTML，防止 Markdown 包裹字符干扰 RSS
     html_clean = html_content.replace("```html", "").replace("```", "").strip()
     
     item_xml = f"""
@@ -60,7 +59,6 @@ def update_rss(html_content, source_info):
     else:
         with open(RSS_FILE, 'r', encoding='utf-8') as f:
             old = f.read()
-        # 插入到第一个 item 之前，保持最新内容在最前
         if "<item>" in old:
             content = old.replace("<item>", f"{item_xml}\n    <item>", 1)
         else:
@@ -92,37 +90,30 @@ def main():
         actual_batch_size = len(batch)
         print(f"本次处理第 {start_idx} 到 {start_idx + actual_batch_size - 1} 行")
 
-        lines = []
-        for _, row in batch.iterrows():
-            lines.append(str(row['内容']))
+        lines = [str(row['内容']) for _, row in batch.iterrows()]
         input_text = "\n".join(lines)
 
-        # --- 5. 调用 Gemini API ---
+        # --- 5. 调用 Gemini (新库语法) ---
         print("正在调用 Gemini API...")
         
-        # 使用最新的 SDK 调用规范
-        response = client.models.generate_content(
-            model='gemini-1.5-flash', # 确保此处无 'models/' 前缀
-            contents=input_text,
-            config={
-                'system_instruction': load_system_instruction(),
-                'temperature': 0.7,
-            }
+        # 初始化模型时直接传入系统指令
+        model = genai.GenerativeModel(
+            model_name='gemini-1.5-flash',
+            system_instruction=load_system_instruction()
         )
         
-        # 增加对 response 的检查
-        if not response or not response.text:
-            print("警告: API 未能生成有效文本，可能是触发了内容安全过滤。")
+        response = model.generate_content(input_text)
+        
+        if not response.text:
+            print("警告: API 返回了空内容，可能是安全过滤拦截。")
             return
             
         result_html = response.text.strip()
-        print(f"API 调用成功，收到内容长度: {len(result_html)}")
+        print(f"API 调用成功，长度: {len(result_html)}")
 
-        # 获取来源信息
         source_name = batch.iloc[0]['来源'] if '来源' in batch.columns else "Daily"
         update_rss(result_html, source_name)
 
-        # 更新进度
         new_idx = start_idx + actual_batch_size
         with open(PROGRESS_FILE, 'w', encoding='utf-8') as f:
             f.write(str(new_idx))
