@@ -75,7 +75,7 @@ def calculate_reading_time(text, lang):
     """计算预计阅读时间，返回 (分钟, 提示字符串)"""
     total_chars = len(text)               # 字符总数（含字母、符号、空格）
     speed = LANG_CONFIG[lang]['reading_speed']
-    minutes = total_chars / speed
+    minutes = total_chars / speed * 3
     # 向上取整，最少显示1分钟
     minutes_ceil = max(1, int(minutes) + (1 if minutes > int(minutes) else 0))
     marker = f"⏱ 预计阅读时间：{minutes_ceil} 分钟 ({total_chars} 字符)"
