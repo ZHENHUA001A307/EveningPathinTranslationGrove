@@ -1,38 +1,50 @@
 name: Generate Language Learning Feed
 
 on:
-  workflow_dispatch: # 支持手动触发
+  workflow_dispatch:          # 手动触发
   schedule:
-    - cron: '0 0 * * *' # 每天凌晨自动运行
+    - cron: '0 0 * * *'       # 每天 00:00 UTC 自动运行
+
+# 关键：授予写入仓库的权限
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4   # 升级到 v4，兼容性更好
 
-      # 修改 main.yml 中的这部分
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12' # 升级到 3.12
+          python-version: '3.12'
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # 强制卸载老版本，防止命名空间冲突
           pip uninstall google-generativeai -y || true
           pip install google-genai pandas
 
       - name: Run processing script
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # 从 Secrets 读取
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python process.py
 
       - name: Commit and push changes
+        # 如果没有任何文件变更（例如没有新行需要处理），则跳过 commit 步骤，避免错误
         run: |
           git config --global user.name "Actions Bot"
           git config --global user.email "actions@github.com"
-          git add last_index.txt feed.xml
-          git commit -m "Update feed with new lessons"
-          git push
+
+          # 如果有变更才进行提交和推送
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add last_index.txt feed.xml
+            git commit -m "Update feed with new lessons"
+            # 使用 GITHUB_TOKEN 进行身份验证（已在 checkout 时自动配置）
+            git push
+          else
+            echo "没有文件变更，跳过提交。"
+          fi
