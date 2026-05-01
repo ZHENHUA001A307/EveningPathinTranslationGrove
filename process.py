@@ -2,6 +2,7 @@ import os
 import json
 import pandas as pd
 from google import genai
+from google.genai import types  # 导入类型库以确保参数正确
 from datetime import datetime
 
 # --- 配置区 ---
@@ -19,7 +20,7 @@ if not api_key:
     print("错误: 找不到环境变量 GEMINI_API_KEY，请检查 GitHub Secrets")
     exit(1)
 
-# 强制使用 v1 版本以避免 v1beta 导致的 404 错误
+# 初始化 Client
 client = genai.Client(
     api_key=api_key,
     http_options={'api_version': 'v1'}
@@ -104,13 +105,15 @@ def main():
 
         # 6. 调用 Gemini API
         print("正在调用 Gemini API (v1)...")
+        
+        # 修正：使用 types 模块定义 config，并将 system_instruction 直接传入
         response = client.models.generate_content(
             model='gemini-1.5-flash',
             contents=input_text,
-            config={
-                'system_instruction': load_system_instruction(),
-                'response_mime_type': 'text/plain' 
-            }
+            config=types.GenerateContentConfig(
+                system_instruction=load_system_instruction(),
+                response_mime_type='text/plain'
+            )
         )
         
         if not response.text:
