@@ -19,7 +19,7 @@ if not api_key:
     print("错误: 找不到环境变量 GEMINI_API_KEY，请检查 GitHub Secrets")
     exit(1)
 
-# 初始化 Client (移除强制 v1，允许 SDK 自动选择最优版本)
+# 初始化 Client
 client = genai.Client(api_key=api_key)
 
 def load_system_instruction():
@@ -60,7 +60,11 @@ def update_rss(html_content, source_info):
     else:
         with open(RSS_FILE, 'r', encoding='utf-8') as f:
             old = f.read()
-        content = old.replace("<channel>", f"<channel>\n{item_xml}")
+        # 插入到第一个 item 之前，保持最新内容在最前
+        if "<item>" in old:
+            content = old.replace("<item>", f"{item_xml}\n    <item>", 1)
+        else:
+            content = old.replace("<channel>", f"<channel>\n{item_xml}")
     
     with open(RSS_FILE, 'w', encoding='utf-8') as f:
         f.write(content)
@@ -93,28 +97,32 @@ def main():
             lines.append(str(row['内容']))
         input_text = "\n".join(lines)
 
-        # --- 6. 调用 Gemini API ---
+        # --- 5. 调用 Gemini API ---
         print("正在调用 Gemini API...")
         
-        # 修改点：将 system_instruction 作为顶级参数，并移除复杂的 config 字典
+        # 使用最新的 SDK 调用规范
         response = client.models.generate_content(
-            model='gemini-1.5-flash',
+            model='gemini-1.5-flash', # 确保此处无 'models/' 前缀
             contents=input_text,
             config={
                 'system_instruction': load_system_instruction(),
+                'temperature': 0.7,
             }
         )
         
-        if not response.text:
-            print("警告: API 返回了空内容")
+        # 增加对 response 的检查
+        if not response or not response.text:
+            print("警告: API 未能生成有效文本，可能是触发了内容安全过滤。")
             return
             
         result_html = response.text.strip()
         print(f"API 调用成功，收到内容长度: {len(result_html)}")
 
+        # 获取来源信息
         source_name = batch.iloc[0]['来源'] if '来源' in batch.columns else "Daily"
         update_rss(result_html, source_name)
 
+        # 更新进度
         new_idx = start_idx + actual_batch_size
         with open(PROGRESS_FILE, 'w', encoding='utf-8') as f:
             f.write(str(new_idx))
