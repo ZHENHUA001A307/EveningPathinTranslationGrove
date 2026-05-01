@@ -1,0 +1,35 @@
+name: Generate Language Learning Feed
+
+on:
+  workflow_dispatch: # 支持手动触发
+  schedule:
+    - cron: '0 0 * * *' # 每天凌晨自动运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install google-generativeai pandas
+
+      - name: Run processing script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # 从 Secrets 读取
+        run: python process.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add last_index.txt feed.xml
+          git commit -m "Update feed with new lessons"
+          git push
