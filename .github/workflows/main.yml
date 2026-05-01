@@ -17,10 +17,12 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.12' # 升级到 3.12
-
       - name: Install dependencies
         run: |
-          pip install google-generativeai pandas
+          python -m pip install --upgrade pip
+          # 强制卸载老版本，防止命名空间冲突
+          pip uninstall google-generativeai -y || true
+          pip install google-genai pandas
 
       - name: Run processing script
         env:
