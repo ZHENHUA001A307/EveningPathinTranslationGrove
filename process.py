@@ -1,97 +1,125 @@
 import os
-import google.generativeai as genai
+import json
 import pandas as pd
-from datetime import datetime
 import google.generativeai as genai
+from datetime import datetime
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
 
-# 定义你刚才那个复杂的 Prompt
-# 我们把 JSON 逻辑转义为一段清晰的描述性文字
-SYSTEM_PROMPT = """
-你是一个精通英语和日语的外语教学专家。
-任务：批量解析用户输入的文本，输出一个符合 Anki 导入格式的 HTML 表格。
+# --- 配置区 ---
+INPUT_FILE = 'input.csv'
+PROGRESS_FILE = 'last_index.txt'
+PROMPT_FILE = 'prompt.json'
+RSS_FILE = 'feed.xml'
+BATCH_SIZE = 20  # 每次处理的行数
 
-要求：
-1. 识别语言：自动判断输入是英文还是日文，并据此调整解析深度。
-2. 结构化输出：严格按照以下 HTML 结构输出，包含：序号、阅读解析、词汇、中文翻译、背景注解。
-3. 阅读解析：使用斜杠/进行分段划分词组短语，使结构透明。
-4. 词汇：仅列出重点词汇及中文含义，使用 <br> 换行。
-5. 禁止废话：只输出代码块内的 <table> 结构，严禁输出任何 Markdown 解释或其他文字。
+# --- 1. 初始化 AI ---
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-HTML 模板参考：
-<table border='1' style='border-collapse: collapse; width: 100%;'>
-  <thead>
-    <tr style='background-color: #f2f2f2;'>
-      <th>序号</th><th>阅读解析</th><th>词汇</th><th>中文翻译</th><th>背景注解</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>[序号]</td>
-      <td>[阅读解析内容]</td>
-      <td>单词1：解释 <br> 单词2：解释</td>
-      <td>[中文翻译]</td>
-      <td>[背景注解]</td>
-    </tr>
-  </tbody>
-</table>
-"""
+def load_system_instruction():
+    with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    # 将 JSON 拼接成一段给 AI 的系统指令
+    inst = f"角色: {data['assistant_profile']['role']}\n"
+    inst += f"任务: {data['assistant_profile']['task']}\n"
+    inst += "具体要求:\n" + "\n".join(data['instructions'])
+    inst += f"\n输出模板起始部分: {data['html_template']}"
+    return inst
 
-# 初始化模型时直接注入 Prompt
 model = genai.GenerativeModel(
-    model_name='gemini-1.5-flash', # 或者 'gemini-1.5-pro'
-    system_instruction=SYSTEM_PROMPT 
+    model_name='gemini-1.5-flash', # flash 速度快且便宜，适合批量翻译
+    system_instruction=load_system_instruction()
 )
 
-def get_ai_response(text_batch):
-    # 调用时只需要传入纯文本
-    response = model.generate_content(text_batch)
-    return response.text
-# 1. 配置 API (从环境变量读取，保证安全)
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-pro')
+# --- 2. 进度管理 ---
+def get_last_index():
+    if os.path.exists(PROGRESS_FILE):
+        with open(PROGRESS_FILE, 'r') as f:
+            return int(f.read().strip())
+    return 0
 
-BATCH_SIZE = 20 # 每次处理的行数
+def save_last_index(idx):
+    with open(PROGRESS_FILE, 'w') as f:
+        f.write(str(idx))
 
-def process_sentences():
-    # 读取进度
-    if os.path.exists("last_index.txt"):
-        with open("last_index.txt", "r") as f:
-            start_idx = int(f.read().strip())
+# --- 3. RSS 生成逻辑 ---
+def update_rss(html_content, source_info):
+    now = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
+    title = f"外语学习推送 - {datetime.now().strftime('%Y-%m-%d')}"
+    
+    # 简单的 RSS 模板生成
+    item_xml = f"""
+    <item>
+        <title>{title} ({source_info})</title>
+        <link>[https://github.com/your-username/your-repo](https://github.com/your-username/your-repo)</link>
+        <description><![CDATA[{html_content}]]></description>
+        <pubDate>{now}</pubDate>
+        <guid>{datetime.now().timestamp()}</guid>
+    </item>
+    """
+    
+    if not os.path.exists(RSS_FILE):
+        rss_base = f"""<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>AI 外语精读推送</title>
+    <description>基于 Gemini API 的自动逐句讲解</description>
+    {item_xml}
+</channel>
+</rss>"""
+        with open(RSS_FILE, 'w', encoding='utf-8') as f:
+            f.write(rss_base)
     else:
-        start_idx = 0
+        # 如果文件存在，把新的 item 插入到开头
+        with open(RSS_FILE, 'r', encoding='utf-8') as f:
+            content = f.read()
+        new_content = content.replace("<channel>", f"<channel>\n{item_xml}")
+        with open(RSS_FILE, 'w', encoding='utf-8') as f:
+            f.write(new_content)
 
-    # 读取输入文件
-    df = pd.read_csv("input.csv")
+# --- 4. 主流程 ---
+def main():
+    start_idx = get_last_index()
     
-    # 截取本次要处理的行
-    end_idx = start_idx + BATCH_SIZE
-    batch_df = df.iloc[start_idx:end_idx]
-    
-    if batch_df.empty:
-        print("所有内容已处理完毕。")
+    if not os.path.exists(INPUT_FILE):
+        print(f"找不到 {INPUT_FILE} 文件")
         return
 
-    # 拼接文本给 AI
-    input_text = "\n".join(batch_df['内容'].astype(str).tolist())
+    df = pd.read_csv(INPUT_FILE)
     
-    # 获取 Prompt 并调用 API
-    # 这里引用你之前定义的 Prompt 逻辑
-    prompt = f"请解析以下文本：\n{input_text}" 
+    if start_idx >= len(df):
+        print("所有内容已处理。")
+        return
+
+    # 截取本次要处理的数据
+    batch = df.iloc[start_idx : start_idx + BATCH_SIZE]
+    source_name = batch['来源'].iloc[0] if '来源' in batch.columns else "未知来源"
     
-    response = model.generate_content(prompt)
-    html_content = response.text.replace("```html", "").replace("```", "")
+    # 将 DataFrame 转换为纯文本供 AI 处理
+    # 格式：1. 句子内容... \n 2. 句子内容...
+    lines = []
+    for i, row in batch.iterrows():
+        lines.append(f"{row['内容']}")
+    input_text = "\n".join(lines)
 
-    # 更新 RSS (简化逻辑：直接更新 feed.xml 里的项)
-    update_rss(html_content)
+    print(f"正在处理第 {start_idx} 到 {start_idx + len(batch)} 行...")
+    
+    try:
+        response = model.generate_content(input_text)
+        result_html = response.text.strip()
+        
+        # 清理可能存在的 Markdown 代码块标记
+        result_html = result_html.replace("```html", "").replace("```", "")
 
-    # 记录进度
-    with open("last_index.txt", "w") as f:
-        f.write(str(end_idx))
-
-def update_rss(new_content):
-    # 这里可以用简单的字符串操作或 xml 库来维护 feed.xml
-    # 每次运行生成一个新的 <item> 放入 RSS 头部
-    pass
+        # 更新 RSS
+        update_rss(result_html, source_name)
+        
+        # 保存进度
+        save_last_index(start_idx + len(batch))
+        print("RSS 更新成功！")
+        
+    except Exception as e:
+        print(f"处理失败: {e}")
 
 if __name__ == "__main__":
-    process_sentences()
+    main()
