@@ -1,8 +1,14 @@
 import os
 import json
 import pandas as pd
-from google import genai # 注意这里改成了 google.genai
 from datetime import datetime
+
+# 尝试更稳健的导入
+try:
+    from google import genai
+except ImportError:
+    # 如果还是报错，尝试直接从子模块导入（针对某些环境问题）
+    import google.genai as genai
 
 # --- 配置区 ---
 INPUT_FILE = 'input.csv'
