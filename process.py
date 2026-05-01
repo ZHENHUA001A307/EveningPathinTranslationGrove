@@ -11,11 +11,13 @@ PROGRESS_FILE = 'last_index.txt'
 PROMPT_FILE = 'prompt.json'
 RSS_FILE = 'feed.xml'
 BATCH_SIZE = 20
+# 使用官方文档推荐的可用模型
+MODEL_NAME = 'gemini-3-flash-preview'
 
 print(f"--- 任务启动: {datetime.now()} ---")
 
 # --- 1. 初始化 AI ---
-# 根据文档：Client 会自动寻找环境变量 GEMINI_API_KEY
+# Client 会自动读取环境变量 GEMINI_API_KEY
 client = genai.Client()
 
 def load_system_instruction():
@@ -85,12 +87,11 @@ def main():
         batch = df.iloc[start_idx : start_idx + BATCH_SIZE]
         input_text = "\n".join([str(row['内容']) for _, row in batch.iterrows()])
 
-        # --- 5. 按照最新文档调用 API ---
+        # --- 5. 调用 API，使用更新后的模型名称 ---
         print(f"正在调用 Gemini 处理第 {start_idx} 到 {start_idx + len(batch) - 1} 行...")
         
-        # 注意：使用文档中的 gemini-1.5-flash (或 gemini-2.0-flash 等最新模型)
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
+            model=MODEL_NAME,
             contents=input_text,
             config={
                 'system_instruction': load_system_instruction(),
