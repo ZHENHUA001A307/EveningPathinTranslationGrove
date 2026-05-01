@@ -28,7 +28,7 @@ TOGGLE_FILE = 'toggle.txt'
 # 共用文件
 PROMPT_FILE = 'prompt.json'
 RSS_FILE = 'feed.xml'
-MODEL_NAME = 'gemini-2.0-flash-exp'   # 使用稳定可用的模型
+MODEL_NAME = 'gemini-3-flash-preview'  # 使用稳定可用的模型
 
 # ======================= 辅助函数 =======================
 def get_signal_language():
