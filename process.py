@@ -1,7 +1,7 @@
 import os
 import json
 import pandas as pd
-import google.generativeai as genai
+from google import genai
 from datetime import datetime
 import traceback
 
@@ -15,13 +15,8 @@ BATCH_SIZE = 20
 print(f"--- 任务启动: {datetime.now()} ---")
 
 # --- 1. 初始化 AI ---
-api_key = os.getenv("GEMINI_API_KEY")
-if not api_key:
-    print("错误: 找不到环境变量 GEMINI_API_KEY")
-    exit(1)
-
-# 配置稳定版 SDK
-genai.configure(api_key=api_key)
+# 根据文档：Client 会自动寻找环境变量 GEMINI_API_KEY
+client = genai.Client()
 
 def load_system_instruction():
     if not os.path.exists(PROMPT_FILE):
@@ -29,6 +24,7 @@ def load_system_instruction():
         exit(1)
     with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
         data = json.load(f)
+    # 将 JSON 里的配置转换成一段清晰的指令字符串
     inst = f"角色: {data['assistant_profile']['role']}\n任务: {data['assistant_profile']['task']}\n"
     inst += "要求:\n" + "\n".join(data['instructions'])
     return inst
@@ -45,7 +41,7 @@ def get_last_index():
 def update_rss(html_content, source_info):
     print("正在尝试写入 feed.xml...")
     now = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
-    # 清理 Markdown 标记
+    # 彻底移除 Markdown 包裹符
     html_clean = html_content.replace("```html", "").replace("```", "").strip()
     
     item_xml = f"""
@@ -61,8 +57,11 @@ def update_rss(html_content, source_info):
     else:
         with open(RSS_FILE, 'r', encoding='utf-8') as f:
             old = f.read()
-        # 始终把最新内容插在最前面
-        content = old.replace("<channel>", f"<channel>\n{item_xml}")
+        # 将新 item 插入到第一个 item 之前
+        if "<item>" in old:
+            content = old.replace("<item>", f"{item_xml}\n    <item>", 1)
+        else:
+            content = old.replace("<channel>", f"<channel>\n{item_xml}")
     
     with open(RSS_FILE, 'w', encoding='utf-8') as f:
         f.write(content)
@@ -86,19 +85,21 @@ def main():
         batch = df.iloc[start_idx : start_idx + BATCH_SIZE]
         input_text = "\n".join([str(row['内容']) for _, row in batch.iterrows()])
 
-        # --- 5. 调用 Gemini (稳定版语法) ---
-        print(f"正在调用 Gemini API 处理第 {start_idx} 到 {start_idx + len(batch) - 1} 行...")
+        # --- 5. 按照最新文档调用 API ---
+        print(f"正在调用 Gemini 处理第 {start_idx} 到 {start_idx + len(batch) - 1} 行...")
         
-        # 稳定版 SDK 将 system_instruction 放在生成模型的构造函数中
-        model = genai.GenerativeModel(
-            model_name='gemini-1.5-flash',
-            system_instruction=load_system_instruction()
+        # 注意：使用文档中的 gemini-1.5-flash (或 gemini-2.0-flash 等最新模型)
+        response = client.models.generate_content(
+            model="gemini-1.5-flash",
+            contents=input_text,
+            config={
+                'system_instruction': load_system_instruction(),
+                'temperature': 0.7
+            }
         )
         
-        response = model.generate_content(input_text)
-        
         if not response.text:
-            print("警告: API 未返回内容。")
+            print("警告: API 未能生成内容")
             return
             
         print("API 调用成功！")
