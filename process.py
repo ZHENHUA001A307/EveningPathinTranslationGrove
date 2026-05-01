@@ -93,9 +93,9 @@ def update_rss(html_content, source_info, lang):
     
     title_prefix = "外语学习"
     if lang == 'en':
-        title_prefix = "🇬🇧 英语学习"
+        title_prefix = "英语学习"
     else:
-        title_prefix = "🇯🇵 日语学习"
+        title_prefix = "日语学习"
     
     item_xml = f"""
     <item>
