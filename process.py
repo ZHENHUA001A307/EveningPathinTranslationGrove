@@ -28,7 +28,7 @@ LANG_CONFIG = {
     'jp': {
         'input_file': 'input_jp.csv',
         'progress_file': 'last_index_jp.txt',
-        'batch_size': 25,
+        'batch_size': 40,
         'reading_speed': 150,       # 日语阅读速度（字符/分钟）
     }
 }
