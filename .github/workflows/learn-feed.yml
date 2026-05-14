@@ -3,7 +3,7 @@ name: Generate Language Learning Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 1,4'   # 每天 UTC 0 点运行
+    - cron: '0 0 * * 4'   # 每天 UTC 0 点运行
 
 permissions:
   contents: write
