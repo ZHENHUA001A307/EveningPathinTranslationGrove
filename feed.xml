@@ -8,6 +8,201 @@
     
     
     
+    
+    <item>
+        <title>英语学习 -  Introduction to Computer Science Ch1 Key Terms  - 2026-06-04 04:57</title>
+        <description><![CDATA[<p>⏱ 预计阅读时间：55 分钟 (2736 字符)</p>
+<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
+  <thead>
+    <tr>
+      <th style='border: 1px solid #aaa; padding: 6px; background-color: #f2f2f2;'>原文</th>
+      <th style='border: 1px solid #aaa; padding: 6px; background-color: #f2f2f2;'>阅读解析</th>
+      <th style='border: 1px solid #aaa; padding: 6px; background-color: #f2f2f2;'>翻译参考</th>
+      <th style='border: 1px solid #aaa; padding: 6px; background-color: #f2f2f2;'>词汇</th>
+      <th style='border: 1px solid #aaa; padding: 6px; background-color: #f2f2f2;'>表达讲解</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>adversarial attack - sample input (e.g., an image) that is designed to cause a system to behave problematically</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>adversarial attack / - / sample input / (e.g., an image) / that / is designed / to cause / a system / to behave / problematically</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>对抗性攻击 - 旨在导致系统表现异常的示例输入（例如图像）</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>adversarial：对抗性的<br>problematically：有问题地/异常地</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>that 引导定语从句修饰 input；"be designed to" 意为“被设计用来...”。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>algorithm - sequence of precise instructions</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>algorithm / - / sequence / of / precise instructions</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>算法 - 精确指令的序列</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>sequence：序列/顺序<br>precise：精确的</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"sequence of" 表示“一系列的/……的序列”。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>artificial intelligence (AI) - development of computer functions to perform tasks, such as visual perception and decision-making processes, that usually are performed by human intelligence</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>artificial intelligence (AI) / - / development / of computer functions / to perform tasks, / such as / visual perception / and decision-making processes, / that / usually / are performed / by human intelligence</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>人工智能 (AI) - 开发计算机功能以执行通常由人类智能执行的任务，如视觉感知和决策过程</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>perception：感知/觉察<br>decision-making：决策</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"such as" 用于举例；"that" 从句跳跃修饰前面的 tasks。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>big data - very large datasets that aren't easily processed using spreadsheets</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>big data / - / very large datasets / that / aren't easily processed / using spreadsheets</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>大数据 - 使用电子表格无法轻易处理的大型数据集</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>dataset：数据集<br>spreadsheet：电子表格</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"using spreadsheets" 作为方式状语，修饰谓语 processed。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>computational science - application of computing concepts and technologies to advance scientific research and practical applications of science knowledge</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>computational science / - / application / of computing concepts / and technologies / to advance / scientific research / and practical applications / of science knowledge</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>计算科学 - 应用计算概念和技术来推进科学研究和科学知识的实际应用</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>computational：计算的<br>advance：推进/促进</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"application of A to B" 表示“将A应用于B”。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>computer program - algorithms that can be run on a computer</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>computer program / - / algorithms / that / can be run / on a computer</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>计算机程序 - 可以在计算机上运行的算法</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>run：运行（程序）</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>that 引导定语从句，"can be run" 使用了被动语态。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>computer science (CS) - study of the phenomena surrounding computers</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>computer science (CS) / - / study / of the phenomena / surrounding computers</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>计算机科学 (CS) - 研究围绕计算机的现象</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>phenomena：现象（复数）<br>surrounding：围绕/环绕</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"surrounding computers" 是现在分词短语作后置定语，修饰 phenomena。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>computing - all phenomena related to computers</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>computing / - / all phenomena / related to computers</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>计算 - 与计算机相关的所有现象</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>related to：与...相关的</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"related to" 是过去分词短语作后置定语。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>data science - interdisciplinary field that applies computing toward managing data and extracting information from data</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>data science / - / interdisciplinary field / that / applies computing / toward managing data / and extracting information / from data</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>数据科学 - 将计算应用于管理数据并从数据中提取信息的跨学科领域</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>interdisciplinary：跨学科的<br>extract：提取</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"apply A toward B" 表示“将A应用于B（目标）”；managing 和 extracting 为并列结构。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>hardware - physical, real-world materials that enable computation</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>hardware / - / physical, / real-world materials / that / enable computation</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>硬件 - 使计算成为可能的物理、现实世界材料</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>physical：物理的/身体的<br>enable：使能够</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>enable 后面常接名词或 "sb to do sth"。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>human-computer interaction (HCI) - subfield of computer science that emphasizes the social aspects of computation</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>human-computer interaction (HCI) / - / subfield / of computer science / that / emphasizes / the social aspects / of computation</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>人机交互 (HCI) - 计算机科学的一个子领域，强调计算的社会层面</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>interaction：交互/互动<br>emphasize：强调</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"subfield" 指分支领域。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>image recognition - problem of identifying objects in an image</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>image recognition / - / problem / of identifying objects / in an image</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>图像识别 - 识别图像中物体的问题</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>recognition：识别<br>identify：鉴定/识别</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"problem of doing sth" 表示“……的问题”。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>information science - interdisciplinary field studying information technologies and systems as they relate to people, organizations, and societies</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>information science / - / interdisciplinary field / studying information technologies / and systems / as / they relate to / people, / organizations, / and societies</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>信息科学 - 研究信息技术和系统及其与人、组织和社会关系的跨学科领域</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>organization：组织<br>society：社会</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"as" 引导状语从句，意为“当……时”或“因为/由于”。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>memory - means of addressing information in a computer by storing it in consistent locations</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>memory / - / means / of addressing information / in a computer / by storing it / in consistent locations</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>内存/存储器 - 通过将信息存储在一致的位置来寻址计算机中信息的方法</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>addressing：寻址/处理<br>consistent：一致的</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"means of" 表示“……的方法/手段”；"by doing" 表示通过某种手段。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>network - various technological devices that are connected and share information</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>network / - / various / technological devices / that / are connected / and / share information</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>网络 - 相互连接并共享信息的各种技术设备</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>various：各种各样的<br>device：设备</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"are connected" 和 "share" 是 that 引导的定语从句中的并列谓语。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>neural network - AI algorithm architecture that emphasizes connections between artificial 'neurons' whose behavior and values change in response to stimulus or input</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>neural network / - / AI algorithm architecture / that / emphasizes / connections / between artificial 'neurons' / whose / behavior and values / change / in response to / stimulus / or input</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>神经网络 - 一种人工智能算法架构，强调人工“神经元”之间的连接，这些神经元的行为和值会根据刺激或输入而改变</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>stimulus：刺激<br>architecture：架构</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"whose" 引导定语从句修饰 neurons；"in response to" 意为“对……做出反应”。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>processor - computer's 'brain,' that follows instructions from algorithms and processes data</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>processor / - / computer's 'brain,' / that / follows instructions / from algorithms / and processes data</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>处理器 - 计算机的“大脑”，遵循算法指令并处理数据</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>process：处理（动词）</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>此处 "that" 从句作为非限制性定语，进一步解释 brain。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>programming language - language consisting of symbols and instructions that can be interpreted by a computer</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>programming language / - / language / consisting of / symbols and instructions / that / can be interpreted / by a computer</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>编程语言 - 由符号和指令组成的、可以被计算机解释的语言</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>consist of：由...组成<br>interpret：解释/阐释</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"consisting of" 为现在分词短语作后置定语。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>social determination of technology - belief that technologies are inherently neutral, and that it is the people who use a technology who ultimately make it 'good' or 'bad'</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>social determination / of technology / - / belief / that / technologies / are inherently neutral, / and that / it is the people / who use a technology / who / ultimately / make it / 'good' or 'bad'</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>技术的社会决定论 - 一种观点，认为技术本质上是中立的，最终是使用技术的人决定了它的“好”或“坏”</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>inherently：本质上地<br>ultimately：最终地</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>包含两个并列的 that 同位语从句；后半部分使用了强调句型 "it is ... who ..."。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>software - algorithmic principles that determine how results are computed</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>software / - / algorithmic principles / that / determine / how results / are computed</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>软件 - 决定结果如何计算的算法原理</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>principle：原理/原则<br>compute：计算</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"how" 引导宾语从句作 determine 的宾语。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>software engineering - subfield of computer science that emphasizes how problems can be solved with computers as well as the practices and processes that can help people design more effective software solutions</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>software engineering / - / subfield / of computer science / that / emphasizes / how problems / can be solved / with computers / as well as / the practices / and processes / that / can help people / design / more effective / software solutions</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>软件工程 - 计算机科学的一个子领域，强调如何利用计算机解决问题，以及帮助人们设计更有效软件解决方案的实践和过程</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>as well as：以及/也<br>effective：有效的</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"as well as" 连接两个并列的宾语成分。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>spreadsheet - data-centric programming environment where data is organized into cells in a table</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>spreadsheet / - / data-centric / programming environment / where / data / is organized / into cells / in a table</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>电子表格 - 以数据为中心的编程环境，其中数据被组织成表格中的单元格</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>data-centric：以数据为中心的<br>cell：单元格</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"where" 引导定语从句修饰 environment。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>storage - hardware and physical components of a computer that permanently house a computer's data</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>storage / - / hardware / and / physical components / of a computer / that / permanently / house / a computer's data</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>存储 - 永久存放计算机数据的硬件和物理组件</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>permanently：永久地<br>house：存放/容纳（动词）</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>注意 "house" 在此处作为动词使用。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>technological fix - idea that technologies can solve social problems, but now often used to critique blind faith in technological solutions to human problems</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>technological fix / - / idea / that / technologies / can solve / social problems, / but / now / often used / to critique / blind faith / in technological solutions / to human problems</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>技术修复 - 认为技术可以解决社会问题的观点，但现在常用于批评对人类问题的技术解决方案的盲目崇拜</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>critique：批判/评论<br>blind faith：盲目信仰</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"used to" 之后是被动含义，指这个词（idea）现在被用来……。</td>
+    </tr>
+    <tr>
+      <td style='border: 1px solid #aaa; padding: 6px;'>theoretical computer science - mathematical processes behind software</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>theoretical / computer science / - / mathematical processes / behind software</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>理论计算机科学 - 软件背后的数学过程</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>theoretical：理论的<br>mathematical：数学的</td>
+      <td style='border: 1px solid #aaa; padding: 6px;'>"behind" 在此处表示“作为……的基础/在……背后”。</td>
+    </tr>
+  </tbody>
+</table>]]></description>
+        <pubDate>Thu, 04 Jun 2026 04:57:15 +0000</pubDate>
+        <guid>1780549035.310781</guid>
+    </item>
     <item>
         <title>日语学习 - サイバーパンクエッジランナーズE2 - 2026-05-28 04:22</title>
         <description><![CDATA[<p>⏱ 预计阅读时间：12 分钟 (564 字符)</p>
