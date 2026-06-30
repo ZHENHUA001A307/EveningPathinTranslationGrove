@@ -17,53 +17,75 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ======================= 配置区 =======================
-# 语言特定配置
+# 1. 语言自定义轮询顺序与比例 (支持任意长度的循环)
+# 示例：['jp', 'en', 'en', 'en'] 表示每4次推送中：1次日语，3次英语
+CYCLE_SEQUENCE = ['jp', 'en', 'en', 'en']
+
+# 2. 语言特定文件与参数配置
 LANG_CONFIG = {
     'en': {
         'input_file': 'input_en.csv',
         'progress_file': 'last_index_en.txt',
         'batch_size': 40,           # 每次推送的句子数量上限
         'reading_speed': 150,       # 英语阅读速度（字符/分钟）
+        'name_cn': '英语'
     },
     'jp': {
         'input_file': 'input_jp.csv',
         'progress_file': 'last_index_jp.txt',
         'batch_size': 40,
         'reading_speed': 150,       # 日语阅读速度（字符/分钟）
+        'name_cn': '日语'
     }
 }
 
-# 信号量文件（记录当前应推送的语言：奇数=英语，偶数=日语）
+# 计数器文件（记录总运行次数，用于在 CYCLE_SEQUENCE 中循环定位）
 TOGGLE_FILE = 'toggle.txt'
 
-# 共用文件
+# 共用文件配置
 PROMPT_FILE = 'prompt.json'
 RSS_FILE = 'feed.xml'
 MODEL_NAME = 'gemini-3-flash-preview'  # 可替换为其他稳定模型
 
 # ======================= 辅助函数 =======================
 def get_signal_language():
-    """返回当前应该推送的语言 ('en' 或 'jp')，并递增信号量"""
+    """根据自定义循环序列返回当前应该推送的语言，并递增计数器"""
+    if not CYCLE_SEQUENCE:
+        logger.error("配置错误：CYCLE_SEQUENCE 不能为空序列！")
+        sys.exit(1)
+
+    # 读取或初始化计数器
     if not os.path.exists(TOGGLE_FILE):
         with open(TOGGLE_FILE, 'w') as f:
-            f.write('1')
-        logger.info("信号量文件不存在，初始化为1（英语）")
-        return 'en', 1
-
-    with open(TOGGLE_FILE, 'r') as f:
-        raw = f.read().strip()
-    try:
-        val = int(raw) if raw else 0
-    except ValueError:
-        logger.warning(f"信号量文件内容非法 ('{raw}')，重置为1")
+            f.write('0')
+        logger.info("计数器文件不存在，初始化为 0")
         val = 0
+    else:
+        with open(TOGGLE_FILE, 'r') as f:
+            raw = f.read().strip()
+        try:
+            val = int(raw) if raw else 0
+        except ValueError:
+            logger.warning(f"计数器文件内容非法 ('{raw}')，重置为 0")
+            val = 0
 
-    lang = 'en' if val % 2 == 1 else 'jp'
+    # 计算在当前循环序列中的实际索引
+    seq_len = len(CYCLE_SEQUENCE)
+    lang = CYCLE_SEQUENCE[val % seq_len]
+
+    # 安全检查：确保序列中的语言在 LANG_CONFIG 中有配置
+    if lang not in LANG_CONFIG:
+        logger.error(f"配置错误：序列中的语言 '{lang}' 未在 LANG_CONFIG 中定义！")
+        sys.exit(1)
+
+    # 递增并保存下一步的计数
     new_val = val + 1
     with open(TOGGLE_FILE, 'w') as f:
         f.write(str(new_val))
-    logger.debug(f"信号量: {val} -> {new_val}，语言: {lang}")
-    return lang, val   # 返回语言和本次使用的信号量原值
+    
+    lang_cn = LANG_CONFIG[lang].get('name_cn', lang)
+    logger.info(f"循环序列状态: 当前总步数={val} (周期内索引={val % seq_len}/{seq_len}) -> 本次选择: {lang_cn} ({lang})")
+    return lang, val
 
 def load_system_instruction():
     """加载系统指令 prompt"""
@@ -113,7 +135,7 @@ def update_rss(html_content, source_info, lang):
     now = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
     html_clean = marked_html.replace("```html", "").replace("```", "").strip()
 
-    title_prefix = "英语学习" if lang == 'en' else "日语学习"
+    title_prefix = LANG_CONFIG[lang].get('name_cn', '语言学习')
     title = f"{title_prefix} - {source_info['name']} - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
 
     item_xml = f"""
@@ -147,9 +169,8 @@ def main():
     try:
         # 1. 决定本次语言
         lang, signal_value = get_signal_language()
-        logger.info(f"信号量={signal_value} -> 推送语言: {'英语' if lang == 'en' else '日语'}")
-
         cfg = LANG_CONFIG[lang]
+        
         input_file = cfg['input_file']
         progress_file = cfg['progress_file']
         batch_size = cfg['batch_size']
@@ -218,7 +239,7 @@ def main():
         minutes, marker = calculate_reading_time(input_text, lang)
         logger.info(f"预估阅读时间: {minutes} 分钟，文本长度 {len(input_text)} 字符")
 
-        # 7. 调用 Gemini API（带详细错误捕获）
+        # 7. 调用 Gemini API
         system_instruction = load_system_instruction()
         try:
             client = genai.Client()
