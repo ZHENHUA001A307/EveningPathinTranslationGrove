@@ -8,6 +8,34 @@ from datetime import datetime
 import pandas as pd
 from google import genai
 
+# ======================= 所有配置项（前置） =======================
+# 1. 推送语言序列（按此循环）
+PUSH_SEQUENCE = ['jp', 'en', 'en', 'en']
+
+# 2. 语言特定配置（文件路径、批次大小、阅读速度）
+LANG_CONFIG = {
+    'en': {
+        'input_file': 'input_en.csv',
+        'progress_file': 'last_index_en.txt',
+        'batch_size': 40,
+        'reading_speed': 150,          # 字符/分钟
+    },
+    'jp': {
+        'input_file': 'input_jp.csv',
+        'progress_file': 'last_index_jp.txt',
+        'batch_size': 40,
+        'reading_speed': 150,
+    }
+}
+
+# 3. 信号量文件（记录推送总次数）
+TOGGLE_FILE = 'toggle.txt'
+
+# 4. 系统提示词文件、RSS输出文件、模型名称
+PROMPT_FILE = 'prompt.json'
+RSS_FILE = 'feed.xml'
+MODEL_NAME = 'gemini-3-flash-preview'
+
 # ======================= 日志配置 =======================
 logging.basicConfig(
     level=logging.INFO,
@@ -16,34 +44,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# ======================= 配置区 =======================
-# 语言特定配置
-LANG_CONFIG = {
-    'en': {
-        'input_file': 'input_en.csv',
-        'progress_file': 'last_index_en.txt',
-        'batch_size': 40,           # 每次推送的句子数量上限
-        'reading_speed': 150,       # 英语阅读速度（字符/分钟）
-    },
-    'jp': {
-        'input_file': 'input_jp.csv',
-        'progress_file': 'last_index_jp.txt',
-        'batch_size': 40,
-        'reading_speed': 150,       # 日语阅读速度（字符/分钟）
-    }
-}
-
-# 信号量文件（记录当前应推送的语言：奇数=英语，偶数=日语）
-TOGGLE_FILE = 'toggle.txt'
-
-# 共用文件
-PROMPT_FILE = 'prompt.json'
-RSS_FILE = 'feed.xml'
-MODEL_NAME = 'gemini-3-flash-preview'  # 可替换为其他稳定模型
-
 # ======================= 辅助函数 =======================
 def get_signal_language():
-    """返回当前应该推送的语言 ('en' 或 'jp')，并递增信号量"""
+    """
+    返回当前应该推送的语言 ('en' 或 'jp')，并递增信号量。
+    判断逻辑：从 toggle.txt 读取运行总次数 val（从1开始），
+    计算位置 pos = (val - 1) % len(PUSH_SEQUENCE)，
+    然后返回 PUSH_SEQUENCE[pos] 对应的语言。
+    """
     if not os.path.exists(TOGGLE_FILE):
         with open(TOGGLE_FILE, 'w') as f:
             f.write('1')
@@ -58,12 +66,17 @@ def get_signal_language():
         logger.warning(f"信号量文件内容非法 ('{raw}')，重置为1")
         val = 0
 
-    lang = 'en' if val % 2 == 1 else 'jp'
+    # ----- 新判断逻辑 -----
+    seq_len = len(PUSH_SEQUENCE)
+    position = (val - 1) % seq_len   # 当前位置（0-based）
+    lang = PUSH_SEQUENCE[position]
+    # --------------------
+
     new_val = val + 1
     with open(TOGGLE_FILE, 'w') as f:
         f.write(str(new_val))
-    logger.debug(f"信号量: {val} -> {new_val}，语言: {lang}")
-    return lang, val   # 返回语言和本次使用的信号量原值
+    logger.debug(f"信号量: {val} -> {new_val}，位置 {position} -> 语言: {lang}")
+    return lang, val
 
 def load_system_instruction():
     """加载系统指令 prompt"""
@@ -171,14 +184,12 @@ def main():
             logger.warning(f"{input_file} 是空文件，无数据可推送")
             return
 
-        # 检查必要列
         required_cols = ['来源', '内容']
         for col in required_cols:
             if col not in df.columns:
                 logger.error(f"{input_file} 缺少必需列: {col}")
                 return
 
-        # 清洗数据：填充缺失值并转为字符串
         df['内容'] = df['内容'].fillna('').astype(str)
         df['来源'] = df['来源'].fillna('未知来源').astype(str)
 
@@ -195,11 +206,9 @@ def main():
 
         end_idx = start_idx
         while end_idx < total_rows:
-            # 如果来源变化，立即停止（不包含该变化行）
             if df.at[end_idx, '来源'] != first_source:
                 logger.info(f"第 {end_idx} 行来源变化 ({first_source} -> {df.at[end_idx, '来源']})，批次截断")
                 break
-            # 如果已达到批大小上限，停止
             if end_idx - start_idx >= batch_size:
                 break
             end_idx += 1
@@ -218,7 +227,7 @@ def main():
         minutes, marker = calculate_reading_time(input_text, lang)
         logger.info(f"预估阅读时间: {minutes} 分钟，文本长度 {len(input_text)} 字符")
 
-        # 7. 调用 Gemini API（带详细错误捕获）
+        # 7. 调用 Gemini API
         system_instruction = load_system_instruction()
         try:
             client = genai.Client()
@@ -237,7 +246,7 @@ def main():
         except Exception as e:
             logger.error(f"Gemini API 调用异常: {e}")
             logger.debug(traceback.format_exc())
-            return  # 不更新进度，下次重试同一批
+            return
 
         # 8. 写入 RSS
         source_info = {
@@ -246,7 +255,7 @@ def main():
         }
         update_rss(response.text, source_info, lang)
 
-        # 9. 更新进度（仅在全部成功后）
+        # 9. 更新进度
         update_progress(progress_file, end_idx)
         logger.info(f"进度已更新至 {end_idx}，任务成功完成\n")
 
