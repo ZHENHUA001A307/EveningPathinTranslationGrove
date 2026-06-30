@@ -22,7 +22,7 @@ LANG_CONFIG = {
     'en': {
         'input_file': 'input_en.csv',
         'progress_file': 'last_index_en.txt',
-        'batch_size': 25,           # 每次推送的句子数量上限
+        'batch_size': 40,           # 每次推送的句子数量上限
         'reading_speed': 150,       # 英语阅读速度（字符/分钟）
     },
     'jp': {
