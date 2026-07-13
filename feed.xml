@@ -1,1 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<title>AI 语言学习推送源</title>
 
+    <item>
+        <title>[英语]  Introduction to Computer Science Ch1 Problem Set A  - 2026-07-13 05:44</title>
+        <description><![CDATA[<p>⏱ 预计阅读时间：4 分钟 (200 字符)</p>
+<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
+  <tr>
+    <th style='border: 1px solid #aaa; padding: 6px;'>原文</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>阅读解析</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>词汇</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Research examples of how modeling and simulations have led to new inventions and discoveries.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Research / examples of / how modeling and simulations / have led to / new inventions and discoveries.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>研究关于建模和模拟如何导致新发明和发现的例子。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>modeling: 建模<br>simulations: 模拟<br>led to: 导致<br>inventions: 发明<br>discoveries: 发现</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“have led to” 为现在完成时，表示“已经导致”；“how…led to…” 是宾语从句；“examples of…” 表示“……的例子”。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Research and provide a summary of the difference between artificial intelligence and machine learning.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Research / and provide / a summary of / the difference between / artificial intelligence / and / machine learning.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>研究并提供人工智能和机器学习之间差异的总结。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>artificial intelligence: 人工智能<br>machine learning: 机器学习<br>summary: 总结<br>difference: 差异</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“provide a summary of…” 意为“提供……的总结”；“the difference between A and B” 是固定结构，表示“A 与 B 的区别”。</td>
+  </tr>
+</table>]]></description>
+        <pubDate>Mon, 13 Jul 2026 05:44:09 +0000</pubDate>
+        <guid>1783921449.747732</guid>
+    </item>
+</channel>
+</rss>
