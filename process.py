@@ -5,7 +5,7 @@ import sys
 import traceback
 from datetime import datetime
 import pandas as pd
-from google import genai
+import requests
 
 # ======================= 日志配置 =======================
 logging.basicConfig(
@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# ======================= 动态环境变量配置区 =======================
+# ======================= 动态环境配置区 =======================
 LANG_CN = os.getenv('LANG_CN', '外语')
 INPUT_FILE = os.getenv('INPUT_FILE', 'corpus/input_en.csv')
 PROGRESS_FILE = os.getenv('PROGRESS_FILE', 'progress/last_index_en.txt')
@@ -23,7 +23,11 @@ PROMPT_FILE = os.getenv('PROMPT_FILE', 'prompts/en_prompt.json')
 BATCH_SIZE = int(os.getenv('BATCH_SIZE', '40'))
 READING_SPEED = int(os.getenv('READING_SPEED', '150'))
 RSS_FILE = os.getenv('RSS_FILE', 'feed.xml')
-MODEL_NAME = os.getenv('MODEL_NAME', 'gemini-2.5-flash') 
+
+# DeepSeek / OpenAI 兼容配置
+API_KEY = os.getenv('DEEPSEEK_API_KEY') 
+API_URL = os.getenv('API_URL', 'https://api.deepseek.com/chat/completions')
+MODEL_NAME = os.getenv('MODEL_NAME', 'deepseek-v4-pro') 
 
 # ======================= 辅助函数 =======================
 def load_system_instruction():
@@ -66,6 +70,8 @@ def calculate_reading_time(text):
 def update_rss(html_content, source_name, time_marker):
     marked_html = f"<p>{time_marker}</p>\n{html_content}"
     now = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
+    
+    # 彻底清洗可能存在的 Markdown 围栏符号
     html_clean = marked_html.replace("```html", "").replace("```", "").strip()
 
     title = f"[{LANG_CN}] {source_name} - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
@@ -91,22 +97,27 @@ def update_rss(html_content, source_name, time_marker):
         
         with open(RSS_FILE, 'w', encoding='utf-8') as f:
             f.write(content)
-        logger.info(f"🚀 RSS 新条目已成功写入/追加: {title}")
+        logger.info(f"🚀 RSS 新条目已成功追加: {title}")
     except Exception as e:
         logger.error(f"❌ 错误：写入 RSS 文件失败: {e}")
         sys.exit(1)
 
 # ======================= 主流程 =======================
 def main():
-    logger.info(f"--- [{LANG_CN}] 推送任务正式启动 ---")
+    logger.info(f"--- [{LANG_CN}] 推送任务正式启动 (使用模型: {MODEL_NAME}) ---")
+    
+    if not API_KEY:
+        logger.error("❌ 错误：未配置环境变量 DEEPSEEK_API_KEY，请检查 GitHub Secrets")
+        sys.exit(1)
+
     try:
         if not os.path.exists(INPUT_FILE):
-            logger.error(f"❌ 错误：语料源文件不存在，请检查路径: {INPUT_FILE}")
-            sys.exit(1) # 改为令 Action 报错的退出
+            logger.error(f"❌ 错误：语料源文件不存在: {INPUT_FILE}")
+            sys.exit(1)
 
         df = pd.read_csv(INPUT_FILE)
         if df.empty:
-            logger.error(f"❌ 错误：语料文件 {INPUT_FILE} 内容为空，无法生成推送")
+            logger.error(f"❌ 错误：语料文件 {INPUT_FILE} 内容为空")
             sys.exit(1)
 
         df['内容'] = df['内容'].fillna('').astype(str)
@@ -116,8 +127,7 @@ def main():
         start_idx = get_last_index()
 
         if start_idx >= total_rows:
-            # 语料学完属于正常业务现象，不报错，但打印醒目提示
-            logger.warning(f"⚠️ 提示：所有语料已学完 (当前索引 {start_idx} >= 总行数 {total_rows})。本次无新内容写入。")
+            logger.warning(f"⚠️ 提示：所有语料已学完 (索引 {start_idx} >= 总行数 {total_rows})。无新内容写入。")
             return
 
         # 动态批次切分
@@ -125,7 +135,7 @@ def main():
         end_idx = start_idx
         while end_idx < total_rows:
             if df.at[end_idx, '来源'] != first_source:
-                logger.info(f"[批次截断] 检测到来源由 '{first_source}' 变为 '{df.at[end_idx, '来源']}'")
+                logger.info(f"[批次截断] 来源由 '{first_source}' 变为 '{df.at[end_idx, '来源']}'")
                 break
             if end_idx - start_idx >= BATCH_SIZE:
                 break
@@ -136,31 +146,46 @@ def main():
 
         input_text = "\n".join(batch['内容'].tolist())
         time_marker = calculate_reading_time(input_text)
-
-        # Gemini API 调用
         system_instruction = load_system_instruction()
-        logger.info("📡 正在向 Gemini 接口发起请求...")
+
+        # ==================== OpenAI / DeepSeek 标准请求 ====================
+        logger.info(f"📡 正在向 API 接口发起 POST 请求: {API_URL}")
+        headers = {
+            "Authorization": f"Bearer {API_KEY}",
+            "Content-Type": application/json
+        }
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [
+                {"role": "system", "content": system_instruction},
+                {"role": "user", "content": input_text}
+            ],
+            "stream": False
+        }
         
         try:
-            client = genai.Client()
-            response = client.models.generate_content(
-                model=MODEL_NAME,
-                contents=input_text,
-                config={
-                    'system_instruction': system_instruction,
-                    'temperature': 0.3
-                }
-            )
-            if not response.text:
-                logger.error("❌ 错误：Gemini API 返回了空文本 (Empty Response)")
+            response = requests.post(API_URL, headers=headers, json=payload, timeout=60)
+            
+            if response.status_code != 200:
+                logger.error(f"❌ 错误：API 响应失败，状态码: {response.status_code}")
+                logger.error(f"错误详情: {response.text}")
                 sys.exit(1)
+                
+            res_data = response.json()
+            ai_content = res_data['choices'][0]['message']['content']
+            
+            if not ai_content:
+                logger.error("❌ 错误：API 返回了空文本内容")
+                sys.exit(1)
+                
+            logger.info("✅ API 成功返回解析数据。")
         except Exception as e:
-            logger.error(f"❌ 错误：Gemini API 调用失败: {e}")
-            logger.error(traceback.format_exc())
-            sys.exit(1) # 接口报错时令 Action 变红，方便捕获密钥或额度错误
+            logger.error(f"❌ 错误：网络请求或解析 JSON 失败: {e}")
+            sys.exit(1)
+        # ====================================================================
 
-        # 执行写入
-        update_rss(response.text, first_source, time_marker)
+        # 写入 RSS 并更新进度
+        update_rss(ai_content, first_source, time_marker)
         update_progress(end_idx)
         logger.info(f"--- 🎉 [{LANG_CN}] 推送任务全部顺利完成 ---")
 
