@@ -3,23 +3,20 @@ name: Study Japanese Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 11 * * *' # 每天北京时间 19:00 自动运行
+    - cron: '0 0 * * 2'
 
 permissions:
   contents: write
 
-# ============================================================
-# ⚙️ 日语独立配置区
-# ============================================================
 env:
   LANG_CN: "日语"
   INPUT_FILE: "corpus/input_jp.csv"
   PROGRESS_FILE: "progress/last_index_jp.txt"
   PROMPT_FILE: "prompts/jp_prompt.json"
-  BATCH_SIZE: 30        # 日语单次处理可以少一点
-  READING_SPEED: 200    # 日语假名阅读速度特征调整
-  MODEL_NAME: "gemini-2.5-flash"
-# ============================================================
+  BATCH_SIZE: 40
+  READING_SPEED: 150
+  MODEL_NAME: "deepseek-v4-pro"  # 或者是 "deepseek-v4-flash"
+  API_URL: "https://api.deepseek.com/chat/completions"
 
 jobs:
   build:
@@ -36,11 +33,11 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install google-genai pandas
+          pip install requests pandas
 
       - name: Run Core Process Engine
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}  # 更换为你的 Deepseek Key
         run: python process.py
 
       - name: Commit Progress and RSS Feed
