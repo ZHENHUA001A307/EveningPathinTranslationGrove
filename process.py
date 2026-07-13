@@ -71,9 +71,7 @@ def update_rss(html_content, source_name, time_marker):
     marked_html = f"<p>{time_marker}</p>\n{html_content}"
     now = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
     
-    # 彻底清洗可能存在的 Markdown 围栏符号
     html_clean = marked_html.replace("```html", "").replace("```", "").strip()
-
     title = f"[{LANG_CN}] {source_name} - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
 
     item_xml = f"""
@@ -85,15 +83,19 @@ def update_rss(html_content, source_name, time_marker):
     </item>"""
 
     try:
-        if not os.path.exists(RSS_FILE):
+        # 🌟 核心修复：如果文件不存在，或者文件大小为 0（空文件），直接走初始化流程
+        if not os.path.exists(RSS_FILE) or os.path.getsize(RSS_FILE) == 0:
             content = f'<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n<channel>\n<title>AI 语言学习推送源</title>\n{item_xml}\n</channel>\n</rss>'
         else:
             with open(RSS_FILE, 'r', encoding='utf-8') as f:
                 old = f.read()
             if "<item>" in old:
                 content = old.replace("<item>", f"{item_xml}\n    <item>", 1)
-            else:
+            elif "<channel>" in old:
                 content = old.replace("<channel>", f"<channel>\n{item_xml}")
+            else:
+                # 如果文件有内容但格式乱了（没有标准标签），直接格式化重写
+                content = f'<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n<channel>\n<title>AI 语言学习推送源</title>\n{item_xml}\n</channel>\n</rss>'
         
         with open(RSS_FILE, 'w', encoding='utf-8') as f:
             f.write(content)
