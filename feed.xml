@@ -1,11 +1,95 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-<title>AI 语言学习推送源</title>
-
-    
-    
+    <title>AI 语言学习推送源</title>
+    <link>https://github.com</link>
+    <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
     <item>
+        <title>[英语]  Introduction to Computer Science Ch1 Key Terms  - 2026-07-13 06:05</title>
+        <description><![CDATA[<p>⏱ 预计阅读时间：25 分钟 (1228 字符)</p>
+<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
+  <tr>
+    <th style='border: 1px solid #aaa; padding: 6px;'>原文</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>阅读解析</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>词汇</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>image recognition - problem of identifying objects in an image</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>image recognition / - / problem / of / identifying / objects / in / an / image</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>图像识别——识别图像中物体的问题</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>recognition：识别<br>identify：识别，辨认<br>object：物体</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>- recognition 表示“识别”，常与 image/voice/face 连用。<br>- identifying objects 动名词短语，表示“识别物体”，介词 of 后用动名词。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>information science - interdisciplinary field studying information technologies and systems as they relate to people, organizations, and societies</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>information science / - / interdisciplinary field / studying / information technologies and systems / as they relate to / people, organizations, and societies</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>信息科学——研究信息技术和系统如何与人、组织及社会相关联的跨学科领域</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>interdisciplinary：跨学科的<br>field：领域<br>relate to：与…相关<br>organization：组织<br>society：社会</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>- interdisciplinary 由 inter-（之间）+ disciplinary（学科的）构成，表示多学科交叉。<br>- as they relate to 是状语从句，意为“当它们与…相关时”，相当于 in the way they relate to。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>memory - means of addressing information in a computer by storing it in consistent locations</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>memory / - / means / of / addressing / information / in a computer / by / storing it / in consistent locations</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>存储器——通过在固定位置存储信息来寻址计算机中信息的方式</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>means：方式，手段<br>address：寻址<br>store：存储<br>consistent：一致的，固定的<br>location：位置</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>- means 作单数名词，表示“方法”，常见搭配 means of doing sth.<br>- addressing information：动名词短语，在计算机术语中 address 表示“寻址”。<br>- by storing it：通过存储它的方式，介词 by 表示手段。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>network - various technological devices that are connected and share information</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>network / - / various / technological devices / that / are connected / and / share information</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>网络——被连接起来并共享信息的各种技术设备</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>various：各种各样的<br>technological：技术的<br>device：设备<br>connected：连接的<br>share：共享</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>- that are connected and share information 为定语从句，修饰 devices，表示这些设备的功能和状态。<br>- connected 是过去分词作表语，与 are 构成被动语态，表示“被连接”。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>neural network - AI algorithm architecture that emphasizes connections between artificial 'neurons' whose behavior and values change in response to stimulus or input</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>neural network / - / AI algorithm architecture / that / emphasizes / connections / between / artificial 'neurons' / whose / behavior and values / change / in response to / stimulus or input</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>神经网络——一种强调人工“神经元”之间连接的AI算法架构，这些神经元的行为和值会随刺激或输入而变化</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>neural：神经的<br>algorithm：算法<br>architecture：架构<br>emphasize：强调<br>artificial：人工的<br>neuron：神经元<br>in response to：作为对…的反应<br>stimulus：刺激<br>input：输入</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>- architecture 在此指“架构，结构”，常喻指设计方式。<br>- whose 引导定语从句，修饰 neurons，表示“这些神经元的…”。<br>- in response to 固定搭配，表示“对…作出反应”。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>processor - computer's 'brain,' that follows instructions from algorithms and processes data</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>processor / - / computer's 'brain,' / that / follows / instructions / from / algorithms / and / processes / data</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>处理器——计算机的“大脑”，它遵循来自算法的指令并处理数据</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>processor：处理器<br>follow：遵循<br>instruction：指令<br>process：处理<br>data：数据</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>- 这里 that 引导非限定性定语从句（逗号后），补充说明 processor。<br>- follows instructions 和 processes data 并列谓语，注意主谓一致，先行词为单数故用 follows/processes。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>programming language - language consisting of symbols and instructions that can be interpreted by a computer</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>programming language / - / language / consisting of / symbols and instructions / that / can be interpreted / by / a computer</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>编程语言——由符号和指令组成的、能被计算机解释的语言</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>consist of：由…组成<br>symbol：符号<br>instruction：指令<br>interpret：解释，执行</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>- consisting of 现在分词短语作后置定语，相当于 which consists of。<br>- that can be interpreted 定语从句修饰 symbols and instructions，can be interpreted 是被动语态。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>social determination of technology - belief that technologies are inherently neutral, and that it is the people who use a technology who ultimately make it 'good' or 'bad'</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>social determination of technology / - / belief / that / technologies are inherently neutral, / and / that / it is / the people / who use a technology / who / ultimately / make it / 'good' or 'bad'</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>技术的社会决定——认为技术本质上是中立的，并且是使用技术的人最终使它变得“好”或“坏”的观念</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>determination：决定<br>belief：信念，观点<br>inherently：本质上，固有地<br>neutral：中立的<br>ultimately：最终</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>- belief 后跟两个 that 引导的同位语从句，解释 belief 的内容。<br>- it is the people who... 是强调句型，强调真正起决定作用的是“使用技术的人”。<br>- inherently neutral 表示技术本身无善恶属性。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>software - algorithmic principles that determine how results are computed</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>software / - / algorithmic principles / that / determine / how / results / are computed</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>软件——决定结果如何被计算出来的算法原理</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>algorithmic：算法的<br>principle：原理<br>determine：决定<br>compute：计算</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>- algorithmic principles 是“算法原理”。<br>- that determine... 定语从句，修饰 principles。<br>- how results are computed 为宾语从句，作 determine 的宾语，注意从句中用陈述句语序。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>software engineering - subfield of computer science that emphasizes how problems can be solved with computers as well as the practices and processes that can help people design more effective software solutions</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>software engineering / - / subfield of computer science / that / emphasizes / how / problems can be solved / with computers / as well as / the practices and processes / that / can help people / design / more effective software solutions</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>软件工程——计算机科学的子领域，它强调如何用计算机解决问题，以及有助于人们设计更有效的软件解决方案的实践和流程</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>engineering：工程学<br>subfield：子领域<br>emphasize：强调<br>solve：解决<br>practice：实践<br>process：流程<br>effective：有效的<br>solution：解决方案</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>- subfield 表示学科的子领域。<br>- that emphasizes... 定语从句修饰 subfield。<br>- as well as 连接两个并列宾语：how problems can be solved 和 the practices and processes。<br>- that can help people... 是第二个定语从句，修饰 practices and processes。</td>
+  </tr>
+</table>]]></description>
+        <pubDate>Mon, 13 Jul 2026 06:05:31 +0000</pubDate>
+        <guid>1783922731.172567</guid>
+    </item>
+<item>
         <title>[日语] サイバーパンクエッジランナーズE2 - 2026-07-13 05:59</title>
         <description><![CDATA[<p>⏱ 预计阅读时间：6 分钟 (291 字符)</p>
 <table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
@@ -34,7 +118,7 @@
         <pubDate>Mon, 13 Jul 2026 05:59:05 +0000</pubDate>
         <guid>1783922345.967868</guid>
     </item>
-    <item>
+<item>
         <title>[英语]  Introduction to Computer Science Ch1 Key Terms  - 2026-07-13 05:52</title>
         <description><![CDATA[<p>⏱ 预计阅读时间：20 分钟 (962 字符)</p>
 <table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
@@ -117,7 +201,7 @@
         <pubDate>Mon, 13 Jul 2026 05:52:39 +0000</pubDate>
         <guid>1783921959.096329</guid>
     </item>
-    <item>
+<item>
         <title>[英语]  Introduction to Computer Science Ch1 Problem Set A  - 2026-07-13 05:44</title>
         <description><![CDATA[<p>⏱ 预计阅读时间：4 分钟 (200 字符)</p>
 <table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
