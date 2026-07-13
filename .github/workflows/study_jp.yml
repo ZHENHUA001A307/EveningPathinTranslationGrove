@@ -3,7 +3,7 @@ name: Study Japanese Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 2'
+    - cron: '0 0 * * 2,4'
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ env:
   INPUT_FILE: "corpus/input_jp.csv"
   PROGRESS_FILE: "progress/last_index_jp.txt"
   PROMPT_FILE: "prompts/jp_prompt.json"
-  BATCH_SIZE: 40
+  BATCH_SIZE: 20
   READING_SPEED: 150
   MODEL_NAME: "deepseek-v4-pro"  # 或者是 "deepseek-v4-flash"
   API_URL: "https://api.deepseek.com/chat/completions"
