@@ -1,0 +1,58 @@
+name: Study Japanese Feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 11 * * *' # 每天北京时间 19:00 自动运行
+
+permissions:
+  contents: write
+
+# ============================================================
+# ⚙️ 日语独立配置区
+# ============================================================
+env:
+  LANG_CN: "日语"
+  INPUT_FILE: "corpus/input_jp.csv"
+  PROGRESS_FILE: "progress/last_index_jp.txt"
+  PROMPT_FILE: "prompts/jp_prompt.json"
+  BATCH_SIZE: 30        # 日语单次处理可以少一点
+  READING_SPEED: 200    # 日语假名阅读速度特征调整
+  MODEL_NAME: "gemini-2.5-flash"
+# ============================================================
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-genai pandas
+
+      - name: Run Core Process Engine
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python process.py
+
+      - name: Commit Progress and RSS Feed
+        run: |
+          git config --global user.name "Github Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+          git add feed.xml ${{ env.PROGRESS_FILE }}
+          
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git commit -m "Update ${{ env.LANG_CN }} feed & progress ($(date +'%Y-%m-%d'))"
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
