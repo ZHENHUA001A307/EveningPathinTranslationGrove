@@ -152,7 +152,7 @@ def main():
         logger.info(f"📡 正在向 API 接口发起 POST 请求: {API_URL}")
         headers = {
             "Authorization": f"Bearer {API_KEY}",
-            "Content-Type": application/json
+            "Content-Type": "application/json"
         }
         payload = {
             "model": MODEL_NAME,
