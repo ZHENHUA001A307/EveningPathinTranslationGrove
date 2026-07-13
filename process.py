@@ -68,14 +68,18 @@ def calculate_reading_time(text):
     return f"⏱ 预计阅读时间：{minutes_ceil} 分钟 ({total_chars} 字符)"
 
 def update_rss(html_content, source_name, time_marker):
+    """将 AI 生成的 HTML 表格追加写入 RSS 文件，并严格限制只保留最新 20 条"""
+    import re  # 引入正则工具箱，用来精准抓取旧条目
+
     marked_html = f"<p>{time_marker}</p>\n{html_content}"
     now = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
     
+    # 彻底清洗可能夹杂的 Markdown 围栏标记
     html_clean = marked_html.replace("```html", "").replace("```", "").strip()
     title = f"[{LANG_CN}] {source_name} - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
 
-    item_xml = f"""
-    <item>
+    # 1. 构建本次全新的 item 节点
+    new_item = f"""    <item>
         <title>{title}</title>
         <description><![CDATA[{html_clean}]]></description>
         <pubDate>{now}</pubDate>
@@ -83,25 +87,42 @@ def update_rss(html_content, source_name, time_marker):
     </item>"""
 
     try:
-        # 🌟 核心修复：如果文件不存在，或者文件大小为 0（空文件），直接走初始化流程
-        if not os.path.exists(RSS_FILE) or os.path.getsize(RSS_FILE) == 0:
-            content = f'<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n<channel>\n<title>AI 语言学习推送源</title>\n{item_xml}\n</channel>\n</rss>'
-        else:
-            with open(RSS_FILE, 'r', encoding='utf-8') as f:
-                old = f.read()
-            if "<item>" in old:
-                content = old.replace("<item>", f"{item_xml}\n    <item>", 1)
-            elif "<channel>" in old:
-                content = old.replace("<channel>", f"<channel>\n{item_xml}")
-            else:
-                # 如果文件有内容但格式乱了（没有标准标签），直接格式化重写
-                content = f'<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n<channel>\n<title>AI 语言学习推送源</title>\n{item_xml}\n</channel>\n</rss>'
+        existing_items = []
         
+        # 2. 如果文件存在且不为空，把里面所有的旧 <item>...</item> 全都捞出来
+        if os.path.exists(RSS_FILE) and os.path.getsize(RSS_FILE) > 0:
+            with open(RSS_FILE, 'r', encoding='utf-8') as f:
+                old_content = f.read()
+            # 使用正则抓取所有历史 item 块
+            existing_items = re.findall(r'<item>.*?</item>', old_content, re.DOTALL)
+
+        # 3. 把新条目放在最前面（置顶），并和旧条目合并
+        all_items = [new_item] + existing_items
+
+        # 4. ⚡ 核心控容：强行截取前 20 条（最新写入的 20 次内容）
+        items_to_keep = all_items[:20]
+        logger.info(f"📦 RSS 容器控容中：当前池内总计 {len(all_items)} 条，已截取保留最新 {len(items_to_keep)} 条")
+
+        # 5. 重新格式化成一个标准的、干净的 RSS 文件结构
+        items_joined = "\n".join(items_to_keep)
+        final_xml = f"""<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>AI 语言学习推送源</title>
+    <link>https://github.com</link>
+    <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
+{items_joined}
+</channel>
+</rss>"""
+        
+        # 6. 覆盖写入
         with open(RSS_FILE, 'w', encoding='utf-8') as f:
-            f.write(content)
-        logger.info(f"🚀 RSS 新条目已成功追加: {title}")
+            f.write(final_xml.strip())
+            
+        logger.info(f"🚀 RSS 新条目已成功顶入并瘦身: {title}")
+        
     except Exception as e:
-        logger.error(f"❌ 错误：写入 RSS 文件失败: {e}")
+        logger.error(f"❌ 错误：写入或裁剪 RSS 文件失败: {e}")
         sys.exit(1)
 
 # ======================= 主流程 =======================
