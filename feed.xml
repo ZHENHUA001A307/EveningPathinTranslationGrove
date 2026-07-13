@@ -3,6 +3,90 @@
 <channel>
 <title>AI 语言学习推送源</title>
 
+    
+    <item>
+        <title>[英语]  Introduction to Computer Science Ch1 Key Terms  - 2026-07-13 05:52</title>
+        <description><![CDATA[<p>⏱ 预计阅读时间：20 分钟 (962 字符)</p>
+<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
+<thead>
+<tr><th style='border: 1px solid #aaa; padding: 6px;'>原文</th><th style='border: 1px solid #aaa; padding: 6px;'>阅读解析</th><th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th><th style='border: 1px solid #aaa; padding: 6px;'>词汇</th><th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th></tr>
+</thead>
+<tbody>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>algorithm - sequence of precise instructions</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>algorithm / - / sequence / of / precise / instructions</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>算法——一系列精确的指令。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>algorithm：算法</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>“sequence of precise instructions”是名词短语，sequence of 后接复数名词，表示一系列某物。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>artificial intelligence (AI) - development of computer functions to perform tasks, such as visual perception and decision-making processes, that usually are performed by human intelligence</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>artificial intelligence (AI) / - / development / of computer functions / to perform tasks / , such as / visual perception / and / decision-making processes / , that / usually / are performed / by human intelligence</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>人工智能（AI）——开发计算机功能以执行通常由人类智能完成的任务，例如视觉感知和决策过程。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>artificial intelligence：人工智能<br>visual perception：视觉感知<br>decision-making：决策</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>定义句常用“development of... to...”结构，to perform tasks是不定式作目的状语；such as举例；that引导的定语从句修饰tasks。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>big data - very large datasets that aren't easily processed using spreadsheets</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>big data / - / very large datasets / that aren't easily processed / using spreadsheets</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>大数据——非常大的数据集，这些数据集不容易用电子表格处理。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>big data：大数据<br>datasets：数据集<br>spreadsheets：电子表格</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>“very large datasets that...”是带定语从句的名词短语；aren't easily processed是被动语态；using spreadsheets是现在分词作方式状语。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>computational science - application of computing concepts and technologies to advance scientific research and practical applications of science knowledge</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>computational science / - / application / of computing concepts and technologies / to advance scientific research / and practical applications / of science knowledge</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>计算科学——应用计算概念和技术来推进科学研究和科学知识的实际应用。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>computational science：计算科学<br>computing concepts：计算概念<br>advance：推进<br>practical applications：实际应用</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>“application of A to do B”结构，表示应用A来实现B；scientific research和practical applications并列。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>computer program - algorithms that can be run on a computer</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>computer program / - / algorithms / that can be run / on a computer</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>计算机程序——可以在计算机上运行的算法。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>algorithms：算法<br>run：运行</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>“algorithms that can be run”是被动语态的定语从句，run在此意为execute；on a computer介词短语。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>computer science (CS) - study of the phenomena surrounding computers</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>computer science (CS) / - / study / of the phenomena / surrounding computers</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>计算机科学——研究围绕计算机的现象。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>phenomena：现象<br>surrounding：围绕</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>“study of the phenomena surrounding computers”中，“surrounding computers”是现在分词短语作后置定语。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>computing - all phenomena related to computers</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>computing / - / all phenomena / related to computers</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>计算——所有与计算机相关的现象。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>phenomena：现象<br>related to：与...相关</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>“all phenomena related to computers”中，“related to computers”是过去分词短语作后置定语。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>data science - interdisciplinary field that applies computing toward managing data and extracting information from data</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>data science / - / interdisciplinary field / that applies computing / toward managing data / and extracting information / from data</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>数据科学——将计算应用于管理和从数据中提取信息的跨学科领域。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>interdisciplinary：跨学科的<br>applies：应用<br>computing：计算<br>extracting：提取</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>“interdisciplinary field that applies computing toward...”中，定语从句使用applies... toward...结构；managing和extracting是动名词并列。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>hardware - physical, real-world materials that enable computation</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>hardware / - / physical, real-world materials / that enable computation</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>硬件——能够实现计算的物理的、真实世界的材料。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>hardware：硬件<br>physical：物理的<br>enable：使能够<br>computation：计算</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>“physical, real-world materials that enable computation”中，定语从句修饰materials，enable后直接接名词，省略了不定式。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>human-computer interaction (HCI) - subfield of computer science that emphasizes the social aspects of computation</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>human-computer interaction (HCI) / - / subfield / of computer science / that emphasizes / the social aspects / of computation</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>人机交互——计算机科学的一个子领域，强调计算的社会方面。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>human-computer interaction：人机交互<br>subfield：子领域<br>emphasizes：强调<br>aspects：方面<br>computation：计算</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>“subfield of computer science that emphasizes...”是带定语从句的定义句；social aspects of computation名词短语。</td>
+</tr>
+</tbody>
+</table>]]></description>
+        <pubDate>Mon, 13 Jul 2026 05:52:39 +0000</pubDate>
+        <guid>1783921959.096329</guid>
+    </item>
     <item>
         <title>[英语]  Introduction to Computer Science Ch1 Problem Set A  - 2026-07-13 05:44</title>
         <description><![CDATA[<p>⏱ 预计阅读时间：4 分钟 (200 字符)</p>
