@@ -5,6 +5,21 @@
     <link>https://github.com</link>
     <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
     <item>
+        <title>[英语] Python SyntaxError - 2026-07-14 15:05</title>
+        <description><![CDATA[<p>⏱ 预计阅读时间：5 分钟 (247 字符)</p>
+<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
+  <tr><th style='border: 1px solid #aaa; padding: 6px;'>原文</th><th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th><th style='border: 1px solid #aaa; padding: 6px;'>注解</th><th style='border: 1px solid #aaa; padding: 6px;'>词汇</th><th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th></tr>
+  <tr><td style='border: 1px solid #aaa; padding: 6px;'>unindent does not match any outer indentation level</td><td style='border: 1px solid #aaa; padding: 6px;'>取消缩进与任何外层缩进级别不匹配</td><td style='border: 1px solid #aaa; padding: 6px;'>代码里某个地方减少了缩进，但减少后的缩进位置与前面任何一层已有的缩进都对不上，导致不清楚该代码属于哪个代码块。</td><td style='border: 1px solid #aaa; padding: 6px;'>unindent：取消缩进<br>match：匹配<br>outer：外部的<br>indentation level：缩进级别</td><td style='border: 1px solid #aaa; padding: 6px;'>这是一个完整的句子，主语是 unindent，谓语 does not match，宾语 any outer indentation level。常用于 Python 缩进错误提示。</td></tr>
+  <tr><td style='border: 1px solid #aaa; padding: 6px;'>inconsistent use of tabs and spaces in indentation</td><td style='border: 1px solid #aaa; padding: 6px;'>缩进中制表符和空格的使用不一致</td><td style='border: 1px solid #aaa; padding: 6px;'>在同一段代码的缩进里，有的地方用 Tab 键，有的地方用空格，混在一起让 Python 无法正确判断缩进级别。</td><td style='border: 1px solid #aaa; padding: 6px;'>inconsistent：不一致的<br>tabs：制表符<br>spaces：空格<br>indentation：缩进</td><td style='border: 1px solid #aaa; padding: 6px;'>名词短语，省略了主谓。完整意思是 (There is) inconsistent use of...。介词短语 in indentation 作后置定语，说明不一致发生的范围。</td></tr>
+  <tr><td style='border: 1px solid #aaa; padding: 6px;'>too many levels of indentation</td><td style='border: 1px solid #aaa; padding: 6px;'>缩进层级过多</td><td style='border: 1px solid #aaa; padding: 6px;'>代码嵌套得太深，缩进的层数超过了 Python 解释器能处理或习惯的范围，建议重构代码。</td><td style='border: 1px solid #aaa; padding: 6px;'>levels：层级、级别<br>indentation：缩进</td><td style='border: 1px solid #aaa; padding: 6px;'>too many + 复数名词，表示数量过多。levels of indentation 意为缩进的层数。</td></tr>
+  <tr><td style='border: 1px solid #aaa; padding: 6px;'>expected an indented block after 'if' statement</td><td style='border: 1px solid #aaa; padding: 6px;'>'if' 语句之后应有一个缩进块</td><td style='border: 1px solid #aaa; padding: 6px;'>写了 if 条件语句，但下一行没有正确缩进的代码块，Python 期望在冒号后面跟着缩进的执行语句。</td><td style='border: 1px solid #aaa; padding: 6px;'>expected：期望、预期<br>indented：缩进的<br>block：代码块<br>statement：语句</td><td style='border: 1px solid #aaa; padding: 6px;'>expected 这里是形容词用法，后接名词短语。常用于错误提示：expected + 需要的部分 + after + 某结构。此句省略了主语，完整意思是 (The interpreter) expected ...</td></tr>
+  <tr><td style='border: 1px solid #aaa; padding: 6px;'>expected an indented block after 'for' statement</td><td style='border: 1px solid #aaa; padding: 6px;'>'for' 语句之后应有一个缩进块</td><td style='border: 1px solid #aaa; padding: 6px;'>写了 for 循环语句，但后面没有紧跟一个缩进的代码块，Python 需要在冒号后面开始循环体。</td><td style='border: 1px solid #aaa; padding: 6px;'>expected：期望<br>indented：缩进的<br>block：代码块<br>statement：语句</td><td style='border: 1px solid #aaa; padding: 6px;'>句型与上一条相同，只是 'if' 换成了 'for'。强调 Python 的控制结构后必须跟随缩进块。</td></tr>
+  <tr><td style='border: 1px solid #aaa; padding: 6px;'>expected a colon</td><td style='border: 1px solid #aaa; padding: 6px;'>应有一个冒号</td><td style='border: 1px solid #aaa; padding: 6px;'>在需要冒号的地方（比如 if、for、def 等语句的末尾）遗漏了冒号，Python 提示缺少这个符号。</td><td style='border: 1px solid #aaa; padding: 6px;'>colon：冒号</td><td style='border: 1px solid #aaa; padding: 6px;'>最简单的错误提示之一。expected a + 单数名词。表示缺少某个必须的符号或结构。</td></tr>
+</table>]]></description>
+        <pubDate>Tue, 14 Jul 2026 15:05:52 +0000</pubDate>
+        <guid>1784041552.003864</guid>
+    </item>
+<item>
         <title>[英语]  Introduction to Computer Science Ch1 Key Terms  - 2026-07-14 02:02</title>
         <description><![CDATA[<p>⏱ 预计阅读时间：13 分钟 (649 字符)</p>
 <table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
