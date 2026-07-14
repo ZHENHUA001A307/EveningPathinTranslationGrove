@@ -5,6 +5,63 @@
     <link>https://github.com</link>
     <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
     <item>
+        <title>[英语]  Introduction to Computer Science Ch1 Key Terms  - 2026-07-14 02:02</title>
+        <description><![CDATA[<p>⏱ 预计阅读时间：13 分钟 (649 字符)</p>
+<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
+  <tr>
+    <th style='border: 1px solid #aaa; padding: 6px;'>原文</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>阅读解析</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>词汇</th>
+    <th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>spreadsheet - data-centric programming environment where data is organized into cells in a table</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>spreadsheet / - / data-centric / programming environment / where / data / is organized / into / cells / in / a table.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>电子表格——一种以数据为中心的编程环境，其中数据被组织到表格的单元格中。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>spreadsheet: 电子表格<br>data-centric: 以数据为中心的<br>cells: 单元格</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>where 引导定语从句修饰 programming environment，说明数据组织方式；被动语态 is organized into 表示“被组织成”。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>storage - hardware and physical components of a computer that permanently house a computer's data</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>storage / - / hardware and physical components / of a computer / that / permanently / house / a computer's data.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>存储——计算机的硬件和物理组件，永久容纳计算机的数据。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>storage: 存储<br>hardware: 硬件<br>physical components: 物理组件<br>permanently: 永久地<br>house (v.): 容纳，储存</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>house 作动词意为“容纳，储存”；that 引导定语从句修饰 components；of a computer 是后置定语。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>technological fix - idea that technologies can solve social problems, but now often used to critique blind faith in technological solutions to human problems</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>technological fix / - / idea / that / technologies / can solve / social problems / , / but / now / often / used / to critique / blind faith / in / technological solutions / to / human problems.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>技术万能论——认为技术可以解决社会问题的想法，但现在常被用来批评对技术解决人类问题的盲目信仰。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>technological fix: 技术万能论<br>critique: 批评<br>blind faith: 盲目信仰<br>technological solutions: 技术解决方案</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>同位语从句 idea that... 解释 idea；but 连接转折；be used to critique 被动语态表示被用来批评；blind faith in... 对...的盲目信仰。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>theoretical computer science - mathematical processes behind software</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>theoretical computer science / - / mathematical processes / behind / software.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>理论计算机科学——软件背后的数学过程。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>theoretical: 理论的<br>computer science: 计算机科学<br>mathematical processes: 数学过程</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>behind software 作后置定语修饰 processes；简单名词短语定义。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Turing-complete - fundamental model for computing results and every computer has the ability to run any algorithm</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Turing-complete / - / fundamental model / for computing results / and / every computer / has the ability / to run / any algorithm.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>图灵完备——计算结果的基本模型，并且每台计算机都有能力运行任何算法。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Turing-complete: 图灵完备<br>fundamental: 基本的<br>computing results: 计算结果<br>algorithm: 算法</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>and 连接并列分句；has the ability to run... 表示有能力做某事；model for computing results，介词 for 表目的。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>vacuum tube - physical device that works like a light bulb used as memory in early digital computers</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>vacuum tube / - / physical device / that / works / like / a light bulb / used as / memory / in / early / digital computers.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>真空管——一种物理设备，工作原理类似于灯泡，在早期数字计算机中用作存储器。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>vacuum tube: 真空管<br>physical device: 物理设备<br>light bulb: 灯泡<br>memory: 存储器<br>digital computers: 数字计算机</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>that works like a light bulb 定语从句；used as memory 过去分词短语作后置定语修饰 light bulb；in early digital computers 地点状语。</td>
+  </tr>
+</table>]]></description>
+        <pubDate>Tue, 14 Jul 2026 02:02:58 +0000</pubDate>
+        <guid>1783994578.069186</guid>
+    </item>
+<item>
         <title>[日语] 标准日本语（初级）基础回顾 - 2026-07-14 01:55</title>
         <description><![CDATA[<p>⏱ 预计阅读时间：5 分钟 (218 字符)</p>
 <table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
