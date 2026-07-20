@@ -5,6 +5,29 @@
     <link>https://github.com</link>
     <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
     <item>
+        <title>[英语] Python SyntaxError - 2026-07-20 03:12</title>
+        <description><![CDATA[<p>⏱ 预计阅读时间：2 分钟 (65 字符)</p>
+<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
+<tr><th style='border: 1px solid #aaa; padding: 6px;'>原文</th><th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th><th style='border: 1px solid #aaa; padding: 6px;'>注解</th><th style='border: 1px solid #aaa; padding: 6px;'>词汇</th><th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th></tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>expected an indented block after 'for' statement</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>期望在“for”语句之后有一个缩进的代码块</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>这是Python解释器给出的错误提示，意思是for循环的语句后面缺少正确缩进的代码块。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>indented: 缩进的<br>block: 代码块<br>statement: 语句</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>使用“expected + 名词 + after + 名词”的结构，表示编译器期望在某个语法元素之后看到某种结构，被动语态省略了动作执行者。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>expected a colon</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>期望一个冒号</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>编程中常见的错误提示，表示在if、for、def等语句末尾缺少冒号（:）。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>colon: 冒号</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>简单句“expected + 名词短语”，同样是被动语态，说明所期望的具体语法符号，不定冠词a表示“一个”。</td>
+</tr>
+</table>]]></description>
+        <pubDate>Mon, 20 Jul 2026 03:12:05 +0000</pubDate>
+        <guid>1784517125.863495</guid>
+    </item>
+<item>
         <title>[英语] Python SyntaxError - 2026-07-18 04:42</title>
         <description><![CDATA[<p>⏱ 预计阅读时间：12 分钟 (578 字符)</p>
 <table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
