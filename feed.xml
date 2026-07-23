@@ -5,6 +5,126 @@
     <link>https://github.com</link>
     <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
     <item>
+        <title>[英语] Python TypeError - 2026-07-23 02:43</title>
+        <description><![CDATA[<p>⏱ 预计阅读时间：13 分钟 (648 字符)</p>
+<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
+<tr>
+<th style='border: 1px solid #aaa; padding: 6px;'>原文</th>
+<th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th>
+<th style='border: 1px solid #aaa; padding: 6px;'>注解</th>
+<th style='border: 1px solid #aaa; padding: 6px;'>词汇</th>
+<th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>can only concatenate str (not 'int') to str</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>只能将 str 与 str 拼接（不能是 'int'）</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>试图把整数直接加到字符串上，Python不允许不同类型直接拼接。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>concatenate：连接，拼接<br>str：字符串类型<br>int：整数类型</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>concatenate 表示“拼接”，此处特指使用 + 号连接字符串。错误原因是非字符串类型（如整数）不能直接用 + 与字符串连接，需先转为字符串。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>unsupported operand type(s) for +: 'int' and 'str'</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>不支持的操作数类型用于 +：'int' 和 'str'</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>用加号连接整数和字符串时触发，程序不懂如何操作。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>unsupported：不支持的<br>operand：操作数<br>type：类型</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>operand 指运算符两边的变量或值。此错误提示 + 两边操作数类型不匹配，解决方法是统一类型，比如 str() 转换。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>unsupported operand type(s) for -: 'str' and 'int'</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>不支持的操作数类型用于 -：'str' 和 'int'</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>减号不能用于字符串和整数之间。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>operand：操作数<br>str：字符串类型<br>int：整数类型</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>错误表明 - 运算符的操作数包含字符串和整数，这是无效的数学运算。只有数字类型支持减法。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>'int' object is not iterable</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>'int' 对象不可迭代</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>尝试用 for 循环或类似结构遍历一个整数，整数不能逐个元素访问。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>iterable：可迭代的<br>object：对象</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>iterable 指可以被 for 循环逐一取值的对象，如列表、字符串等。整数不是序列，不能迭代。常见错误如 for i in 5。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>'NoneType' object is not iterable</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>'NoneType' 对象不可迭代</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>试图遍历一个 None 值（例如函数没有返回结果时）。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>NoneType：None 的类型<br>iterable：可迭代的</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>None 是 Python 中的空值，不是容器，不能放入 for 循环。常见于忘记 return 的函数的返回值。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>'int' object is not subscriptable</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>'int' 对象不可下标访问</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>尝试用方括号索引一个整数，比如 x[0]，但整数不支持索引。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>subscriptable：可下标访问的<br>object：对象</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>subscriptable 指能用 obj[索引] 取值的对象，如列表、字典。整数是标量，不能索引。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>'NoneType' object is not subscriptable</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>'NoneType' 对象不可下标访问</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>对一个值为 None 的东西用方括号获取元素。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>NoneType：None 的类型<br>subscriptable：可下标访问的</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>例如 func()[0] 如果 func() 返回 None，就会触发此错误。需确保对象不是 None 且支持索引。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>'str' object does not support item assignment</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>'str' 对象不支持元素赋值</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>字符串是不可变类型，不能像列表那样直接修改某个字符。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>assignment：赋值<br>str：字符串类型</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>Python 字符串是不可变的，所以 s[0] = 'A' 会报此错。要修改只能重新构建字符串。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>'tuple' object does not support item assignment</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>'tuple' 对象不支持元素赋值</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>元组是不可变的，不能使用索引修改它的元素。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>tuple：元组<br>assignment：赋值</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>元组一旦创建就不能改变内部元素，所以 t[0] = 1 会引发 TypeError。如果需要修改，应使用列表。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>object of type 'int' has no len()</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>类型为 'int' 的对象没有 len() 方法</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>对整数使用 len() 函数，整数没有长度可言。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>len：长度<br>int：整数</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>len() 用于获取序列或集合的元素个数，整数是标量，无法计算长度。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>object of type 'NoneType' has no len()</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>类型为 'NoneType' 的对象没有 len() 方法</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>试图获取一个值为 None 的对象的长度。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>NoneType：None 的类型<br>len：长度</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>None 不表示一个容器，因此无法计算长度。常见于忘记初始化的变量。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>'float' object cannot be interpreted as an integer</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>'float' 对象不能解释为整数</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>需要整数的场合（如索引、range() 参数）使用了浮点数。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>float：浮点数<br>interpret：解释</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>例如 range(3.5) 会触发该错误，因为 range 期望整数参数。可使用 int() 强制转换。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>'str' object cannot be interpreted as an integer</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>'str' 对象不能解释为整数</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>需要整数的位置传入了字符串，例如用作下标或 range 参数。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>str：字符串<br>interpret：解释</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>索引、range 等要求整数，如果提供字符串将报此错。转换使用 int()。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>missing 1 required positional argument: 'self'</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>缺少1个必需的位置参数：'self'</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>调用类的方法时没有提供实例对象，通常因为忘记实例化。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>positional argument：位置参数<br>self：self 关键字</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>此错误常发生在类方法被直接调用为 Class.method() 而非 instance.method() 时，Python 需要实例作为第一个参数 self。</td>
+</tr>
+<tr>
+<td style='border: 1px solid #aaa; padding: 6px;'>method() missing 1 required positional argument: 'x'</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>method() 缺少1个必需的位置参数：'x'</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>函数调用时漏掉了一个必须提供的参数 x。</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>positional argument：位置参数<br>missing：缺失<br>required：必需的</td>
+<td style='border: 1px solid #aaa; padding: 6px;'>定义函数时设定了必须参数，但调用时未传入足够实参。确保提供的参数个数和定义一致。</td>
+</tr>
+</table>]]></description>
+        <pubDate>Thu, 23 Jul 2026 02:43:25 +0000</pubDate>
+        <guid>1784774605.954458</guid>
+    </item>
+<item>
         <title>[英语] Python NameError - 2026-07-21 02:40</title>
         <description><![CDATA[<p>⏱ 预计阅读时间：8 分钟 (375 字符)</p>
 <table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
