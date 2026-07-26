@@ -24,10 +24,13 @@ BATCH_SIZE = int(os.getenv('BATCH_SIZE', '40'))
 READING_SPEED = int(os.getenv('READING_SPEED', '150'))
 RSS_FILE = os.getenv('RSS_FILE', 'feed.xml')
 
+# 🆕 切片模式：by_topic（按话题） 或 by_count（纯按条数）
+SLICE_MODE = os.getenv('SLICE_MODE', 'by_topic')
+
 # DeepSeek / OpenAI 兼容配置
-API_KEY = os.getenv('DEEPSEEK_API_KEY') 
+API_KEY = os.getenv('DEEPSEEK_API_KEY')
 API_URL = os.getenv('API_URL', 'https://api.deepseek.com/chat/completions')
-MODEL_NAME = os.getenv('MODEL_NAME', 'deepseek-v4-pro') 
+MODEL_NAME = os.getenv('MODEL_NAME', 'deepseek-v4-pro')
 
 # ======================= 辅助函数 =======================
 def load_system_instruction():
@@ -68,17 +71,14 @@ def calculate_reading_time(text):
     return f"⏱ 预计阅读时间：{minutes_ceil} 分钟 ({total_chars} 字符)"
 
 def update_rss(html_content, source_name, time_marker):
-    """将 AI 生成的 HTML 表格追加写入 RSS 文件，并严格限制只保留最新 20 条"""
-    import re  # 引入正则工具箱，用来精准抓取旧条目
+    import re
 
     marked_html = f"<p>{time_marker}</p>\n{html_content}"
     now = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
     
-    # 彻底清洗可能夹杂的 Markdown 围栏标记
     html_clean = marked_html.replace("```html", "").replace("```", "").strip()
     title = f"[{LANG_CN}] {source_name} - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
 
-    # 1. 构建本次全新的 item 节点
     new_item = f"""    <item>
         <title>{title}</title>
         <description><![CDATA[{html_clean}]]></description>
@@ -89,21 +89,15 @@ def update_rss(html_content, source_name, time_marker):
     try:
         existing_items = []
         
-        # 2. 如果文件存在且不为空，把里面所有的旧 <item>...</item> 全都捞出来
         if os.path.exists(RSS_FILE) and os.path.getsize(RSS_FILE) > 0:
             with open(RSS_FILE, 'r', encoding='utf-8') as f:
                 old_content = f.read()
-            # 使用正则抓取所有历史 item 块
             existing_items = re.findall(r'<item>.*?</item>', old_content, re.DOTALL)
 
-        # 3. 把新条目放在最前面（置顶），并和旧条目合并
         all_items = [new_item] + existing_items
-
-        # 4. ⚡ 核心控容：强行截取前 20 条（最新写入的 20 次内容）
         items_to_keep = all_items[:20]
         logger.info(f"📦 RSS 容器控容中：当前池内总计 {len(all_items)} 条，已截取保留最新 {len(items_to_keep)} 条")
 
-        # 5. 重新格式化成一个标准的、干净的 RSS 文件结构
         items_joined = "\n".join(items_to_keep)
         final_xml = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
@@ -115,7 +109,6 @@ def update_rss(html_content, source_name, time_marker):
 </channel>
 </rss>"""
         
-        # 6. 覆盖写入
         with open(RSS_FILE, 'w', encoding='utf-8') as f:
             f.write(final_xml.strip())
             
@@ -125,9 +118,42 @@ def update_rss(html_content, source_name, time_marker):
         logger.error(f"❌ 错误：写入或裁剪 RSS 文件失败: {e}")
         sys.exit(1)
 
+# ======================= 🆕 核心切片逻辑（支持两种模式） =======================
+def get_batch(df, start_idx):
+    """
+    根据 SLICE_MODE 决定如何切分批次：
+    - by_topic: 按来源（话题）切片，每个单元独立推送
+    - by_count: 无视来源，纯按 BATCH_SIZE 条数切片
+    """
+    total_rows = len(df)
+    end_idx = start_idx
+
+    if SLICE_MODE == 'by_count':
+        # 🆕 模式二：纯按条数切片，无视来源
+        end_idx = min(start_idx + BATCH_SIZE, total_rows)
+        source_name = df.at[start_idx, '来源']
+        # 如果跨越多个来源，标题做标记
+        if end_idx < total_rows and df.at[end_idx, '来源'] != source_name:
+            source_name = f"{source_name} 等多主题"
+        logger.info(f"🔧 切片模式: by_count（按条数），本批次 {end_idx - start_idx} 条")
+        return end_idx, source_name
+
+    else:
+        # 🆕 模式一（默认）：按话题（来源）切片，原逻辑
+        first_source = df.at[start_idx, '来源']
+        while end_idx < total_rows:
+            if df.at[end_idx, '来源'] != first_source:
+                break
+            if end_idx - start_idx >= BATCH_SIZE:
+                break
+            end_idx += 1
+        logger.info(f"🔧 切片模式: by_topic（按话题），本批次 {end_idx - start_idx} 条")
+        return end_idx, first_source
+
 # ======================= 主流程 =======================
 def main():
     logger.info(f"--- [{LANG_CN}] 推送任务正式启动 (使用模型: {MODEL_NAME}) ---")
+    logger.info(f"🔧 切片模式: {SLICE_MODE} | 批次大小: {BATCH_SIZE}")
     
     if not API_KEY:
         logger.error("❌ 错误：未配置环境变量 DEEPSEEK_API_KEY，请检查 GitHub Secrets")
@@ -153,19 +179,10 @@ def main():
             logger.warning(f"⚠️ 提示：所有语料已学完 (索引 {start_idx} >= 总行数 {total_rows})。无新内容写入。")
             return
 
-        # 动态批次切分
-        first_source = df.at[start_idx, '来源']
-        end_idx = start_idx
-        while end_idx < total_rows:
-            if df.at[end_idx, '来源'] != first_source:
-                logger.info(f"[批次截断] 来源由 '{first_source}' 变为 '{df.at[end_idx, '来源']}'")
-                break
-            if end_idx - start_idx >= BATCH_SIZE:
-                break
-            end_idx += 1
-
+        # 🆕 调用新的切片函数
+        end_idx, source_name = get_batch(df, start_idx)
         batch = df.iloc[start_idx:end_idx]
-        logger.info(f"📊 本批次待处理: 行 {start_idx} 至 {end_idx - 1} (共 {len(batch)} 行) | 来源: {first_source}")
+        logger.info(f"📊 本批次待处理: 行 {start_idx} 至 {end_idx - 1} (共 {len(batch)} 行) | 来源标识: {source_name}")
 
         input_text = "\n".join(batch['内容'].tolist())
         time_marker = calculate_reading_time(input_text)
@@ -208,7 +225,7 @@ def main():
         # ====================================================================
 
         # 写入 RSS 并更新进度
-        update_rss(ai_content, first_source, time_marker)
+        update_rss(ai_content, source_name, time_marker)
         update_progress(end_idx)
         logger.info(f"--- 🎉 [{LANG_CN}] 推送任务全部顺利完成 ---")
 
