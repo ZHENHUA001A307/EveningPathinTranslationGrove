@@ -12,7 +12,7 @@ env:
   LANG_CN: "英语"
   INPUT_FILE: "corpus/input_en.csv"
   PROGRESS_FILE: "progress/last_index_en.txt"
-  PROMPT_FILE: "prompts/en_prompt.json"
+  PROMPT_FILE: "prompts/en_prompt_general.json"
   SLICE_MODE: "by_count"   # 可选: by_topic(默认) 或 by_count
   BATCH_SIZE: 15           # by_count 模式生效，按这个条数切片
   READING_SPEED: 150
