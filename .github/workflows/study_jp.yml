@@ -13,6 +13,7 @@ env:
   INPUT_FILE: "corpus/input_jp.csv"
   PROGRESS_FILE: "progress/last_index_jp.txt"
   PROMPT_FILE: "prompts/jp_prompt.json"
+  SLICE_MODE: "by_count"   # 可选: by_topic(默认) 或 by_count
   BATCH_SIZE: 20
   READING_SPEED: 150
   MODEL_NAME: "deepseek-v4-pro"  # 或者是 "deepseek-v4-flash"
