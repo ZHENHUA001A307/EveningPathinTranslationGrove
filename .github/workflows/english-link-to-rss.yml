@@ -23,9 +23,9 @@ jobs:
 
           # 1. 确保进度文件存在
           if not os.path.exists('progress/en_progress_link.txt'):
-              with open('progress/en_progress_link', 'w') as f: f.write("0")
+              with open('progress/en_progress_link.txt', 'w') as f: f.write("0")
 
-          with open('progress/en_progress_link', 'r') as f:
+          with open('progress/en_progress_link.txt', 'r') as f:
               try:
                   idx = int(f.read().strip())
               except:
@@ -99,7 +99,7 @@ jobs:
           with open('feed.xml', 'w', encoding='utf-8') as f:
               f.write(rss_full)
           
-          with open('progress/en_progress_link', 'w') as f:
+          with open('progress/en_progress_link.txt', 'w') as f:
               f.write(str(idx + 1))
 
           print(f"✅ 处理完成！今日推送: {title}")
