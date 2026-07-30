@@ -23,9 +23,9 @@ jobs:
 
           # 1. 确保进度文件存在
           if not os.path.exists('progress/en_progress_link.txt'):
-              with open('en_progress_link.txt', 'w') as f: f.write("0")
+              with open('progress/en_progress_link', 'w') as f: f.write("0")
 
-          with open('progress.txt', 'r') as f:
+          with open('progress/en_progress_link', 'r') as f:
               try:
                   idx = int(f.read().strip())
               except:
@@ -34,7 +34,7 @@ jobs:
           # 2. 读取 CSV 数据
           rows = []
           if os.path.exists('corpus/en_progress_link.csv'):
-              with open('en_progress_link.csv', 'r', encoding='utf-8') as f:
+              with open('corpus/en_progress_link.csv', 'r', encoding='utf-8') as f:
                   reader = csv.reader(f)
                   rows = [row for row in reader if row]
                   if len(rows) > 0:
@@ -99,7 +99,7 @@ jobs:
           with open('feed.xml', 'w', encoding='utf-8') as f:
               f.write(rss_full)
           
-          with open('progress.txt', 'w') as f:
+          with open('progress/en_progress_link', 'w') as f:
               f.write(str(idx + 1))
 
           print(f"✅ 处理完成！今日推送: {title}")
