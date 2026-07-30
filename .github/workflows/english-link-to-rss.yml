@@ -2,7 +2,7 @@ name: Daily RSS Update
 
 on:
   schedule:
-    - cron: '0 0 * * 3' 
+    - cron: '0 0 * * 1,2,4,5' 
   workflow_dispatch:
 
 jobs:
