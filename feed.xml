@@ -4,11 +4,18 @@
   <title>每日更新推送</title>
   <link>https://github.com/ZHENHUA001A307/EveningPathinTranslationGrove</link>
   <description>自动更新的 RSS 列表 (保留最近 15 条)</description>
-  <lastBuildDate>Fri, 31 Jul 2026 01:44:06 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 03 Aug 2026 01:44:17 +0000</lastBuildDate>
     <item>
       <title><![CDATA[Unit 26-28]]></title>
       <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
       <description><![CDATA[【情态动词 60%】can/could/be able to；could do vs could have done；must/can't表推测（对现在/过去）]]></description>
+      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
+      <pubDate>Mon, 03 Aug 2026 01:44:17 +0000</pubDate>
+    </item>
+<item>
+      <title>Unit 26-28</title>
+      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
+      <description>【情态动词 60%】can/could/be able to；could do vs could have done；must/can't表推测（对现在/过去）</description>
       <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
       <pubDate>Fri, 31 Jul 2026 01:44:06 +0000</pubDate>
     </item>
@@ -964,29 +971,6 @@
 &lt;/table&gt;</description>
         <pubDate>Mon, 20 Jul 2026 03:28:52 +0000</pubDate>
         <guid>1784518132.036596</guid>
-    </item>
-<item>
-        <title>[英语] Python SyntaxError - 2026-07-20 03:12</title>
-        <description>&lt;p&gt;⏱ 预计阅读时间：2 分钟 (65 字符)&lt;/p&gt;
-&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
-&lt;tr&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;注解&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;expected an indented block after 'for' statement&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;期望在“for”语句之后有一个缩进的代码块&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这是Python解释器给出的错误提示，意思是for循环的语句后面缺少正确缩进的代码块。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;indented: 缩进的&lt;br&gt;block: 代码块&lt;br&gt;statement: 语句&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;使用“expected + 名词 + after + 名词”的结构，表示编译器期望在某个语法元素之后看到某种结构，被动语态省略了动作执行者。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;expected a colon&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;期望一个冒号&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;编程中常见的错误提示，表示在if、for、def等语句末尾缺少冒号（:）。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;colon: 冒号&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;简单句“expected + 名词短语”，同样是被动语态，说明所期望的具体语法符号，不定冠词a表示“一个”。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;</description>
-        <pubDate>Mon, 20 Jul 2026 03:12:05 +0000</pubDate>
-        <guid>1784517125.863495</guid>
     </item>
 </channel>
 </rss>
