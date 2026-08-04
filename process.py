@@ -20,12 +20,12 @@ LANG_CN = os.getenv('LANG_CN', '外语')
 INPUT_FILE = os.getenv('INPUT_FILE', 'corpus/input_en.csv')
 PROGRESS_FILE = os.getenv('PROGRESS_FILE', 'progress/last_index_en.txt')
 PROMPT_FILE = os.getenv('PROMPT_FILE', 'prompts/en_prompt.json')
-BATCH_SIZE = int(os.getenv('BATCH_SIZE', '40'))
-READING_SPEED = int(os.getenv('READING_SPEED', '150'))
+BATCH_SIZE = int(os.getenv('BATCH_SIZE', '20'))
+READING_SPEED = int(os.getenv('READING_SPEED', '50'))
 RSS_FILE = os.getenv('RSS_FILE', 'feed.xml')
 
 # 🆕 切片模式：by_topic（按话题） 或 by_count（纯按条数）
-SLICE_MODE = os.getenv('SLICE_MODE', 'by_topic')
+SLICE_MODE = os.getenv('SLICE_MODE', 'by_count')
 
 # DeepSeek / OpenAI 兼容配置
 API_KEY = os.getenv('DEEPSEEK_API_KEY')
