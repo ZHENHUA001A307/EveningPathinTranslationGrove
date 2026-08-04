@@ -4,11 +4,18 @@
   <title>每日更新推送</title>
   <link>https://github.com/ZHENHUA001A307/EveningPathinTranslationGrove</link>
   <description>自动更新的 RSS 列表 (保留最近 15 条)</description>
-  <lastBuildDate>Tue, 04 Aug 2026 01:20:27 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 07:55:50 +0000</lastBuildDate>
     <item>
       <title><![CDATA[Unit 26-28]]></title>
       <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
       <description><![CDATA[【情态动词 60%】can/could/be able to；could do vs could have done；must/can't表推测（对现在/过去）]]></description>
+      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
+      <pubDate>Tue, 04 Aug 2026 07:55:50 +0000</pubDate>
+    </item>
+<item>
+      <title>Unit 26-28</title>
+      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
+      <description>【情态动词 60%】can/could/be able to；could do vs could have done；must/can't表推测（对现在/过去）</description>
       <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
       <pubDate>Tue, 04 Aug 2026 01:20:27 +0000</pubDate>
     </item>
@@ -734,95 +741,6 @@
 &lt;/table&gt;</description>
         <pubDate>Thu, 23 Jul 2026 02:43:25 +0000</pubDate>
         <guid>1784774605.954458</guid>
-    </item>
-<item>
-        <title>[英语] Python NameError - 2026-07-21 02:40</title>
-        <description>&lt;p&gt;⏱ 预计阅读时间：8 分钟 (375 字符)&lt;/p&gt;
-&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;
-&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;
-&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;注解&lt;/th&gt;
-&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;
-&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;name 'xxx' is not defined&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;名称 'xxx' 未被定义。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这表示你尝试使用一个尚未定义的名称（变量、函数或模块）。Python 找不到该名称的定义。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;defined: 已定义的&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这是 Python 中最常见的错误信息之一，使用被动语态 "is not defined" 表达“未被定义”。在代码中使用一个未赋值的变量就会触发 NameError。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;name 'math' is not defined&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;名称 'math' 未被定义。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;你试图使用 'math' 这个名称，但它还没被定义。可能是忘记 import math 模块。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;defined: 已定义的&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;错误信息中的 'math' 是具体的未定义名称。需要先导入模块或定义变量。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;name 'pd' is not defined&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;名称 'pd' 未被定义。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;通常是因为没有导入 pandas 库并给它起别名 pd，比如 import pandas as pd。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;defined: 已定义的&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;习惯上将 pandas 导入为 pd，如果缺少这行就会报此错误。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;name 'sys' is not defined&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;名称 'sys' 未被定义。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;你使用了 sys 模块但未导入它。需要在文件开头添加 import sys。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;defined: 已定义的&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;标准库模块也需要导入才能使用。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;name 'List' is not defined&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;名称 'List' 未被定义。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;可能是在类型注解中用了 List 但没有从 typing 模块导入。在 Python 3.9+ 可用内置的 list，但旧版需 from typing import List。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;defined: 已定义的&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;类型注解中的 List 是一种泛型，必须从 typing 导入。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;name 'Optional' is not defined&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;名称 'Optional' 未被定义。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;你使用了 Optional 作为类型提示，但未从 typing 导入它。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;defined: 已定义的&lt;br&gt;Optional: 可选（类型）&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Optional[X] 相当于 Union[X, None]，需要导入 typing 模块中的 Optional。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;name 'self' is not defined&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;名称 'self' 未被定义。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;通常在类的方法定义中忘写 self 参数，或在类外部错误地使用 self。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;defined: 已定义的&lt;br&gt;self: 自身&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;在类的方法中，self 代表实例本身，必须作为第一个参数显式写出。如果在类外部单独使用 self，它未被定义。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;free variable 'x' referenced before assignment in enclosing scope&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;自由变量 'x' 在封闭作用域内于赋值前被引用。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;你在一个嵌套函数（如闭包）中使用了外层函数的变量 x，但在该嵌套函数内稍后对 x 进行了赋值（或试图修改），导致 Python 认为 x 是一个未赋值的局部变量，但实际上是自由变量，引发了 UnboundLocalError。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;free variable: 自由变量&lt;br&gt;referenced: 被引用&lt;br&gt;assignment: 赋值&lt;br&gt;enclosing scope: 外围作用域&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;句子中的 "referenced before assignment" 表示“在赋值之前被引用”，这是 Python 中关于变量作用域的经典错误。当在内部作用域中对变量赋值时，Python 会将其视为局部变量，导致外部同名变量被遮蔽。需使用 nonlocal 关键字声明。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;local variable 'x' referenced before assignment&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;局部变量 'x' 在赋值前被引用。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;在函数内，你使用变量 x 之前没有对其赋值。例如在 if 分支中定义了 x，但可能在未进入分支时就使用了 x。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;local variable: 局部变量&lt;br&gt;referenced: 引用&lt;br&gt;assignment: 赋值&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;表达中的 "referenced before assignment" 强调变量的使用顺序，必须先赋值才能引用。确保在使用局部变量前已经用 = 赋值。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;cannot access local variable 'x' where it is not associated with a value&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;无法访问未关联任何值的局部变量 'x'。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这是 Python 3.12 引入的新错误信息，取代了上述的 "referenced before assignment"。它更清晰地说明变量名存在，但尚未绑定任何值。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;access: 访问&lt;br&gt;local variable: 局部变量&lt;br&gt;associated: 关联的&lt;br&gt;value: 值&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;其中 "where it is not associated with a value" 是一个定语从句，修饰 local variable，表示“未与值关联的”。这种表达更贴近自然语言，提示变量没有任何值。需要确保在使用前给变量赋初值。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</description>
-        <pubDate>Tue, 21 Jul 2026 02:40:44 +0000</pubDate>
-        <guid>1784601644.159044</guid>
     </item>
 </channel>
 </rss>
