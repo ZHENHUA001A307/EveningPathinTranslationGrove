@@ -1,117 +1,125 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-    <title>AI 语言学习推送源</title>
-    <link>https://github.com</link>
-    <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
+  <title>每日更新推送</title>
+  <link>https://github.com/ZHENHUA001A307/EveningPathinTranslationGrove</link>
+  <description>自动更新的 RSS 列表 (保留最近 15 条)</description>
+  <lastBuildDate>Tue, 04 Aug 2026 08:57:01 +0000</lastBuildDate>
     <item>
+      <title><![CDATA[Unit 26-28]]></title>
+      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
+      <description><![CDATA[【情态动词 60%】can/could/be able to；could do vs could have done；must/can't表推测（对现在/过去）]]></description>
+      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
+      <pubDate>Tue, 04 Aug 2026 08:57:01 +0000</pubDate>
+    </item>
+<item>
         <title>[英语] IELTS4 Reading Passage 1 - 2026-08-04 08:20</title>
-        <description><![CDATA[<p>⏱ 预计阅读时间：41 分钟 (2050 字符)</p>
-<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
-  <tr>
-    <th style='border: 1px solid #aaa; padding: 6px;'>原文</th>
-    <th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th>
-    <th style='border: 1px solid #aaa; padding: 6px;'>词汇</th>
-    <th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Adults and children are frequently confronted with statements about the alarming rate of loss of tropical rainforests.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>成人和儿童经常面对关于热带雨林以惊人速度消失的言论。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>confronted with：面对<br>alarming：令人惊恐的<br>rate：速度，比率<br>tropical rainforests：热带雨林</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>被动语态 "are confronted with" 表示“被面对”，固定搭配。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>For example, one graphic illustration to which children might readily relate is the estimate that rainforests are being destroyed at a rate equivalent to one thousand football fields every forty minutes - about the duration of a normal classroom period.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>例如，一个孩子们容易联想到的生动例子是：据估计，热带雨林正以每四十分钟消失一千个足球场的速度被摧毁——这大约是一节正常课时的时间。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>graphic illustration：生动的例证<br>readily relate：容易产生共鸣<br>equivalent to：等同于<br>duration：持续时间</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>定语从句 "to which children might readily relate" 修饰 illustration，"relate to" 在此意为“理解或产生共鸣”。破折号后补充说明速度的频率。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>In the face of the frequent and often vivid media coverage, it is likely that children will have formed ideas about rainforests - what and where they are, why they are important, what endangers them - independent of any formal tuition.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>面对频繁且通常生动的媒体报道，孩子们很可能已经形成了关于雨林的看法——它们是什么、在哪里、为何重要、什么威胁它们——这些看法与任何正规教育无关。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>vivid：生动的<br>coverage：报道，覆盖<br>formed ideas：形成看法<br>endangers：危及<br>independent of：独立于<br>formal tuition：正规教学</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>"In the face of" 固定短语，意为“面对”。"it is likely that..." 句型。破折号内补充说明 ideas 的内容。"independent of" 作状语。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>It is also possible that some of these ideas will be mistaken.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>也有可能其中一些看法是错误的。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>mistaken：错误的</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>"It is also possible that..." 句型，表推测。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Many studies have shown that children harbor misconceptions about 'pure', curriculum science.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>许多研究表明，孩子们对“纯”课程科学持有误解。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>harbor：怀有（想法）<br>misconceptions：误解<br>curriculum：课程</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>"harbor misconceptions" 搭配，表示“持有错误观念”。引号内的 'pure' 指纯科学。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>These misconceptions do not remain isolated but become incorporated into a multifaceted, but organized, conceptual framework, making it and the component ideas, some of which are erroneous, more robust but also accessible to modification.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>这些误解并不是孤立的，而是被整合进一个多层面但组织有序的概念框架中，使得这个框架及其组成部分（其中一些是错误的）更加稳固，但也易于修改。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>incorporated into：融入<br>multifaceted：多方面的<br>conceptual framework：概念框架<br>component：组成部分<br>erroneous：错误的<br>robust：稳固的<br>accessible to modification：可修改的</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>并列结构 "do not remain... but become..."。"making it ... more robust but also accessible..." 现在分词作结果状语，"it" 指代框架。"some of which are erroneous" 为非限制性定语从句。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>These ideas may be developed by children absorbing ideas through the popular media.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>这些观念可能是孩子们通过大众媒体吸收想法而形成的。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>absorbing：吸收<br>popular media：大众媒体</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>被动语态 "may be developed by..."。"children absorbing ideas" 为动名词复合结构，作 by 的宾语。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Sometimes this information may be erroneous.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>有时这类信息可能是错误的。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>erroneous：错误的</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>情态动词 may 表推测。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>It seems schools may not be providing an opportunity for children to re-express their ideas and so have them tested and refined by teachers and their peers.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>似乎学校可能没有提供机会让孩子们重新表达他们的想法，从而让老师和同学来检验和完善这些想法。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>re-express：重新表达<br>refined：完善，提炼<br>peers：同龄人</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>"It seems (that)..." 句型。"have them tested and refined" 为 have sth done 结构，意为“使...被检验/完善”。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Despite the extensive coverage in the popular media of the destruction of rainforests, little formal information is available about children's ideas in this area.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>尽管大众媒体对雨林破坏有广泛的报道，但关于儿童在这一领域的想法，却几乎没有正式的信息。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>extensive：广泛的<br>coverage：报道<br>destruction：破坏<br>available：可获得的</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Despite 引导让步状语，主句中 "little" 表示否定，意为“几乎没有”。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The aim of the present study is to start to provide such information, to help teachers design their educational strategies to build upon correct ideas and to displace misconceptions and to plan programs in environmental studies in their schools.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>本研究的目的是开始提供这类信息，帮助教师设计教育策略以建立在正确观念上并取代误解，并在学校规划环境研究项目。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>aim：目的<br>present：当前的<br>strategies：策略<br>build upon：在...基础上发展<br>displace：取代<br>misconceptions：误解<br>environmental studies：环境研究</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>表语由三个并列不定式短语构成："to start...", "to help...", "to plan..."。其中 "build upon correct ideas" 和 "displace misconceptions" 为具体策略。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The study surveys children's scientific knowledge and attitudes to rainforests.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>该研究调查了儿童的科学知识和对热带雨林的态度。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>surveys：调查<br>attitudes：态度</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>简单句，调查...知识和态度。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Secondary school children were asked to complete a questionnaire containing five open-form questions.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>中学生被要求完成一份包含五个开放式问题的问卷。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Secondary school：中学<br>questionnaire：问卷<br>open-form questions：开放式问题</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>被动语态，"containing" 现在分词作定语修饰 questionnaire。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The most frequent responses to the first question were descriptions which are self-evident from the term 'rainforest'.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>对第一个问题最常见的回答是那些从“雨林”这个词本身就显而易见的描述。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>frequent responses：常见的回答<br>self-evident：不言而喻的</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>"self-evident from..." 表示“从...来看不言而喻”。定语从句 which are self-evident... 修饰 descriptions。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Some children described them as damp, wet or hot.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>一些孩子把它们描述为潮湿、湿润或炎热的。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>damp：潮湿的<br>wet：湿润的</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>"described them as..." 意为“将它们描述为...”，as 后接形容词。</td>
-  </tr>
-</table>]]></description>
+        <description>&lt;p&gt;⏱ 预计阅读时间：41 分钟 (2050 字符)&lt;/p&gt;
+&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
+  &lt;tr&gt;
+    &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;
+    &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;
+    &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;
+    &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Adults and children are frequently confronted with statements about the alarming rate of loss of tropical rainforests.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;成人和儿童经常面对关于热带雨林以惊人速度消失的言论。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;confronted with：面对&lt;br&gt;alarming：令人惊恐的&lt;br&gt;rate：速度，比率&lt;br&gt;tropical rainforests：热带雨林&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;被动语态 "are confronted with" 表示“被面对”，固定搭配。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;For example, one graphic illustration to which children might readily relate is the estimate that rainforests are being destroyed at a rate equivalent to one thousand football fields every forty minutes - about the duration of a normal classroom period.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;例如，一个孩子们容易联想到的生动例子是：据估计，热带雨林正以每四十分钟消失一千个足球场的速度被摧毁——这大约是一节正常课时的时间。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;graphic illustration：生动的例证&lt;br&gt;readily relate：容易产生共鸣&lt;br&gt;equivalent to：等同于&lt;br&gt;duration：持续时间&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;定语从句 "to which children might readily relate" 修饰 illustration，"relate to" 在此意为“理解或产生共鸣”。破折号后补充说明速度的频率。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;In the face of the frequent and often vivid media coverage, it is likely that children will have formed ideas about rainforests - what and where they are, why they are important, what endangers them - independent of any formal tuition.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;面对频繁且通常生动的媒体报道，孩子们很可能已经形成了关于雨林的看法——它们是什么、在哪里、为何重要、什么威胁它们——这些看法与任何正规教育无关。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;vivid：生动的&lt;br&gt;coverage：报道，覆盖&lt;br&gt;formed ideas：形成看法&lt;br&gt;endangers：危及&lt;br&gt;independent of：独立于&lt;br&gt;formal tuition：正规教学&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;"In the face of" 固定短语，意为“面对”。"it is likely that..." 句型。破折号内补充说明 ideas 的内容。"independent of" 作状语。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;It is also possible that some of these ideas will be mistaken.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;也有可能其中一些看法是错误的。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;mistaken：错误的&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;"It is also possible that..." 句型，表推测。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Many studies have shown that children harbor misconceptions about 'pure', curriculum science.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;许多研究表明，孩子们对“纯”课程科学持有误解。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;harbor：怀有（想法）&lt;br&gt;misconceptions：误解&lt;br&gt;curriculum：课程&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;"harbor misconceptions" 搭配，表示“持有错误观念”。引号内的 'pure' 指纯科学。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;These misconceptions do not remain isolated but become incorporated into a multifaceted, but organized, conceptual framework, making it and the component ideas, some of which are erroneous, more robust but also accessible to modification.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这些误解并不是孤立的，而是被整合进一个多层面但组织有序的概念框架中，使得这个框架及其组成部分（其中一些是错误的）更加稳固，但也易于修改。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;incorporated into：融入&lt;br&gt;multifaceted：多方面的&lt;br&gt;conceptual framework：概念框架&lt;br&gt;component：组成部分&lt;br&gt;erroneous：错误的&lt;br&gt;robust：稳固的&lt;br&gt;accessible to modification：可修改的&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;并列结构 "do not remain... but become..."。"making it ... more robust but also accessible..." 现在分词作结果状语，"it" 指代框架。"some of which are erroneous" 为非限制性定语从句。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;These ideas may be developed by children absorbing ideas through the popular media.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这些观念可能是孩子们通过大众媒体吸收想法而形成的。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;absorbing：吸收&lt;br&gt;popular media：大众媒体&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;被动语态 "may be developed by..."。"children absorbing ideas" 为动名词复合结构，作 by 的宾语。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Sometimes this information may be erroneous.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;有时这类信息可能是错误的。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;erroneous：错误的&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;情态动词 may 表推测。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;It seems schools may not be providing an opportunity for children to re-express their ideas and so have them tested and refined by teachers and their peers.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;似乎学校可能没有提供机会让孩子们重新表达他们的想法，从而让老师和同学来检验和完善这些想法。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;re-express：重新表达&lt;br&gt;refined：完善，提炼&lt;br&gt;peers：同龄人&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;"It seems (that)..." 句型。"have them tested and refined" 为 have sth done 结构，意为“使...被检验/完善”。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Despite the extensive coverage in the popular media of the destruction of rainforests, little formal information is available about children's ideas in this area.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;尽管大众媒体对雨林破坏有广泛的报道，但关于儿童在这一领域的想法，却几乎没有正式的信息。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;extensive：广泛的&lt;br&gt;coverage：报道&lt;br&gt;destruction：破坏&lt;br&gt;available：可获得的&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Despite 引导让步状语，主句中 "little" 表示否定，意为“几乎没有”。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The aim of the present study is to start to provide such information, to help teachers design their educational strategies to build upon correct ideas and to displace misconceptions and to plan programs in environmental studies in their schools.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;本研究的目的是开始提供这类信息，帮助教师设计教育策略以建立在正确观念上并取代误解，并在学校规划环境研究项目。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;aim：目的&lt;br&gt;present：当前的&lt;br&gt;strategies：策略&lt;br&gt;build upon：在...基础上发展&lt;br&gt;displace：取代&lt;br&gt;misconceptions：误解&lt;br&gt;environmental studies：环境研究&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;表语由三个并列不定式短语构成："to start...", "to help...", "to plan..."。其中 "build upon correct ideas" 和 "displace misconceptions" 为具体策略。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The study surveys children's scientific knowledge and attitudes to rainforests.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;该研究调查了儿童的科学知识和对热带雨林的态度。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;surveys：调查&lt;br&gt;attitudes：态度&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;简单句，调查...知识和态度。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Secondary school children were asked to complete a questionnaire containing five open-form questions.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;中学生被要求完成一份包含五个开放式问题的问卷。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Secondary school：中学&lt;br&gt;questionnaire：问卷&lt;br&gt;open-form questions：开放式问题&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;被动语态，"containing" 现在分词作定语修饰 questionnaire。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The most frequent responses to the first question were descriptions which are self-evident from the term 'rainforest'.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;对第一个问题最常见的回答是那些从“雨林”这个词本身就显而易见的描述。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;frequent responses：常见的回答&lt;br&gt;self-evident：不言而喻的&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;"self-evident from..." 表示“从...来看不言而喻”。定语从句 which are self-evident... 修饰 descriptions。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Some children described them as damp, wet or hot.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一些孩子把它们描述为潮湿、湿润或炎热的。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;damp：潮湿的&lt;br&gt;wet：湿润的&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;"described them as..." 意为“将它们描述为...”，as 后接形容词。&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</description>
         <pubDate>Tue, 04 Aug 2026 08:20:19 +0000</pubDate>
         <guid>1785831619.486324</guid>
     </item>
 <item>
-      <title><![CDATA[Unit 26-28]]></title>
+      <title>Unit 26-28</title>
       <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
-      <description><![CDATA[【情态动词 60%】can/could/be able to；could do vs could have done；must/can't表推测（对现在/过去）]]></description>
+      <description>【情态动词 60%】can/could/be able to；could do vs could have done；must/can't表推测（对现在/过去）</description>
       <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
       <pubDate>Tue, 04 Aug 2026 07:55:50 +0000</pubDate>
     </item>
@@ -565,285 +573,6 @@
 &lt;/table&gt;</description>
         <pubDate>Fri, 24 Jul 2026 02:39:38 +0000</pubDate>
         <guid>1784860778.192602</guid>
-    </item>
-<item>
-        <title>[日语] 标准日本语（初级）基础回顾 - 2026-07-23 03:15</title>
-        <description>&lt;p&gt;⏱ 预计阅读时间：6 分钟 (264 字符)&lt;/p&gt;
-&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;
-      &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;阅读解析&lt;/th&gt;
-      &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;
-      &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;
-      &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;ここは デパートです。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;ここ / は / デパート / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这里是百货商店。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;デパート：百货商店&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;…は…です 是判断句。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;食堂は デパートの 七阶です。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;&lt;ruby&gt;食&lt;rt&gt;しょく&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;堂&lt;rt&gt;どう&lt;/rt&gt;&lt;/ruby&gt; / は / デパート / の / &lt;ruby&gt;七&lt;rt&gt;なな&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;階&lt;rt&gt;かい&lt;/rt&gt;&lt;/ruby&gt; / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;食堂在百货商店的七楼。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;食堂（しょくどう）：食堂&lt;br&gt;七階（ななかい）：七楼&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;…は…の…です 表示所属位置。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あそこも ＪＣ企画の ビルです。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あそこ / も / ＪＣ&lt;ruby&gt;企&lt;rt&gt;き&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;画&lt;rt&gt;かく&lt;/rt&gt;&lt;/ruby&gt; / の / ビル / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;那里也是JC企划的大楼。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;企画（きかく）：规划，企划&lt;br&gt;ビル：大楼&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;…も 表示“也”。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;かばん売り场は 一阶ですか、二阶ですか。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;かばん&lt;ruby&gt;売&lt;rt&gt;う&lt;/rt&gt;&lt;/ruby&gt;り&lt;ruby&gt;場&lt;rt&gt;ば&lt;/rt&gt;&lt;/ruby&gt; / は / &lt;ruby&gt;一&lt;rt&gt;いっ&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;階&lt;rt&gt;かい&lt;/rt&gt;&lt;/ruby&gt; / です / か / 、 / &lt;ruby&gt;二&lt;rt&gt;に&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;階&lt;rt&gt;かい&lt;/rt&gt;&lt;/ruby&gt; / です / か&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;卖包的柜台是在一楼还是二楼？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;売り場（うりば）：卖场，柜台&lt;br&gt;一階（いっかい）：一楼&lt;br&gt;二階（にかい）：二楼&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;选择疑问句，…ですか、…ですか。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;トイレは どこですか。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;トイレ / は / どこ / です / か&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;厕所在哪里？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;トイレ：厕所&lt;br&gt;どこ：哪里&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;询问地点的疑问句。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あちらです。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あちら / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;在那边。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あちら 是 あそこ 的礼貌说法。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;ここは 邮便局ですか、银行ですか。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;ここ / は / &lt;ruby&gt;郵&lt;rt&gt;ゆう&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;便&lt;rt&gt;びん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;局&lt;rt&gt;きょく&lt;/rt&gt;&lt;/ruby&gt; / です / か / 、 / &lt;ruby&gt;銀&lt;rt&gt;ぎん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;行&lt;rt&gt;こう&lt;/rt&gt;&lt;/ruby&gt; / です / か&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这里是邮局还是银行？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;郵便局（ゆうびんきょく）：邮局&lt;br&gt;銀行（ぎんこう）：银行&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;选择疑问句。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;银行です。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;&lt;ruby&gt;銀&lt;rt&gt;ぎん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;行&lt;rt&gt;こう&lt;/rt&gt;&lt;/ruby&gt; / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;是银行。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;銀行（ぎんこう）：银行&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;省略了主语，直接回答。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;これは いくらですか。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;これ / は / いくら / です / か&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这个多少钱？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;いくら：多少钱&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;询问价格的句式。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;それは 5，800円です。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;それ / は / 5,800&lt;ruby&gt;円&lt;rt&gt;えん&lt;/rt&gt;&lt;/ruby&gt; / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;那个是5,800日元。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;円（えん）：日元&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;金额的读法：5,800円（ごせんはっぴゃくえん）。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あれは？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あれ / は？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;那个呢？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あれ：那个&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;省略句，完整为“あれはいくらですか”。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あれも 5，800円です。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あれ / も / 5,800&lt;ruby&gt;円&lt;rt&gt;えん&lt;/rt&gt;&lt;/ruby&gt; / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;那个也是5,800日元。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;も：也&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;…も 表示“也”。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;ここは コンビニです。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;ここ / は / コンビニ / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这里是便利店。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;コンビニ：便利店&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;基本判断句。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;邻は 吃茶店です。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;&lt;ruby&gt;隣&lt;rt&gt;となり&lt;/rt&gt;&lt;/ruby&gt; / は / &lt;ruby&gt;喫&lt;rt&gt;きっ&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;茶&lt;rt&gt;さ&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;店&lt;rt&gt;てん&lt;/rt&gt;&lt;/ruby&gt; / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;隔壁是咖啡店。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;隣（となり）：隔壁，邻居&lt;br&gt;喫茶店（きっさてん）：咖啡店，茶馆&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;…は…です 基本句型。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あの 建物は ホテルですか、マンションですか。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あの / &lt;ruby&gt;建&lt;rt&gt;たて&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;物&lt;rt&gt;もの&lt;/rt&gt;&lt;/ruby&gt; / は / ホテル / です / か / 、 / マンション / です / か&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;那栋建筑是酒店还是公寓？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;建物（たてもの）：建筑物&lt;br&gt;ホテル：酒店&lt;br&gt;マンション：高级公寓&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;选择疑问句，あの 修饰名词。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あそこは マンションです。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あそこ / は / マンション / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;那里是公寓。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;マンション：高级公寓&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;基本判断句。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あの 建物は 何ですか。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;あの / &lt;ruby&gt;建&lt;rt&gt;たて&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;物&lt;rt&gt;もの&lt;/rt&gt;&lt;/ruby&gt; / は / &lt;ruby&gt;何&lt;rt&gt;なん&lt;/rt&gt;&lt;/ruby&gt; / です / か&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;那栋建筑是什么？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;建物（たてもの）：建筑物&lt;br&gt;何（なん）：什么&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;询问是什么的句式。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;マンションの 邻は？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;マンション / の / &lt;ruby&gt;隣&lt;rt&gt;となり&lt;/rt&gt;&lt;/ruby&gt; / は？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;公寓的隔壁是什么？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;隣（となり）：隔壁&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;省略句，完整为“マンションの隣は何ですか”。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;マンションの 邻は 病院です。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;マンション / の / &lt;ruby&gt;隣&lt;rt&gt;となり&lt;/rt&gt;&lt;/ruby&gt; / は / &lt;ruby&gt;病&lt;rt&gt;びょう&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;院&lt;rt&gt;いん&lt;/rt&gt;&lt;/ruby&gt; / です&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;公寓的隔壁是医院。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;隣（となり）：隔壁&lt;br&gt;病院（びょういん）：医院&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;…の…は…です 表示归属。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;本屋は どこですか。&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;&lt;ruby&gt;本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;屋&lt;rt&gt;や&lt;/rt&gt;&lt;/ruby&gt; / は / どこ / です / か&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;书店在哪里？&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;本屋（ほんや）：书店&lt;/td&gt;
-      &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;询问地点的疑问句。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</description>
-        <pubDate>Thu, 23 Jul 2026 03:15:04 +0000</pubDate>
-        <guid>1784776504.847616</guid>
-    </item>
-<item>
-        <title>[英语] Python TypeError - 2026-07-23 02:43</title>
-        <description>&lt;p&gt;⏱ 预计阅读时间：13 分钟 (648 字符)&lt;/p&gt;
-&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
-&lt;tr&gt;
-&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;
-&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;
-&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;注解&lt;/th&gt;
-&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;
-&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;can only concatenate str (not 'int') to str&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;只能将 str 与 str 拼接（不能是 'int'）&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;试图把整数直接加到字符串上，Python不允许不同类型直接拼接。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;concatenate：连接，拼接&lt;br&gt;str：字符串类型&lt;br&gt;int：整数类型&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;concatenate 表示“拼接”，此处特指使用 + 号连接字符串。错误原因是非字符串类型（如整数）不能直接用 + 与字符串连接，需先转为字符串。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;unsupported operand type(s) for +: 'int' and 'str'&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;不支持的操作数类型用于 +：'int' 和 'str'&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;用加号连接整数和字符串时触发，程序不懂如何操作。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;unsupported：不支持的&lt;br&gt;operand：操作数&lt;br&gt;type：类型&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;operand 指运算符两边的变量或值。此错误提示 + 两边操作数类型不匹配，解决方法是统一类型，比如 str() 转换。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;unsupported operand type(s) for -: 'str' and 'int'&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;不支持的操作数类型用于 -：'str' 和 'int'&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;减号不能用于字符串和整数之间。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;operand：操作数&lt;br&gt;str：字符串类型&lt;br&gt;int：整数类型&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;错误表明 - 运算符的操作数包含字符串和整数，这是无效的数学运算。只有数字类型支持减法。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'int' object is not iterable&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'int' 对象不可迭代&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;尝试用 for 循环或类似结构遍历一个整数，整数不能逐个元素访问。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;iterable：可迭代的&lt;br&gt;object：对象&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;iterable 指可以被 for 循环逐一取值的对象，如列表、字符串等。整数不是序列，不能迭代。常见错误如 for i in 5。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'NoneType' object is not iterable&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'NoneType' 对象不可迭代&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;试图遍历一个 None 值（例如函数没有返回结果时）。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;NoneType：None 的类型&lt;br&gt;iterable：可迭代的&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;None 是 Python 中的空值，不是容器，不能放入 for 循环。常见于忘记 return 的函数的返回值。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'int' object is not subscriptable&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'int' 对象不可下标访问&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;尝试用方括号索引一个整数，比如 x[0]，但整数不支持索引。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;subscriptable：可下标访问的&lt;br&gt;object：对象&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;subscriptable 指能用 obj[索引] 取值的对象，如列表、字典。整数是标量，不能索引。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'NoneType' object is not subscriptable&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'NoneType' 对象不可下标访问&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;对一个值为 None 的东西用方括号获取元素。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;NoneType：None 的类型&lt;br&gt;subscriptable：可下标访问的&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;例如 func()[0] 如果 func() 返回 None，就会触发此错误。需确保对象不是 None 且支持索引。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'str' object does not support item assignment&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'str' 对象不支持元素赋值&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;字符串是不可变类型，不能像列表那样直接修改某个字符。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;assignment：赋值&lt;br&gt;str：字符串类型&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Python 字符串是不可变的，所以 s[0] = 'A' 会报此错。要修改只能重新构建字符串。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'tuple' object does not support item assignment&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'tuple' 对象不支持元素赋值&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;元组是不可变的，不能使用索引修改它的元素。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;tuple：元组&lt;br&gt;assignment：赋值&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;元组一旦创建就不能改变内部元素，所以 t[0] = 1 会引发 TypeError。如果需要修改，应使用列表。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;object of type 'int' has no len()&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;类型为 'int' 的对象没有 len() 方法&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;对整数使用 len() 函数，整数没有长度可言。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;len：长度&lt;br&gt;int：整数&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;len() 用于获取序列或集合的元素个数，整数是标量，无法计算长度。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;object of type 'NoneType' has no len()&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;类型为 'NoneType' 的对象没有 len() 方法&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;试图获取一个值为 None 的对象的长度。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;NoneType：None 的类型&lt;br&gt;len：长度&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;None 不表示一个容器，因此无法计算长度。常见于忘记初始化的变量。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'float' object cannot be interpreted as an integer&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'float' 对象不能解释为整数&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;需要整数的场合（如索引、range() 参数）使用了浮点数。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;float：浮点数&lt;br&gt;interpret：解释&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;例如 range(3.5) 会触发该错误，因为 range 期望整数参数。可使用 int() 强制转换。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'str' object cannot be interpreted as an integer&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'str' 对象不能解释为整数&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;需要整数的位置传入了字符串，例如用作下标或 range 参数。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;str：字符串&lt;br&gt;interpret：解释&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;索引、range 等要求整数，如果提供字符串将报此错。转换使用 int()。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;missing 1 required positional argument: 'self'&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;缺少1个必需的位置参数：'self'&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;调用类的方法时没有提供实例对象，通常因为忘记实例化。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;positional argument：位置参数&lt;br&gt;self：self 关键字&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;此错误常发生在类方法被直接调用为 Class.method() 而非 instance.method() 时，Python 需要实例作为第一个参数 self。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;method() missing 1 required positional argument: 'x'&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;method() 缺少1个必需的位置参数：'x'&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;函数调用时漏掉了一个必须提供的参数 x。&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;positional argument：位置参数&lt;br&gt;missing：缺失&lt;br&gt;required：必需的&lt;/td&gt;
-&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;定义函数时设定了必须参数，但调用时未传入足够实参。确保提供的参数个数和定义一致。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;</description>
-        <pubDate>Thu, 23 Jul 2026 02:43:25 +0000</pubDate>
-        <guid>1784774605.954458</guid>
     </item>
 </channel>
 </rss>
