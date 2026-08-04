@@ -2,7 +2,7 @@ name: Daily RSS Update
 
 on:
   schedule:
-    - cron: '0 0 * * 1,2,4,5' 
+    - cron: '0 0 * * 1,2,4,5'
   workflow_dispatch:
 
 jobs:
@@ -18,57 +18,87 @@ jobs:
       - name: Generate RSS and Update Progress
         shell: python
         run: |
-          import os, datetime, csv
+          import os, sys, datetime, csv
           import xml.etree.ElementTree as ET
 
-          # 1. 确保进度文件存在
-          if not os.path.exists('progress/en_progress_link.txt'):
-              with open('progress/en_progress_link.txt', 'w') as f: f.write("0")
+          # ---------- 辅助函数 ----------
+          def log(msg):
+              print(f"[LOG] {msg}")
 
-          with open('progress/en_progress_link.txt', 'r') as f:
+          def error(msg):
+              print(f"[ERROR] {msg}")
+
+          # ---------- 1. 确保进度文件存在 ----------
+          progress_file = 'progress/en_progress_link.txt'
+          if not os.path.exists(progress_file):
+              with open(progress_file, 'w') as f:
+                  f.write("0")
+              log(f"创建进度文件 {progress_file}")
+
+          with open(progress_file, 'r') as f:
+              content = f.read().strip()
               try:
-                  idx = int(f.read().strip())
-              except:
+                  idx = int(content) if content else 0
+              except ValueError:
                   idx = 0
+          log(f"当前进度索引: {idx}")
 
-          # 2. 读取 CSV 数据
+          # ---------- 2. 读取 CSV 数据 ----------
+          csv_file = 'corpus/en_progress_link.csv'
           rows = []
-          if os.path.exists('corpus/en_progress_link.csv'):
-              with open('corpus/en_progress_link.csv', 'r', encoding='utf-8') as f:
-                  reader = csv.reader(f)
-                  rows = [row for row in reader if row]
-                  if len(rows) > 0:
-                      rows = rows[1:]  # 跳过表头
+          if not os.path.exists(csv_file):
+              error(f"CSV 文件不存在: {csv_file}")
+              sys.exit(1)   # 让 action 失败，便于发现问题
 
+          with open(csv_file, 'r', encoding='utf-8') as f:
+              reader = csv.reader(f)
+              # 跳过空行，并收集非空行
+              all_rows = [row for row in reader if any(cell.strip() for cell in row)]
+              if not all_rows:
+                  error("CSV 文件为空")
+                  sys.exit(1)
+              # 跳过表头（假设第一行是表头）
+              rows = all_rows[1:]
+              if not rows:
+                  error("CSV 只有表头，无数据行")
+                  sys.exit(1)
+          log(f"从 CSV 读取到 {len(rows)} 条有效数据")
+
+          # ---------- 3. 检查是否全部处理完毕 ----------
           if idx >= len(rows):
-              print("所有记录已更新完毕！")
-              exit(0)
+              log("✅ 所有记录已更新完毕，无需处理")
+              # 仍然生成一个空日志，但保证 feed.xml 不被覆盖（或您可以保留现有）
+              # 这里不退出，而是直接跳转到提交（但不修改 feed.xml）
+              # 但我们仍要提交进度文件（可能没有变化）
+              updated = False
+          else:
+              updated = True
+              # ---------- 4. 提取当前行新数据 ----------
+              current_row = rows[idx]
+              title = current_row[0].strip() if len(current_row) > 0 else "无标题"
+              link = current_row[1].strip() if len(current_row) > 1 else ""
+              content = current_row[2].strip() if len(current_row) > 2 else ""
+              pub_date = datetime.datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
 
-          # 3. 提取当前行新数据
-          current_row = rows[idx]
-          title = current_row[0].strip() if len(current_row) > 0 else "无标题"
-          link = current_row[1].strip() if len(current_row) > 1 else ""
-          content = current_row[2].strip() if len(current_row) > 2 else ""
-          pub_date = datetime.datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
+              log(f"处理第 {idx+1}/{len(rows)} 条: {title}")
 
-          # 4. 获取旧条目 (实现栈逻辑)
-          old_items = []
-          if os.path.exists('feed.xml'):
-              try:
-                  # 解析现有 XML 提取 item 节点
-                  tree = ET.parse('feed.xml')
-                  root = tree.getroot()
-                  for item in root.findall('./channel/item'):
-                      # 将 Element 对象转回字符串，并去除多余换行
-                      item_str = ET.tostring(item, encoding='unicode').strip()
-                      old_items.append(item_str)
-              except Exception as e:
-                  print(f"读取旧 RSS 文件失败 (可能是首次运行或格式错误): {e}")
+              # ---------- 5. 获取旧条目 (栈逻辑) ----------
+              old_items = []
+              if os.path.exists('feed.xml'):
+                  try:
+                      tree = ET.parse('feed.xml')
+                      root = tree.getroot()
+                      for item in root.findall('./channel/item'):
+                          # 将 Element 对象转回字符串，保留内部格式
+                          item_str = ET.tostring(item, encoding='unicode').strip()
+                          old_items.append(item_str)
+                      log(f"读取到 {len(old_items)} 条旧条目")
+                  except Exception as e:
+                      error(f"读取旧 RSS 文件失败: {e}，将重新创建")
 
-          # 5. 构建新条目字符串
-          # guid 使用 link，若无 link 则使用标题+索引确保唯一性
-          guid_val = link if link else f"{title}-{idx}"
-          new_item = f"""    <item>
+              # ---------- 6. 构建新条目 ----------
+              guid_val = link if link else f"{title}-{idx}"
+              new_item = f"""    <item>
                 <title><![CDATA[{title}]]></title>
                 <link>{link}</link>
                 <description><![CDATA[{content}]]></description>
@@ -76,15 +106,15 @@ jobs:
                 <pubDate>{pub_date}</pubDate>
               </item>"""
 
-          # 6. 合并并限制在 15 个条目 (最新的在前)
-          all_items = [new_item] + old_items
-          final_items = all_items[:15]
+              # ---------- 7. 合并并限制 15 条 ----------
+              all_items = [new_item] + old_items
+              final_items = all_items[:15]
+              log(f"合并后栈内条目数: {len(final_items)}")
 
-          # 7. 组装最终的 XML 结构
-          repo_name = os.environ.get('GITHUB_REPOSITORY', 'MyRepo')
-          items_block = "\n".join(final_items)
-          
-          rss_full = f"""<?xml version="1.0" encoding="UTF-8" ?>
+              # ---------- 8. 组装 RSS ----------
+              repo_name = os.environ.get('GITHUB_REPOSITORY', 'MyRepo')
+              items_block = "\n".join(final_items)
+              rss_full = f"""<?xml version="1.0" encoding="UTF-8" ?>
           <rss version="2.0">
           <channel>
             <title>每日更新推送</title>
@@ -95,20 +125,30 @@ jobs:
           </channel>
           </rss>"""
 
-          # 8. 保存文件并更新进度
-          with open('feed.xml', 'w', encoding='utf-8') as f:
-              f.write(rss_full)
-          
-          with open('progress/en_progress_link.txt', 'w') as f:
-              f.write(str(idx + 1))
+              # ---------- 9. 写入 feed.xml ----------
+              with open('feed.xml', 'w', encoding='utf-8') as f:
+                  f.write(rss_full)
+              log("✅ feed.xml 已写入")
 
-          print(f"✅ 处理完成！今日推送: {title}")
-          print(f"📊 当前栈内条目总数: {len(final_items)}")
+              # ---------- 10. 更新进度 ----------
+              with open(progress_file, 'w') as f:
+                  f.write(str(idx + 1))
+              log(f"进度更新为 {idx + 1}")
+
+          # 输出一个标记文件，告知后续步骤是否有实际更新（可选）
+          with open('update_status.txt', 'w') as f:
+              f.write('updated' if updated else 'no_update')
 
       - name: Commit and Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add progress.txt feed.xml
-          git commit -m "Update RSS Feed (Stack 15): $(date)" || exit 0
-          git push
+          # 添加所有可能变化的文件
+          git add feed.xml progress/en_progress_link.txt
+          # 如果有更新，则提交；否则跳过（避免空提交）
+          if git diff --staged --quiet; then
+            echo "无变更需要提交"
+          else
+            git commit -m "Update RSS Feed (Stack 15): $(date)"
+            git push
+          fi
