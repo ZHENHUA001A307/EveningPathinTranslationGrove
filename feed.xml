@@ -1,112 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-    <title>AI 语言学习推送源</title>
-    <link>https://github.com</link>
-    <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
+  <title>每日更新推送</title>
+  <link>https://github.com/ZHENHUA001A307/EveningPathinTranslationGrove</link>
+  <description>自动更新的 RSS 列表 (保留最近 15 条)</description>
+  <lastBuildDate>Fri, 07 Aug 2026 02:01:50 +0000</lastBuildDate>
     <item>
+      <title><![CDATA[Unit 53-55]]></title>
+      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
+      <description><![CDATA[【非谓语动词 60%】动词+ing（enjoy/stop）；动词+to do（decide/forget）；动词+宾语+to do（want/advise）]]></description>
+      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
+      <pubDate>Fri, 07 Aug 2026 02:01:50 +0000</pubDate>
+    </item>
+<item>
         <title>[英语] IELTS4 Reading Passage 1 - 2026-08-06 02:38</title>
-        <description><![CDATA[<p>⏱ 预计阅读时间：38 分钟 (1899 字符)</p>
-<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
-  <tr><th style='border: 1px solid #aaa; padding: 6px;'>原文</th><th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th><th style='border: 1px solid #aaa; padding: 6px;'>词汇</th><th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th></tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The second question concerned the geographical location of rainforests.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>第二个问题涉及热带雨林的地理位置。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>geographical: 地理的<br>rainforest: 热带雨林<br>concerned: 涉及，与…有关</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>concerned 在此为及物动词，意为“涉及”；geographical location 是名词短语作宾语。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The commonest responses were continents or countries: Africa (given by 43% of children), South America (30%), Brazil (25%).</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>最常见的回答是大陆或国家：非洲（43%的儿童提及）、南美洲（30%）、巴西（25%）。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>commonest: 最常见的 (common的最高级)<br>continents: 大陆<br>responses: 回答</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>commonest 是 common 的最高级形式；括号中的 given by... 是过去分词短语作后置定语，修饰前面的 Africa 等。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Some children also gave more general locations, such as being near the Equator.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>一些孩子还给出了更笼统的位置，例如在赤道附近。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Equator: 赤道<br>general: 大致的，笼统的<br>being near: 位于…附近</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>such as being near the Equator 中，such as 后接动名词短语表示举例；being near 相当于“在…附近”。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Responses to question three concerned the importance of rainforests.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>对问题三的回答涉及热带雨林的重要性。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>responses: 回答<br>importance: 重要性</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Responses to... 表示“针对…的回答”，concerned 再次作“涉及”解。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The dominant idea, raised by 64% of the pupils, was that rainforests provide animals with habitats.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>由64%的小学生提出的主要观点是，热带雨林为动物提供了栖息地。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>dominant: 主导的，主要的<br>raised: 提出<br>pupils: 学生<br>habitats: 栖息地<br>provide...with...: 为…提供…</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>raised by... 是过去分词短语作定语；that 引导表语从句；固定搭配 provide sb. with sth.。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Fewer students responded that rainforests provide plant habitats, and even fewer (60%) raised the idea of rainforest as animal habitats.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>较少的学生回答雨林提供植物栖息地，而更少（的学生）（60%）提出了雨林作为动物栖息地的观点。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>fewer: 更少的<br>responded: 回答<br>raised the idea: 提出观点</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Fewer students... 是比较级；括号中的百分比对更少的学生作补充说明。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Similarly, but at a lower level, more girls (13%) than boys (5%) said that rainforests provided human habitats.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>类似地，但比例更低，更多的女孩（13%）比男孩（5%）说雨林提供了人类栖息地。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>similarly: 类似地<br>at a lower level: 在较低层次/比例上<br>provided: 提供</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Similarly, but at a lower level 作状语；more... than... 比较结构；said 后接宾语从句。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>These observations are generally consistent with our previous studies of pupils' views about the use and conservation of rainforests, in which girls were shown to be more sympathetic to animals and expressed views which seem to place an intrinsic value on non-human animal life.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>这些观察结果总体上与我们之前关于学生对雨林利用和保护看法的研究一致，在那些研究中，女孩被证明对动物更有同情心，并表达了似乎赋予非人类动物生命内在价值的观点。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>observations: 观察(结果)<br>consistent with: 与…一致<br>previous: 之前的<br>conservation: 保护<br>sympathetic: 有同情心的<br>intrinsic: 内在的，固有的<br>place a value on: 赋予…价值<br>non-human: 非人类的</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>are consistent with 为固定搭配；in which 引导非限制性定语从句，指代 studies；were shown to be 是被动语态；place an intrinsic value on... 是固定表达。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The fourth question concerned the causes of the destruction of rainforests.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>第四个问题涉及雨林破坏的原因。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>causes: 原因<br>destruction: 破坏</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>the causes of the destruction of rainforests 是由 of 构成的所属结构。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Perhaps encouragingly, more than half of the pupils (59%) identified that it is human activities which are destroying rainforests, some personalizing the responsibility by the use of terms such as 'we are'.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>也许令人鼓舞的是，超过一半的学生（59%）认识到是人类活动正在破坏热带雨林，一些人通过使用“我们是”这样的措辞将责任个人化。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>encouragingly: 令人鼓舞地<br>identified: 识别出，发现<br>personalizing: 使个人化<br>responsibility: 责任<br>terms: 措辞</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Perhaps encouragingly 是句子副词；it is... which... 为强调句型；some personalizing... 是独立主格结构，作伴随状语。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>About 18% of the pupils referred specifically to logging activity.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>大约18%的学生特别提到了伐木活动。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>referred to: 提到<br>specifically: 特别地，具体地<br>logging: 伐木</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>referred to 是固定短语，注意 refer 的过去式 referred 要双写 r。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>One misconception, expressed by some 1% of the pupils, was that acid rain is responsible for rainforest destruction.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>一个误解，由大约1%的学生表达，是酸雨导致了雨林破坏。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>misconception: 误解，错误观念<br>expressed: 表达<br>acid rain: 酸雨<br>responsible for: 对…负责，是…的原因</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>expressed by... 是过去分词短语作定语；that 引导表语从句；is responsible for 表示“是…的原因”。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>A similar proportion said that pollution is destroying rainforests.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>类似比例（的学生）说污染正在破坏雨林。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>proportion: 比例<br>pollution: 污染</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>A similar proportion 作主语，指前文提到的百分比的学生。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Here, children are confusing rainforest destruction with damage to the forests of Western Europe by these factors.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>这里，孩子们将雨林破坏与这些因素对西欧森林造成的破坏混淆了。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>confusing: 混淆<br>damage: 损害, 破坏<br>Western Europe: 西欧<br>factors: 因素</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>are confusing A with B 是 confuse... with... 的进行时，意为“把A与B混淆”；damage to the forests 是名词短语。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>While two fifths of the students provided the information that the rainforests provide oxygen, in some cases this response also embraced the misconception that rainforest destruction would reduce atmospheric oxygen, making the atmosphere incompatible with human life on Earth.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>虽然五分之二的学生提供了雨林提供氧气这一信息，但在某些情况下，这种回答也包含了误解，即雨林破坏会减少大气中的氧气，使大气变得不适合人类在地球上生存。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>two fifths: 五分之二<br>embraced: 包含，接纳<br>reduce: 减少<br>atmospheric: 大气的<br>incompatible: 不相容的，不适合的</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>While 引导让步状语从句；that the rainforests provide oxygen 为同位语从句；embraced the misconception that... 中 that 引导同位语从句；making the atmosphere... 是现在分词短语作结果状语，其中 incompatible with 是固定搭配。</td>
-  </tr>
-</table>]]></description>
+        <description>&lt;p&gt;⏱ 预计阅读时间：38 分钟 (1899 字符)&lt;/p&gt;
+&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
+  &lt;tr&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The second question concerned the geographical location of rainforests.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;第二个问题涉及热带雨林的地理位置。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;geographical: 地理的&lt;br&gt;rainforest: 热带雨林&lt;br&gt;concerned: 涉及，与…有关&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;concerned 在此为及物动词，意为“涉及”；geographical location 是名词短语作宾语。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The commonest responses were continents or countries: Africa (given by 43% of children), South America (30%), Brazil (25%).&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;最常见的回答是大陆或国家：非洲（43%的儿童提及）、南美洲（30%）、巴西（25%）。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;commonest: 最常见的 (common的最高级)&lt;br&gt;continents: 大陆&lt;br&gt;responses: 回答&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;commonest 是 common 的最高级形式；括号中的 given by... 是过去分词短语作后置定语，修饰前面的 Africa 等。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Some children also gave more general locations, such as being near the Equator.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一些孩子还给出了更笼统的位置，例如在赤道附近。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Equator: 赤道&lt;br&gt;general: 大致的，笼统的&lt;br&gt;being near: 位于…附近&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;such as being near the Equator 中，such as 后接动名词短语表示举例；being near 相当于“在…附近”。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Responses to question three concerned the importance of rainforests.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;对问题三的回答涉及热带雨林的重要性。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;responses: 回答&lt;br&gt;importance: 重要性&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Responses to... 表示“针对…的回答”，concerned 再次作“涉及”解。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The dominant idea, raised by 64% of the pupils, was that rainforests provide animals with habitats.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;由64%的小学生提出的主要观点是，热带雨林为动物提供了栖息地。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;dominant: 主导的，主要的&lt;br&gt;raised: 提出&lt;br&gt;pupils: 学生&lt;br&gt;habitats: 栖息地&lt;br&gt;provide...with...: 为…提供…&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;raised by... 是过去分词短语作定语；that 引导表语从句；固定搭配 provide sb. with sth.。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Fewer students responded that rainforests provide plant habitats, and even fewer (60%) raised the idea of rainforest as animal habitats.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;较少的学生回答雨林提供植物栖息地，而更少（的学生）（60%）提出了雨林作为动物栖息地的观点。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;fewer: 更少的&lt;br&gt;responded: 回答&lt;br&gt;raised the idea: 提出观点&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Fewer students... 是比较级；括号中的百分比对更少的学生作补充说明。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Similarly, but at a lower level, more girls (13%) than boys (5%) said that rainforests provided human habitats.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;类似地，但比例更低，更多的女孩（13%）比男孩（5%）说雨林提供了人类栖息地。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;similarly: 类似地&lt;br&gt;at a lower level: 在较低层次/比例上&lt;br&gt;provided: 提供&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Similarly, but at a lower level 作状语；more... than... 比较结构；said 后接宾语从句。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;These observations are generally consistent with our previous studies of pupils' views about the use and conservation of rainforests, in which girls were shown to be more sympathetic to animals and expressed views which seem to place an intrinsic value on non-human animal life.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这些观察结果总体上与我们之前关于学生对雨林利用和保护看法的研究一致，在那些研究中，女孩被证明对动物更有同情心，并表达了似乎赋予非人类动物生命内在价值的观点。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;observations: 观察(结果)&lt;br&gt;consistent with: 与…一致&lt;br&gt;previous: 之前的&lt;br&gt;conservation: 保护&lt;br&gt;sympathetic: 有同情心的&lt;br&gt;intrinsic: 内在的，固有的&lt;br&gt;place a value on: 赋予…价值&lt;br&gt;non-human: 非人类的&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;are consistent with 为固定搭配；in which 引导非限制性定语从句，指代 studies；were shown to be 是被动语态；place an intrinsic value on... 是固定表达。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The fourth question concerned the causes of the destruction of rainforests.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;第四个问题涉及雨林破坏的原因。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;causes: 原因&lt;br&gt;destruction: 破坏&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;the causes of the destruction of rainforests 是由 of 构成的所属结构。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Perhaps encouragingly, more than half of the pupils (59%) identified that it is human activities which are destroying rainforests, some personalizing the responsibility by the use of terms such as 'we are'.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;也许令人鼓舞的是，超过一半的学生（59%）认识到是人类活动正在破坏热带雨林，一些人通过使用“我们是”这样的措辞将责任个人化。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;encouragingly: 令人鼓舞地&lt;br&gt;identified: 识别出，发现&lt;br&gt;personalizing: 使个人化&lt;br&gt;responsibility: 责任&lt;br&gt;terms: 措辞&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Perhaps encouragingly 是句子副词；it is... which... 为强调句型；some personalizing... 是独立主格结构，作伴随状语。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;About 18% of the pupils referred specifically to logging activity.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;大约18%的学生特别提到了伐木活动。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;referred to: 提到&lt;br&gt;specifically: 特别地，具体地&lt;br&gt;logging: 伐木&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;referred to 是固定短语，注意 refer 的过去式 referred 要双写 r。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;One misconception, expressed by some 1% of the pupils, was that acid rain is responsible for rainforest destruction.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一个误解，由大约1%的学生表达，是酸雨导致了雨林破坏。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;misconception: 误解，错误观念&lt;br&gt;expressed: 表达&lt;br&gt;acid rain: 酸雨&lt;br&gt;responsible for: 对…负责，是…的原因&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;expressed by... 是过去分词短语作定语；that 引导表语从句；is responsible for 表示“是…的原因”。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;A similar proportion said that pollution is destroying rainforests.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;类似比例（的学生）说污染正在破坏雨林。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;proportion: 比例&lt;br&gt;pollution: 污染&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;A similar proportion 作主语，指前文提到的百分比的学生。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Here, children are confusing rainforest destruction with damage to the forests of Western Europe by these factors.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这里，孩子们将雨林破坏与这些因素对西欧森林造成的破坏混淆了。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;confusing: 混淆&lt;br&gt;damage: 损害, 破坏&lt;br&gt;Western Europe: 西欧&lt;br&gt;factors: 因素&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;are confusing A with B 是 confuse... with... 的进行时，意为“把A与B混淆”；damage to the forests 是名词短语。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;While two fifths of the students provided the information that the rainforests provide oxygen, in some cases this response also embraced the misconception that rainforest destruction would reduce atmospheric oxygen, making the atmosphere incompatible with human life on Earth.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;虽然五分之二的学生提供了雨林提供氧气这一信息，但在某些情况下，这种回答也包含了误解，即雨林破坏会减少大气中的氧气，使大气变得不适合人类在地球上生存。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;two fifths: 五分之二&lt;br&gt;embraced: 包含，接纳&lt;br&gt;reduce: 减少&lt;br&gt;atmospheric: 大气的&lt;br&gt;incompatible: 不相容的，不适合的&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;While 引导让步状语从句；that the rainforests provide oxygen 为同位语从句；embraced the misconception that... 中 that 引导同位语从句；making the atmosphere... 是现在分词短语作结果状语，其中 incompatible with 是固定搭配。&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</description>
         <pubDate>Thu, 06 Aug 2026 02:38:53 +0000</pubDate>
         <guid>1785983933.055127</guid>
     </item>
 <item>
-      <title><![CDATA[Unit 35-37]]></title>
+      <title>Unit 35-37</title>
       <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
-      <description><![CDATA[【情态动词 60%】had better/it's time；would（想象、过去习惯）；can/could/would you（请求）]]></description>
+      <description>【情态动词 60%】had better/it's time；would（想象、过去习惯）；can/could/would you（请求）</description>
       <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
       <pubDate>Thu, 06 Aug 2026 01:22:43 +0000</pubDate>
     </item>
@@ -290,37 +298,6 @@
       <description>/</description>
       <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
       <pubDate>Thu, 30 Jul 2026 15:37:57 +0000</pubDate>
-    </item>
-<item>
-      <title>第一章 基本句型及补语</title>
-      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
-      <description>/</description>
-      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
-      <pubDate>Thu, 30 Jul 2026 13:34:52 +0000</pubDate>
-    </item>
-<item>
-        <title>[英语] 二、现在完成时与过去时 - 2026-07-30 02:25</title>
-        <description>&lt;p&gt;⏱ 预计阅读时间：21 分钟 (1013 字符)&lt;/p&gt;
-&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
-&lt;tr&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;注解&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 1-He lost his key, but now he's found it.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;他丢了钥匙，但现在他找到了。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;对比一般过去时（lost）和现在完成时（'s found），强调过去丢失后，现在已找回的状态。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;lost: 丢失 (lose的过去式)&lt;br&gt;found: 找到 (find的过去分词)&lt;br&gt;key: 钥匙&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;lost 一般过去时，描述过去的动作；'s found 现在完成时，强调对现在的影响（钥匙现在找到了）。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 1-I've repaired the washing machine. It works now.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;我修好了洗衣机。它现在能用了。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;现在完成时表示修理完成，并对现在产生效果（机器正常工作）。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;repaired: 修理 (repair的过去分词)&lt;br&gt;washing machine: 洗衣机&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;I've repaired 现在完成时，强调过去动作的结果延续到现在；works 一般现在时表示当前状态。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 1-Mozart wrote more than 600 pieces of music.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;莫扎特写了600多首乐曲。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一般过去时用于描述已故人物过去的成就，因为莫扎特已不在世，用wrote。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;wrote: 写 (write的过去式)&lt;br&gt;pieces: 作品；首（复数）&lt;br&gt;more than: 超过&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;wrote 是一般过去时，说明动作发生在过去且已结束；提及历史人物时通常用过去时。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 1-Look! Somebody has spilt something on the sofa.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;看！有人把什么东西洒在沙发上了。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;现在完成时用于刚刚发生的动作，对现在有可见的影响（沙发脏了）。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;spilt: 洒出 (spill的过去分词，也可用spilled)&lt;br&gt;sofa: 沙发&lt;br&gt;somebody: 某人&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;has spilt 是现在完成时，强调结果（现在洒了东西仍在）；Look! 引起注意。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 1-I didn't do it.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;我没做那件事。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一般过去时的否定，表示过去没有做某事。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;didn't: 没有 (did not的缩写)&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;didn't do 为一般过去时否定结构：助动词did + not + 动词原形。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 2-It was very cold yesterday.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;昨天非常冷。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一般过去时描述过去特定时间（yesterday）的天气。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;cold: 冷的&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;was 是一般过去时，因为有明确的过去时间状语 yesterday。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 2-I've done a lot of work today.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;我今天做了很多工作。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;现在完成时表示到今天为止已完成的工作量，today 还未结束。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;done: 做 (do的过去分词)&lt;br&gt;a lot of: 许多&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;have done 现在完成时，与未结束的时间段 today 连用。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 2-I did a lot of work yesterday.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;我昨天做了很多工作。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一般过去时，因为动作发生在昨天（已结束的时间）。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;did: 做 (do的过去式)&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;did 是一般过去时，yesterday 表示结束的时间段。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 2-Have you seen Anna this morning?&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;你今天早上看到安娜了吗？&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;现在完成时用于询问到目前为止的经历，this morning 可能尚未结束。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;seen: 看见 (see的过去分词)&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Have you seen 为现在完成时疑问句，隐含上午时段可能还未结束。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 2-Did you see Anna this morning?&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;你今天早上看到安娜了吗？&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一般过去时，可能表示早上已经过去了，或者在特定时间点询问。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;see: 看见&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Did you see 一般过去时问句，暗示上午时段已结束或只询问过去动作本身。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Present perfect vs past 2-Jack lived in New York for ten years. Now he lives in LA.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;杰克在纽约住了十年。现在他住在洛杉矶。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一般过去时 lived 表示过去居住的十年，现已不住那里；现在时 lives 对比。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;lived: 居住 (live的过去式)&lt;br&gt;for ten years: 十年&lt;br&gt;LA: 洛杉矶&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;lived 过去时表示与现在无关的过去时段；now 转折引出现在的状况。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Past perfect (I had done)-Paul had already gone home when Sarah arrived.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;萨拉到达时，保罗已经回家了。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;过去完成时 had gone 表示在 Sarah arrived 之前已完成的动作。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;had gone: 已经离开 (go的过去完成)&lt;br&gt;arrived: 到达 (arrive过去式)&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;had gone 是过去完成时，表示“过去的过去”；when 引导时间状语从句。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Past perfect (I had done)-I'd seen her before, but I couldn't remember where.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;我以前见过她，但是不记得在哪里了。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;过去完成时 I'd seen 表示在 couldn't remember 之前就见过她。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;I'd seen: 我已经见过 (I had seen)&lt;br&gt;remember: 记得&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;I'd seen 是过去完成时，before 表示更早的时间；couldn't 是过去时。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Past perfect (I had done)-The house was dirty. They hadn't cleaned it for weeks.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;房子很脏。他们已经好几周没打扫了。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;过去完成时 hadn't cleaned 表示在 was dirty 这个过去时间点之前持续数周没打扫。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;dirty: 脏的&lt;br&gt;hadn't cleaned: 没有打扫 (过去完成否定)&lt;br&gt;for weeks: 好几周&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;hadn't cleaned 过去完成时，表示在过去某个时间前一直未完成的动作，与 for weeks 搭配表示持续时段。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Past perfect continuous (I had been doing)-It had been raining, so the ground was wet.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一直下着雨，所以地面是湿的。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;过去完成进行时 had been raining 强调在过去某个时间之前一直在下雨，导致地面湿。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;had been raining: 一直下雨 (过去完成进行时)&lt;br&gt;ground: 地面&lt;br&gt;wet: 湿的&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;had been raining 是过去完成进行时，表示过去持续的动作对过去某个时刻（was wet）造成影响。&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
-        <pubDate>Thu, 30 Jul 2026 02:25:08 +0000</pubDate>
-        <guid>1785378308.365841</guid>
     </item>
 </channel>
 </rss>
