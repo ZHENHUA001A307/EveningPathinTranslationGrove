@@ -1,11 +1,109 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-  <title>每日更新推送</title>
-  <link>https://github.com/ZHENHUA001A307/EveningPathinTranslationGrove</link>
-  <description>自动更新的 RSS 列表 (保留最近 15 条)</description>
-  <lastBuildDate>Mon, 10 Aug 2026 00:51:26 +0000</lastBuildDate>
+    <title>AI 语言学习推送源</title>
+    <link>https://github.com</link>
+    <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
     <item>
+        <title>[英语] IELTS4 Reading Passage 2 - 2026-08-10 01:53</title>
+        <description><![CDATA[<p>⏱ 预计阅读时间：49 分钟 (2420 字符)</p>
+<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
+  <tr><th style='border: 1px solid #aaa; padding: 6px;'>原文</th><th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th><th style='border: 1px solid #aaa; padding: 6px;'>词汇</th><th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th></tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>The sense of touch has sometimes been described as weak too, but this view is probably mistaken.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>触觉有时也被描述为很弱，但这种看法很可能是错误的。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>touch: 触觉<br>described as: 被描述为<br>view: 观点，看法<br>mistaken: 错误的</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“has been described as” 是现在完成时被动语态，表示“一直被描述为”；“this view is probably mistaken” 中 mistaken 是形容词作表语，表示“错误的”。注意转折连词 but。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Trainers of captive dolphins and small whales often remark on their animals&#39; responsiveness to being touched or rubbed, and both captive and freeranging cetacean individuals of all species (particularly adults and calves, or members of the same subgroup) appear to make frequent contact.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>圈养海豚和小鲸鱼的训练师经常谈及它们的动物对被触摸或揉搓的反应性，而且所有物种的圈养和自由放养的鲸目动物个体（特别是成年和幼崽，或者同一亚群的成员）似乎会频繁接触。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>captive: 圈养的<br>remark on: 谈及，评论<br>responsiveness: 反应性<br>touched or rubbed: 被触摸或揉搓<br>freeranging: 自由放养的<br>cetacean: 鲸目动物<br>calves: 幼崽<br>subgroup: 亚群<br>make contact: 进行接触</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“remark on” 为固定搭配，表示“评论/谈及”；“responsiveness to being touched” 中 to 是介词，后接动名词被动式 being touched； “both captive and freeranging” 并列作定语修饰 cetacean individuals； “appear to make contact” 表示“似乎进行接触”。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>This contact may help to maintain order within a group, and stroking or touching are part of the courtship ritual in most species.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>这种接触可能有助于维持群体内的秩序，而抚摸或触碰在大多数物种中是求偶仪式的一部分。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>maintain: 维持<br>order: 秩序<br>stroking: 抚摸<br>courtship: 求偶<br>ritual: 仪式</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“help to maintain” 中 help 后可接带 to 或不带 to 的不定式； “be part of” 意为“是……的一部分”； “courtship ritual” 为固定搭配“求偶仪式”。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>The area around the blowhole is also particularly sensitive and captive animals often object strongly to being touched there.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>喷气孔周围的区域也特别敏感，圈养动物常常强烈反对被触摸那里。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>blowhole: 喷气孔<br>sensitive: 敏感的<br>object to: 反对</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“object to” 中 to 为介词，后接动名词被动式 being touched； “particularly sensitive” 作表语，表示“尤其敏感”。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>The sense of vision is developed to different degrees in different species.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>视觉在不同物种中发展到了不同的程度。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>vision: 视觉<br>degree: 程度</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“is developed to different degrees” 被动语态，表示“被发展到不同程度”，强调客观描述。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Baleen species studied at close quarters underwater - specifically a grey whale calf in captivity for a year, and free-ranging right whales and humpback whales studied and filmed off Argentina and Hawaii - have obviously tracked objects with vision underwater, and they can apparently see moderately well both in water and in air.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>在水下近距离研究的须鲸物种——具体来说，一只被圈养了一年的灰鲸幼崽，以及在阿根廷和夏威夷附近研究并拍摄的自由放养的露脊鲸和座头鲸——显然在水下用视觉追踪物体，而且它们显然在水中和空气中都有中等的视力。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>baleen: 鲸须<br>at close quarters: 近距离地<br>grey whale: 灰鲸<br>right whale: 露脊鲸<br>humpback whale: 座头鲸<br>tracked: 追踪<br>moderately: 中等地</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“studied at close quarters” 是过去分词短语作定语；破折号之间是具体举例； “have tracked” 为现在完成时； “see moderately well” 表示视力中等； “both in water and in air” 并列状语。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>However, the position of the eyes so restricts the field of vision in baleen whales that they probably do not have stereoscopic vision.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>然而，眼睛的位置如此限制须鲸的视野，以至于它们可能没有立体视觉。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>restricts: 限制<br>field of vision: 视野<br>stereoscopic: 立体的</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“so... that...” 句型表示“如此……以至于……”； “restrict the field of vision” 搭配； “stereoscopic vision” 意为“立体视觉”。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>On the other hand, the position of the eyes in most dolphins and porpoises suggests that they have stereoscopic vision forward and downward.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>另一方面，大多数海豚和鼠海豚的眼睛位置表明它们有向前和向下的立体视觉。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>porpoises: 鼠海豚<br>stereoscopic: 立体的<br>forward and downward: 向前和向下</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“On the other hand” 表示对比； “suggests that” 后接宾语从句； “forward and downward” 作后置定语修饰 vision。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Eye position in freshwater dolphins, which often swim on their side or upside down while feeding, suggests that what vision they have is stereoscopic forward and upward.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>淡水海豚的眼睛位置——它们经常在进食时侧着身子或倒置游泳——表明它们所具有的视觉是向前和向上的立体视觉。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>freshwater: 淡水<br>upside down: 颠倒<br>feeding: 进食</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“which often swim...” 是非限制性定语从句； “what vision they have” 是主语从句，相当于 the vision that they have； “on their side or upside down” 方式状语。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>By comparison, the bottlenose dolphin has extremely keen vision in water.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>相比之下，宽吻海豚在水中有极其敏锐的视觉。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>bottlenose dolphin: 宽吻海豚<br>keen: 敏锐的</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“By comparison” 意为“相比之下”； “extremely keen vision” 表示“极其敏锐的视觉”。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Judging from the way it watches and tracks airborne flying fish, it can apparently see fairly well through the air-water interface as well.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>从它观察和追踪空中飞鱼的方式来看，它显然也能透过空气-水的界面看得相当清楚。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>judging from: 从……判断<br>airborne: 空中的<br>flying fish: 飞鱼<br>interface: 界面</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“Judging from...” 是垂悬分词作状语； “the way it watches” 方式状语从句； “see fairly well through the air-water interface” 动介搭配。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>And although preliminary experimental evidence suggests that their in-air vision is poor, the accuracy with which dolphins leap high to take small fish out of a trainer&#39;s hand provides anecdotal evidence to the contrary.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>而且，尽管初步的实验证据表明它们的空中视觉很差，但海豚高高跳起从训练员手中取走小鱼的准确性提供了相反的轶事证据。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>preliminary: 初步的<br>experimental: 实验的<br>accuracy: 准确性<br>leap: 跳跃<br>anecdotal: 轶事的<br>to the contrary: 相反地</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“although” 引导让步状语从句； “the accuracy with which dolphins leap...” 是“介词+关系代词”引导的定语从句，先行词 accuracy； “provides anecdotal evidence to the contrary” 提供了相反的非正式证据。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>Such variation can no doubt be explained with reference to the habitats in which individual species have developed.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>这种差异无疑可以通过各个物种发展所处的栖息地来解释。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>variation: 差异<br>no doubt: 无疑<br>with reference to: 根据，参考<br>habitats: 栖息地</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“can no doubt be explained” 被动语态； “with reference to” 意为“根据，参考”； “in which individual species have developed” 定语从句修饰 habitats。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>For example, vision is obviously more useful to species inhabiting clear open waters than to those living in turbid rivers and flooded plains.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>例如，视觉对于栖息在清澈开阔水域的物种显然比对于生活在浑浊河流和泛滥平原的物种更有用。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>inhabiting: 栖息于<br>turbid: 浑浊的<br>flooded plains: 泛滥平原</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“more useful to... than to...” 比较结构； “species inhabiting...” 现在分词作定语； “those living in...” 中 those 指代 species。</td>
+  </tr>
+  <tr>
+    <td style='border: 1px solid #aaa; padding: 6px;'>The South American boutu and Chinese beiji, for instance, appear to have very limited vision, and the Indian susus are blind, their eyes reduced to slits that probably allow them to sense only the direction and intensity of light.</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>例如，南美洲的亚马逊河豚和中国的白鳍豚似乎视力非常有限，而印度河豚是盲的，它们的眼睛退化为狭缝，可能只能感知光的方向和强度。</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>boutu: 亚马逊河豚<br>beiji: 白鳍豚<br>susus: 印度河豚<br>blind: 盲的<br>slits: 狭缝<br>intensity: 强度</td>
+    <td style='border: 1px solid #aaa; padding: 6px;'>“appear to have” 似乎有； “their eyes reduced to slits” 是独立主格结构，表示伴随状态； “that probably allow...” 定语从句修饰 slits； “sense the direction and intensity” 感知方向和强度。</td>
+  </tr>
+</table>]]></description>
+        <pubDate>Mon, 10 Aug 2026 01:53:40 +0000</pubDate>
+        <guid>1786326820.776538</guid>
+    </item>
+<item>
       <title><![CDATA[Unit 56-58]]></title>
       <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
       <description><![CDATA[【非谓语动词 60%】remember/regret（ing vs to do）；try/need/help；like/would like（ing vs to do）]]></description>
