@@ -3,7 +3,7 @@ name: Study English Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 1,4'
+    - cron: '0 0 * * 1'
 
 permissions:
   contents: write
