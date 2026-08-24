@@ -1,117 +1,125 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-    <title>AI 语言学习推送源</title>
-    <link>https://github.com</link>
-    <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
+  <title>每日更新推送</title>
+  <link>https://github.com/ZHENHUA001A307/EveningPathinTranslationGrove</link>
+  <description>自动更新的 RSS 列表 (保留最近 15 条)</description>
+  <lastBuildDate>Mon, 24 Aug 2026 00:40:38 +0000</lastBuildDate>
     <item>
+      <title><![CDATA[Unit 125-127]]></title>
+      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
+      <description><![CDATA[【介词 50%】in/at/on（位置）3；to/at/in/into（方向与到达）；in/on/at（其他用法）]]></description>
+      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
+      <pubDate>Mon, 24 Aug 2026 00:40:38 +0000</pubDate>
+    </item>
+<item>
         <title>[英语] IELTS5 Reading Passage 1 - 2026-08-20 01:41</title>
-        <description><![CDATA[<p>⏱ 预计阅读时间：45 分钟 (2235 字符)</p>
-<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
-  <tr>
-    <th style='border: 1px solid #aaa; padding: 6px;'>原文</th>
-    <th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th>
-    <th style='border: 1px solid #aaa; padding: 6px;'>词汇</th>
-    <th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The work was immense; filling about eighty large notebooks (and without a library to hand), Johnson wrote the definitions of over 40,000 words, and illustrated their many meanings with some 114,000 quotations drawn from English writing on every subject, from the Elizabethans to his own time.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>这项工作规模巨大；约翰逊填写了大约八十本大笔记本（而且手边没有图书馆），他写下了四万多个词的定义，并用约十一万四千条引文阐释了它们的许多含义，这些引文来自各个学科的英语作品，从伊丽莎白时代一直到他自己所处的时代。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'immense: 巨大的，广大的'<br>'definitions: 定义'<br>'illustrated: 阐释，说明'<br>'quotations: 引文，引语'<br>'drawn from: 取自，来自'<br>'Elizabethans: 伊丽莎白时代的人/作家'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>分号连接两个并列分句；后半句有现在分词短语 filling... 作伴随/补充说明；Johnson wrote... and illustrated... 为并列谓语；drawn from... 是过去分词短语作后置定语修饰 quotations；from the Elizabethans to his own time 是介词短语表范围。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>He did not expect to achieve complete originality.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>他并未指望做到完全原创。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'achieve: 实现，达到'<br>'complete: 完全的'<br>'originality: 独创性，原创性'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>did not expect to do sth 固定结构，表示“没指望/没预料到会做某事”；achieve 后接名词，常表示实现目标、成就等。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Working to a deadline, he had to draw on the best of all previous dictionaries, and to make his work one of heroic synthesis.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>由于必须在截止日期前完成，他不得不借鉴此前所有词典中的精华，并使自己的作品成为一部英雄般的综合之作。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'deadline: 截止日期'<br>'draw on: 利用，借鉴'<br>'previous: 先前的'<br>'heroic: 英雄般的，宏伟的'<br>'synthesis: 综合，合成'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Working to a deadline 是现在分词短语作原因/伴随状语；had to draw on... and to make... 并列不定式作 had to 的宾语，说明不得不做的两件事；one of heroic synthesis 中 of 加名词表示性质、特征。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>In fact, it was very much more.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>事实上，它的意义远不止于此。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'In fact: 事实上'<br>'very much more: 多得多，远不止此'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>In fact 作插入语表示强调或转折；more 在此为代词，指代“更大的成就/更多的意义”，very much 修饰比较级 more。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Unlike his predecessors, Johnson treated English very practically, as a living language, with many different shades of meaning.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>与前辈们不同，约翰逊非常注重实用地对待英语，把它当作一门活的语言，具有许多不同的意义层次。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'unlike: 与……不同'<br>'predecessors: 前任，前辈'<br>'practically: 实际地，注重实用地'<br>'living language: 活的语言'<br>'shades: 细微差别，层次'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Unlike his predecessors 是介词短语作状语，表示对比；treated English very practically 中 practically 为副词修饰动词；as a living language 是介词短语作方式状语，说明如何对待英语；with many different shades of meaning 为伴随状语。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>He adopted his definitions on the principle of English common law - according to precedent.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>他按照英国普通法的原则——遵循先例——来确定词义定义。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'adopted: 采纳，采用'<br>'definitions: 定义'<br>'principle: 原则'<br>'common law: 普通法'<br>'according to: 根据'<br>'precedent: 先例'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>adopted... on the principle of... 表示“按照……原则采纳/制定……”；破折号后 according to precedent 是对 principle 的补充说明，相当于同位语；according to 是固定搭配。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>After its publication, his Dictionary was not seriously rivalled for over a century.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>出版之后，他的词典在一个多世纪里都没有遇到真正有力的竞争对手。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'publication: 出版'<br>'seriously: 真正地，严重地'<br>'rivalled: 与……匹敌，竞争'<br>'over a century: 一个多世纪'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>After its publication 是时间状语；was not seriously rivalled 是被动语态，表示“没有受到严重竞争/挑战”；for over a century 表示持续一段时间。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>After many vicissitudes the Dictionary was finally published on 15 April 1775.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>历经许多波折之后，这部词典终于在1775年4月15日出版。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'vicissitudes: 变迁，波折，沉浮'<br>'finally: 终于'<br>'published: 出版'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>After many vicissitudes 是时间状语；was finally published 为被动语态；日期前用 on，具体某一天用介词 on。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>It was instantly recognised as a landmark throughout Europe.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>它立即在欧洲各地被公认为一座里程碑。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'instantly: 立即'<br>'recognised as: 被公认为'<br>'landmark: 里程碑，标志性成果'<br>'throughout: 遍及，贯穿'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>was instantly recognised as 是被动语态，固定搭配 recognise...as... 表示“把……认作/公认为……”；throughout Europe 表示范围。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'This very noble work,' wrote the leading Italian lexicographer, 'will be a perpetual monument of Fame to the Author, an Honour to his own Country in particular, and a general Benefit to the republic of Letters throughout Europe.'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>“这部非常崇高的作品，”意大利著名词典编纂者写道，“将成为作者永恒的声誉丰碑，尤其为他自己的国家带来荣耀，并为整个欧洲文学界带来普遍福祉。”</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'noble: 崇高的，高贵的'<br>'leading: 领头的，著名的'<br>'lexicographer: 词典编纂者'<br>'perpetual: 永恒的'<br>'monument: 丰碑，纪念碑'<br>'Fame: 声誉，名望'<br>'Author: 作者'<br>'Honour: 荣誉'<br>'in particular: 尤其'<br>'general: 普遍的'<br>'Benefit: 福祉，益处'<br>'republic of Letters: 文学界，知识界'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>直接引语被插入语 wrote the leading Italian lexicographer 分隔，引语前后用逗号；a perpetual monument of Fame to..., an Honour to..., and a general Benefit to... 为并列名词短语作表语；in particular 插入强调。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The fact that Johnson had taken on the Academies of Europe and matched them (everyone knew that forty French academics had taken forty years to produce the first French national dictionary) was cause for much English celebration.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>约翰逊承担起欧洲各学院的任务并与它们相匹敌（众所周知，四十位法国学者花了四十年才编出第一部法语国家词典），这一事实成为英国人广为庆祝的理由。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'fact: 事实'<br>'taken on: 承担，接受挑战'<br>'Academies: 学院，学术机构'<br>'matched: 与……匹敌'<br>'academics: 学者'<br>'took forty years: 花了四十年'<br>'national dictionary: 国家词典'<br>'cause: 理由，事业'<br>'celebration: 庆祝'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The fact that... 是同位语从句，that 从句说明 fact 的内容；括号内为补充说明，everyone knew that... 是宾语从句；taken on 和 matched 是并列谓语；was cause for... 是固定搭配，表示“是……的理由/原因”。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>Johnson had worked for nine years, 'with little assistance of the learned, and without any patronage of the great; not in the soft obscurities of retirement, or under the shelter of academic bowers, but amidst inconvenience and distraction, in sickness and in sorrow'.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>约翰逊工作了九年，“几乎没有学者的帮助，也没有权贵的赞助；不是在隐居的安逸幽静中，也不是在学术殿堂的庇护下，而是在不便与纷扰中、在疾病与忧伤中”工作。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'assistance: 帮助'<br>'the learned: 学者'<br>'patronage: 赞助，庇护'<br>'the great: 权贵，大人物'<br>'obscurities: 隐居，默默无闻'<br>'retirement: 退休，隐居'<br>'shelter: 庇护，遮蔽'<br>'academic bowers: 学术殿堂/庇护所'<br>'amidst: 在……之中'<br>'inconvenience: 不便'<br>'distraction: 纷扰，干扰'<br>'sickness: 疾病'<br>'sorrow: 忧伤'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>with little assistance... and without any patronage... 是并列介词短语表示伴随的缺乏条件；not... or... but... 结构表示否定与肯定对比；amidst inconvenience and distraction, in sickness and in sorrow 为并列状语，强调艰难环境。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>For all its faults and eccentricities his two-volume work is a masterpiece and a landmark, in his own words, 'setting the orthography, displaying the analogy, regulating the structures, and ascertaining the significations of English words'.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>尽管存在种种缺陷和怪异之处，他的两卷本著作仍是一部杰作和里程碑，用他自己的话说，它“确立拼写法，展示类比关系，规范结构，并确定英语词汇的意义”。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'For all: 尽管'<br>'faults: 缺点'<br>'eccentricities: 古怪之处'<br>'two-volume: 两卷本的'<br>'masterpiece: 杰作'<br>'landmark: 里程碑'<br>'in his own words: 用他自己的话说'<br>'setting: 确立'<br>'orthography: 拼写法'<br>'displaying: 展示'<br>'analogy: 类比'<br>'regulating: 规范'<br>'ascertaining: 确定'<br>'significations: 意义'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>For all... 表示“尽管”，引导让步状语；is a masterpiece and a landmark 是主系表结构；in his own words 是插入语；引号内四个并列的现在分词短语 setting..., displaying..., regulating..., and ascertaining... 作句子的补充说明。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>It is the cornerstone of Standard English, an achievement which, in James Boswell's words, 'conferred stability on the language of his country'.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>它是标准英语的基石，用詹姆斯·博斯韦尔的话说，这是一项“赋予他祖国语言以稳定性”的成就。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'cornerstone: 基石'<br>'Standard English: 标准英语'<br>'achievement: 成就'<br>'in James Boswell's words: 用……的话说'<br>'conferred: 赋予'<br>'stability: 稳定性'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>It is the cornerstone of Standard English 是主系表结构；an achievement which... 是同位语，which 引导定语从句修饰 achievement；in James Boswell's words 是插入语；conferred stability on... 是固定搭配 confer sth on sb/sth。</td>
-  </tr>
-  <tr>
-    <td style='border: 1px solid #aaa; padding: 6px;'>The Dictionary, together with his other writing, made Johnson famous and so well esteemed that his friends were able to prevail upon King George III to offer him a pension.</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>这部词典以及他的其他著作使约翰逊声名远扬、备受尊敬，以至于他的朋友们能够说服国王乔治三世给他提供一笔养老金。</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>'together with: 连同，以及'<br>'writing: 著作'<br>'famous: 著名的'<br>'esteemed: 受尊敬的'<br>'prevail upon: 说服'<br>'pension: 养老金，津贴'</td>
-    <td style='border: 1px solid #aaa; padding: 6px;'>together with his other writing 是插入语，不影响主谓一致，主语是 The Dictionary；made Johnson famous and so well esteemed 是 make + 宾语 + 宾补结构，and 连接两个宾补；so... that... 引导结果状语从句；prevail upon sb to do sth 是固定搭配，表示“说服某人做某事”。</td>
-  </tr>
-</table>]]></description>
+        <description>&lt;p&gt;⏱ 预计阅读时间：45 分钟 (2235 字符)&lt;/p&gt;
+&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
+  &lt;tr&gt;
+    &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;
+    &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;
+    &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;
+    &lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The work was immense; filling about eighty large notebooks (and without a library to hand), Johnson wrote the definitions of over 40,000 words, and illustrated their many meanings with some 114,000 quotations drawn from English writing on every subject, from the Elizabethans to his own time.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这项工作规模巨大；约翰逊填写了大约八十本大笔记本（而且手边没有图书馆），他写下了四万多个词的定义，并用约十一万四千条引文阐释了它们的许多含义，这些引文来自各个学科的英语作品，从伊丽莎白时代一直到他自己所处的时代。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'immense: 巨大的，广大的'&lt;br&gt;'definitions: 定义'&lt;br&gt;'illustrated: 阐释，说明'&lt;br&gt;'quotations: 引文，引语'&lt;br&gt;'drawn from: 取自，来自'&lt;br&gt;'Elizabethans: 伊丽莎白时代的人/作家'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;分号连接两个并列分句；后半句有现在分词短语 filling... 作伴随/补充说明；Johnson wrote... and illustrated... 为并列谓语；drawn from... 是过去分词短语作后置定语修饰 quotations；from the Elizabethans to his own time 是介词短语表范围。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;He did not expect to achieve complete originality.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;他并未指望做到完全原创。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'achieve: 实现，达到'&lt;br&gt;'complete: 完全的'&lt;br&gt;'originality: 独创性，原创性'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;did not expect to do sth 固定结构，表示“没指望/没预料到会做某事”；achieve 后接名词，常表示实现目标、成就等。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Working to a deadline, he had to draw on the best of all previous dictionaries, and to make his work one of heroic synthesis.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;由于必须在截止日期前完成，他不得不借鉴此前所有词典中的精华，并使自己的作品成为一部英雄般的综合之作。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'deadline: 截止日期'&lt;br&gt;'draw on: 利用，借鉴'&lt;br&gt;'previous: 先前的'&lt;br&gt;'heroic: 英雄般的，宏伟的'&lt;br&gt;'synthesis: 综合，合成'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Working to a deadline 是现在分词短语作原因/伴随状语；had to draw on... and to make... 并列不定式作 had to 的宾语，说明不得不做的两件事；one of heroic synthesis 中 of 加名词表示性质、特征。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;In fact, it was very much more.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;事实上，它的意义远不止于此。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'In fact: 事实上'&lt;br&gt;'very much more: 多得多，远不止此'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;In fact 作插入语表示强调或转折；more 在此为代词，指代“更大的成就/更多的意义”，very much 修饰比较级 more。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Unlike his predecessors, Johnson treated English very practically, as a living language, with many different shades of meaning.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;与前辈们不同，约翰逊非常注重实用地对待英语，把它当作一门活的语言，具有许多不同的意义层次。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'unlike: 与……不同'&lt;br&gt;'predecessors: 前任，前辈'&lt;br&gt;'practically: 实际地，注重实用地'&lt;br&gt;'living language: 活的语言'&lt;br&gt;'shades: 细微差别，层次'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Unlike his predecessors 是介词短语作状语，表示对比；treated English very practically 中 practically 为副词修饰动词；as a living language 是介词短语作方式状语，说明如何对待英语；with many different shades of meaning 为伴随状语。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;He adopted his definitions on the principle of English common law - according to precedent.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;他按照英国普通法的原则——遵循先例——来确定词义定义。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'adopted: 采纳，采用'&lt;br&gt;'definitions: 定义'&lt;br&gt;'principle: 原则'&lt;br&gt;'common law: 普通法'&lt;br&gt;'according to: 根据'&lt;br&gt;'precedent: 先例'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;adopted... on the principle of... 表示“按照……原则采纳/制定……”；破折号后 according to precedent 是对 principle 的补充说明，相当于同位语；according to 是固定搭配。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;After its publication, his Dictionary was not seriously rivalled for over a century.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;出版之后，他的词典在一个多世纪里都没有遇到真正有力的竞争对手。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'publication: 出版'&lt;br&gt;'seriously: 真正地，严重地'&lt;br&gt;'rivalled: 与……匹敌，竞争'&lt;br&gt;'over a century: 一个多世纪'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;After its publication 是时间状语；was not seriously rivalled 是被动语态，表示“没有受到严重竞争/挑战”；for over a century 表示持续一段时间。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;After many vicissitudes the Dictionary was finally published on 15 April 1775.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;历经许多波折之后，这部词典终于在1775年4月15日出版。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'vicissitudes: 变迁，波折，沉浮'&lt;br&gt;'finally: 终于'&lt;br&gt;'published: 出版'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;After many vicissitudes 是时间状语；was finally published 为被动语态；日期前用 on，具体某一天用介词 on。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;It was instantly recognised as a landmark throughout Europe.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;它立即在欧洲各地被公认为一座里程碑。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'instantly: 立即'&lt;br&gt;'recognised as: 被公认为'&lt;br&gt;'landmark: 里程碑，标志性成果'&lt;br&gt;'throughout: 遍及，贯穿'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;was instantly recognised as 是被动语态，固定搭配 recognise...as... 表示“把……认作/公认为……”；throughout Europe 表示范围。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'This very noble work,' wrote the leading Italian lexicographer, 'will be a perpetual monument of Fame to the Author, an Honour to his own Country in particular, and a general Benefit to the republic of Letters throughout Europe.'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“这部非常崇高的作品，”意大利著名词典编纂者写道，“将成为作者永恒的声誉丰碑，尤其为他自己的国家带来荣耀，并为整个欧洲文学界带来普遍福祉。”&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'noble: 崇高的，高贵的'&lt;br&gt;'leading: 领头的，著名的'&lt;br&gt;'lexicographer: 词典编纂者'&lt;br&gt;'perpetual: 永恒的'&lt;br&gt;'monument: 丰碑，纪念碑'&lt;br&gt;'Fame: 声誉，名望'&lt;br&gt;'Author: 作者'&lt;br&gt;'Honour: 荣誉'&lt;br&gt;'in particular: 尤其'&lt;br&gt;'general: 普遍的'&lt;br&gt;'Benefit: 福祉，益处'&lt;br&gt;'republic of Letters: 文学界，知识界'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;直接引语被插入语 wrote the leading Italian lexicographer 分隔，引语前后用逗号；a perpetual monument of Fame to..., an Honour to..., and a general Benefit to... 为并列名词短语作表语；in particular 插入强调。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The fact that Johnson had taken on the Academies of Europe and matched them (everyone knew that forty French academics had taken forty years to produce the first French national dictionary) was cause for much English celebration.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;约翰逊承担起欧洲各学院的任务并与它们相匹敌（众所周知，四十位法国学者花了四十年才编出第一部法语国家词典），这一事实成为英国人广为庆祝的理由。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'fact: 事实'&lt;br&gt;'taken on: 承担，接受挑战'&lt;br&gt;'Academies: 学院，学术机构'&lt;br&gt;'matched: 与……匹敌'&lt;br&gt;'academics: 学者'&lt;br&gt;'took forty years: 花了四十年'&lt;br&gt;'national dictionary: 国家词典'&lt;br&gt;'cause: 理由，事业'&lt;br&gt;'celebration: 庆祝'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The fact that... 是同位语从句，that 从句说明 fact 的内容；括号内为补充说明，everyone knew that... 是宾语从句；taken on 和 matched 是并列谓语；was cause for... 是固定搭配，表示“是……的理由/原因”。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Johnson had worked for nine years, 'with little assistance of the learned, and without any patronage of the great; not in the soft obscurities of retirement, or under the shelter of academic bowers, but amidst inconvenience and distraction, in sickness and in sorrow'.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;约翰逊工作了九年，“几乎没有学者的帮助，也没有权贵的赞助；不是在隐居的安逸幽静中，也不是在学术殿堂的庇护下，而是在不便与纷扰中、在疾病与忧伤中”工作。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'assistance: 帮助'&lt;br&gt;'the learned: 学者'&lt;br&gt;'patronage: 赞助，庇护'&lt;br&gt;'the great: 权贵，大人物'&lt;br&gt;'obscurities: 隐居，默默无闻'&lt;br&gt;'retirement: 退休，隐居'&lt;br&gt;'shelter: 庇护，遮蔽'&lt;br&gt;'academic bowers: 学术殿堂/庇护所'&lt;br&gt;'amidst: 在……之中'&lt;br&gt;'inconvenience: 不便'&lt;br&gt;'distraction: 纷扰，干扰'&lt;br&gt;'sickness: 疾病'&lt;br&gt;'sorrow: 忧伤'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;with little assistance... and without any patronage... 是并列介词短语表示伴随的缺乏条件；not... or... but... 结构表示否定与肯定对比；amidst inconvenience and distraction, in sickness and in sorrow 为并列状语，强调艰难环境。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;For all its faults and eccentricities his two-volume work is a masterpiece and a landmark, in his own words, 'setting the orthography, displaying the analogy, regulating the structures, and ascertaining the significations of English words'.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;尽管存在种种缺陷和怪异之处，他的两卷本著作仍是一部杰作和里程碑，用他自己的话说，它“确立拼写法，展示类比关系，规范结构，并确定英语词汇的意义”。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'For all: 尽管'&lt;br&gt;'faults: 缺点'&lt;br&gt;'eccentricities: 古怪之处'&lt;br&gt;'two-volume: 两卷本的'&lt;br&gt;'masterpiece: 杰作'&lt;br&gt;'landmark: 里程碑'&lt;br&gt;'in his own words: 用他自己的话说'&lt;br&gt;'setting: 确立'&lt;br&gt;'orthography: 拼写法'&lt;br&gt;'displaying: 展示'&lt;br&gt;'analogy: 类比'&lt;br&gt;'regulating: 规范'&lt;br&gt;'ascertaining: 确定'&lt;br&gt;'significations: 意义'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;For all... 表示“尽管”，引导让步状语；is a masterpiece and a landmark 是主系表结构；in his own words 是插入语；引号内四个并列的现在分词短语 setting..., displaying..., regulating..., and ascertaining... 作句子的补充说明。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;It is the cornerstone of Standard English, an achievement which, in James Boswell's words, 'conferred stability on the language of his country'.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;它是标准英语的基石，用詹姆斯·博斯韦尔的话说，这是一项“赋予他祖国语言以稳定性”的成就。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'cornerstone: 基石'&lt;br&gt;'Standard English: 标准英语'&lt;br&gt;'achievement: 成就'&lt;br&gt;'in James Boswell's words: 用……的话说'&lt;br&gt;'conferred: 赋予'&lt;br&gt;'stability: 稳定性'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;It is the cornerstone of Standard English 是主系表结构；an achievement which... 是同位语，which 引导定语从句修饰 achievement；in James Boswell's words 是插入语；conferred stability on... 是固定搭配 confer sth on sb/sth。&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The Dictionary, together with his other writing, made Johnson famous and so well esteemed that his friends were able to prevail upon King George III to offer him a pension.&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这部词典以及他的其他著作使约翰逊声名远扬、备受尊敬，以至于他的朋友们能够说服国王乔治三世给他提供一笔养老金。&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;'together with: 连同，以及'&lt;br&gt;'writing: 著作'&lt;br&gt;'famous: 著名的'&lt;br&gt;'esteemed: 受尊敬的'&lt;br&gt;'prevail upon: 说服'&lt;br&gt;'pension: 养老金，津贴'&lt;/td&gt;
+    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;together with his other writing 是插入语，不影响主谓一致，主语是 The Dictionary；made Johnson famous and so well esteemed 是 make + 宾语 + 宾补结构，and 连接两个宾补；so... that... 引导结果状语从句；prevail upon sb to do sth 是固定搭配，表示“说服某人做某事”。&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</description>
         <pubDate>Thu, 20 Aug 2026 01:41:29 +0000</pubDate>
         <guid>1787190089.337149</guid>
     </item>
 <item>
-      <title><![CDATA[Unit 122-124]]></title>
+      <title>Unit 122-124</title>
       <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
-      <description><![CDATA[【介词 50%】on time/in time；at the end/in the end；in/at/on（位置）1&2]]></description>
+      <description>【介词 50%】on time/in time；at the end/in the end；in/at/on（位置）1&amp;2</description>
       <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
       <pubDate>Thu, 20 Aug 2026 01:04:18 +0000</pubDate>
     </item>
@@ -532,112 +540,6 @@
 &lt;/table&gt;</description>
         <pubDate>Fri, 07 Aug 2026 02:43:58 +0000</pubDate>
         <guid>1786070638.857919</guid>
-    </item>
-<item>
-      <title>Unit 53-55</title>
-      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
-      <description>【非谓语动词 60%】动词+ing（enjoy/stop）；动词+to do（decide/forget）；动词+宾语+to do（want/advise）</description>
-      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
-      <pubDate>Fri, 07 Aug 2026 02:01:50 +0000</pubDate>
-    </item>
-<item>
-        <title>[英语] IELTS4 Reading Passage 1 - 2026-08-06 02:38</title>
-        <description>&lt;p&gt;⏱ 预计阅读时间：38 分钟 (1899 字符)&lt;/p&gt;
-&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
-  &lt;tr&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The second question concerned the geographical location of rainforests.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;第二个问题涉及热带雨林的地理位置。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;geographical: 地理的&lt;br&gt;rainforest: 热带雨林&lt;br&gt;concerned: 涉及，与…有关&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;concerned 在此为及物动词，意为“涉及”；geographical location 是名词短语作宾语。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The commonest responses were continents or countries: Africa (given by 43% of children), South America (30%), Brazil (25%).&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;最常见的回答是大陆或国家：非洲（43%的儿童提及）、南美洲（30%）、巴西（25%）。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;commonest: 最常见的 (common的最高级)&lt;br&gt;continents: 大陆&lt;br&gt;responses: 回答&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;commonest 是 common 的最高级形式；括号中的 given by... 是过去分词短语作后置定语，修饰前面的 Africa 等。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Some children also gave more general locations, such as being near the Equator.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一些孩子还给出了更笼统的位置，例如在赤道附近。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Equator: 赤道&lt;br&gt;general: 大致的，笼统的&lt;br&gt;being near: 位于…附近&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;such as being near the Equator 中，such as 后接动名词短语表示举例；being near 相当于“在…附近”。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Responses to question three concerned the importance of rainforests.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;对问题三的回答涉及热带雨林的重要性。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;responses: 回答&lt;br&gt;importance: 重要性&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Responses to... 表示“针对…的回答”，concerned 再次作“涉及”解。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The dominant idea, raised by 64% of the pupils, was that rainforests provide animals with habitats.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;由64%的小学生提出的主要观点是，热带雨林为动物提供了栖息地。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;dominant: 主导的，主要的&lt;br&gt;raised: 提出&lt;br&gt;pupils: 学生&lt;br&gt;habitats: 栖息地&lt;br&gt;provide...with...: 为…提供…&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;raised by... 是过去分词短语作定语；that 引导表语从句；固定搭配 provide sb. with sth.。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Fewer students responded that rainforests provide plant habitats, and even fewer (60%) raised the idea of rainforest as animal habitats.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;较少的学生回答雨林提供植物栖息地，而更少（的学生）（60%）提出了雨林作为动物栖息地的观点。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;fewer: 更少的&lt;br&gt;responded: 回答&lt;br&gt;raised the idea: 提出观点&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Fewer students... 是比较级；括号中的百分比对更少的学生作补充说明。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Similarly, but at a lower level, more girls (13%) than boys (5%) said that rainforests provided human habitats.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;类似地，但比例更低，更多的女孩（13%）比男孩（5%）说雨林提供了人类栖息地。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;similarly: 类似地&lt;br&gt;at a lower level: 在较低层次/比例上&lt;br&gt;provided: 提供&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Similarly, but at a lower level 作状语；more... than... 比较结构；said 后接宾语从句。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;These observations are generally consistent with our previous studies of pupils' views about the use and conservation of rainforests, in which girls were shown to be more sympathetic to animals and expressed views which seem to place an intrinsic value on non-human animal life.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这些观察结果总体上与我们之前关于学生对雨林利用和保护看法的研究一致，在那些研究中，女孩被证明对动物更有同情心，并表达了似乎赋予非人类动物生命内在价值的观点。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;observations: 观察(结果)&lt;br&gt;consistent with: 与…一致&lt;br&gt;previous: 之前的&lt;br&gt;conservation: 保护&lt;br&gt;sympathetic: 有同情心的&lt;br&gt;intrinsic: 内在的，固有的&lt;br&gt;place a value on: 赋予…价值&lt;br&gt;non-human: 非人类的&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;are consistent with 为固定搭配；in which 引导非限制性定语从句，指代 studies；were shown to be 是被动语态；place an intrinsic value on... 是固定表达。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The fourth question concerned the causes of the destruction of rainforests.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;第四个问题涉及雨林破坏的原因。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;causes: 原因&lt;br&gt;destruction: 破坏&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;the causes of the destruction of rainforests 是由 of 构成的所属结构。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Perhaps encouragingly, more than half of the pupils (59%) identified that it is human activities which are destroying rainforests, some personalizing the responsibility by the use of terms such as 'we are'.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;也许令人鼓舞的是，超过一半的学生（59%）认识到是人类活动正在破坏热带雨林，一些人通过使用“我们是”这样的措辞将责任个人化。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;encouragingly: 令人鼓舞地&lt;br&gt;identified: 识别出，发现&lt;br&gt;personalizing: 使个人化&lt;br&gt;responsibility: 责任&lt;br&gt;terms: 措辞&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Perhaps encouragingly 是句子副词；it is... which... 为强调句型；some personalizing... 是独立主格结构，作伴随状语。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;About 18% of the pupils referred specifically to logging activity.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;大约18%的学生特别提到了伐木活动。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;referred to: 提到&lt;br&gt;specifically: 特别地，具体地&lt;br&gt;logging: 伐木&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;referred to 是固定短语，注意 refer 的过去式 referred 要双写 r。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;One misconception, expressed by some 1% of the pupils, was that acid rain is responsible for rainforest destruction.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一个误解，由大约1%的学生表达，是酸雨导致了雨林破坏。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;misconception: 误解，错误观念&lt;br&gt;expressed: 表达&lt;br&gt;acid rain: 酸雨&lt;br&gt;responsible for: 对…负责，是…的原因&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;expressed by... 是过去分词短语作定语；that 引导表语从句；is responsible for 表示“是…的原因”。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;A similar proportion said that pollution is destroying rainforests.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;类似比例（的学生）说污染正在破坏雨林。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;proportion: 比例&lt;br&gt;pollution: 污染&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;A similar proportion 作主语，指前文提到的百分比的学生。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Here, children are confusing rainforest destruction with damage to the forests of Western Europe by these factors.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这里，孩子们将雨林破坏与这些因素对西欧森林造成的破坏混淆了。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;confusing: 混淆&lt;br&gt;damage: 损害, 破坏&lt;br&gt;Western Europe: 西欧&lt;br&gt;factors: 因素&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;are confusing A with B 是 confuse... with... 的进行时，意为“把A与B混淆”；damage to the forests 是名词短语。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;While two fifths of the students provided the information that the rainforests provide oxygen, in some cases this response also embraced the misconception that rainforest destruction would reduce atmospheric oxygen, making the atmosphere incompatible with human life on Earth.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;虽然五分之二的学生提供了雨林提供氧气这一信息，但在某些情况下，这种回答也包含了误解，即雨林破坏会减少大气中的氧气，使大气变得不适合人类在地球上生存。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;two fifths: 五分之二&lt;br&gt;embraced: 包含，接纳&lt;br&gt;reduce: 减少&lt;br&gt;atmospheric: 大气的&lt;br&gt;incompatible: 不相容的，不适合的&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;While 引导让步状语从句；that the rainforests provide oxygen 为同位语从句；embraced the misconception that... 中 that 引导同位语从句；making the atmosphere... 是现在分词短语作结果状语，其中 incompatible with 是固定搭配。&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;</description>
-        <pubDate>Thu, 06 Aug 2026 02:38:53 +0000</pubDate>
-        <guid>1785983933.055127</guid>
     </item>
 </channel>
 </rss>
