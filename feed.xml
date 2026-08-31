@@ -1,121 +1,129 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-    <title>AI 语言学习推送源</title>
-    <link>https://github.com</link>
-    <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
+  <title>每日更新推送</title>
+  <link>https://github.com/ZHENHUA001A307/EveningPathinTranslationGrove</link>
+  <description>自动更新的 RSS 列表 (保留最近 15 条)</description>
+  <lastBuildDate>Mon, 31 Aug 2026 02:20:25 +0000</lastBuildDate>
     <item>
+      <title><![CDATA[Unit 128-129]]></title>
+      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
+      <description><![CDATA[【介词 50%】by（方式、被动、时间、by+ing）；名词+介词（reason for/cause of/damage to）]]></description>
+      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
+      <pubDate>Mon, 31 Aug 2026 02:20:25 +0000</pubDate>
+    </item>
+<item>
         <title>[英语] IELTS5 Reading Passage 1 等多主题 - 2026-08-24 01:14</title>
-        <description><![CDATA[<p>⏱ 预计阅读时间：60 分钟 (2961 字符)</p>
-<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
-<thead>
-<tr>
-<th style='border: 1px solid #aaa; padding: 6px;'>原文</th>
-<th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th>
-<th style='border: 1px solid #aaa; padding: 6px;'>词汇</th>
-<th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>From then on, he was to become the Johnson of folklore.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>从那时起，他注定要成为民间传说中的约翰逊式人物。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>From then on：从那时起<br>was to become：注定要成为<br>folklore：民间传说<br>Johnson：约翰逊（此处代指民间传说式人物）</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>was to become 表示注定会/后来会，用于叙述过去将要发生的事；the Johnson of folklore 表示成为某种传说式的人物。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>A few years ago, in one of the most fascinating and disturbing experiments in behavioural psychology, Stanley Milgram of Yale University tested 40 subjects from all walks of life for their willingness to obey instructions given by a 'leader' in a situation in which the subjects might feel a personal distaste for the actions they were called upon to perform.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>几年前，在行为心理学领域最引人入胜也最令人不安的一项实验中，耶鲁大学的斯坦利·米尔格拉姆测试了来自各行各业的40名被试者，测试他们在可能会对所要求执行的行为感到个人反感的情境中，是否愿意服从“领导者”给出的指令。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>fascinating：引人入胜的<br>disturbing：令人不安的<br>behavioural psychology：行为心理学<br>subjects：被试者，实验对象<br>all walks of life：各行各业，各阶层<br>willingness：意愿<br>obey：服从<br>instructions：指令，指示<br>leader：领导者<br>situation：情境<br>personal distaste：个人反感<br>called upon to perform：被要求执行</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>tested 40 subjects for their willingness to obey 中 for 表示测试的方面；given by a 'leader' 为过去分词短语作后置定语修饰 instructions；in a situation in which... 为定语从句；called upon to perform 表示被要求执行。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>Specifically, Milgram told each volunteer 'teacher-subject' that the experiment was in the noble cause of education, and was designed to test whether or not punishing pupils for their mistakes would have a positive effect on the pupils' ability to learn.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>具体来说，米尔格拉姆告诉每一位“教师被试”志愿者，这项实验是为了崇高的教育事业，旨在测试惩罚犯错的学生是否会对学生的学习能力产生积极影响。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>Specifically：具体来说<br>volunteer：志愿者<br>teacher-subject：教师被试<br>noble cause：崇高的事业<br>education：教育<br>designed to：旨在，被设计用于<br>punishing：惩罚<br>pupils：学生<br>mistakes：错误<br>positive effect：积极影响<br>ability to learn：学习能力</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>told each volunteer that... 为宾语从句；in the noble cause of education 表示为崇高教育事业；was designed to test whether or not... 为被动语态加 whether 引导的宾语从句；punishing pupils for their mistakes 为动名词短语作主语。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>Milgram's experimental set-up involved placing the teacher-subject before a panel of thirty switches with labels ranging from '15 volts of electricity (slight shock)' to '450 volts (danger - severe shock)' in steps of 15 volts each.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>米尔格拉姆的实验设置包括让教师被试坐在有30个开关的面板前，标签范围从“15伏电（轻微电击）”到“450伏（危险—严重电击）”，每隔15伏一级。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>experimental set-up：实验设置，实验装置<br>involved：涉及，包含<br>panel：面板<br>switches：开关<br>labels：标签<br>ranging from...to...：范围从……到……<br>volts：伏特<br>electricity：电<br>slight shock：轻微电击<br>severe shock：严重电击<br>in steps of：按……的间隔</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>involved placing... 中 involve 后接动名词；with labels ranging from...to... 为现在分词短语作定语；in steps of 15 volts each 表示按每15伏递增。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>The teacher-subject was told that whenever the pupil gave the wrong answer to a question, a shock was to be administered, beginning at the lowest level and increasing in severity with each successive wrong answer.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>教师被试被告知，每当学生答错问题时，就要施加一次电击，从最低级别开始，并随着每一次连续答错而增强强度。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>whenever：每当<br>gave the wrong answer：答错<br>administered：施加，执行<br>beginning at：从……开始<br>lowest level：最低级别<br>increasing in severity：强度增加<br>successive：连续的<br>wrong answer：错误答案</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>was told that... 为被动语态加宾语从句；whenever... 引导时间状语从句；was to be administered 表示按规定将要施加；beginning at... and increasing... 为现在分词短语作方式/伴随状语。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>The supposed 'pupil' was in reality an actor hired by Milgram to simulate receiving the shocks by emitting a spectrum of groans, screams and writhings together with an assortment of statements and expletives denouncing both the experiment and the experimenter.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>所谓的“学生”实际上是米尔格拉姆雇来的一名演员，通过发出一系列呻吟、尖叫和扭动，以及各种谴责实验和实验者的言辞和脏话来模拟受到电击。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>supposed：所谓的<br>in reality：实际上<br>actor：演员<br>hired by：被……雇用<br>simulate：模拟<br>receiving the shocks：接受电击<br>emitting：发出<br>spectrum：一系列，各种<br>groans：呻吟<br>screams：尖叫<br>writhings：扭动，翻滚<br>assortment：各种各样<br>statements：言辞，陈述<br>expletives：脏话，咒骂<br>denouncing：谴责<br>experimenter：实验者</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>The supposed 'pupil' 表示所谓的“学生”；was in reality... 表示实际上；hired by Milgram to simulate... 为过去分词短语作后置定语；by emitting... 为方式状语；denouncing both... 为现在分词短语修饰 statements and expletives。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>Milgram told the teacher-subject to ignore the reactions of the pupil, and to administer whatever level of shock was called for, as per the rule governing the experimental situation of the moment.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>米尔格拉姆告诉教师被试忽略学生的反应，并按照当时实验情境的规则施加所要求级别的电击。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>ignore：忽略<br>reactions：反应<br>administer：施加<br>whatever level：无论什么级别<br>called for：需要，要求<br>as per：按照<br>governing：规定，约束<br>experimental situation：实验情境<br>of the moment：当时的，当下的</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>told sb to ignore... and to administer... 中不定式作宾语补足语；whatever level of shock was called for 为名词性从句作 administer 的宾语；as per 为书面用语，表示按照；governing... 为现在分词作定语修饰 rule。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>As the experiment unfolded, the pupil would deliberately give the wrong answers to questions posed by the teacher, thereby bringing on various electrical punishments, even up to the danger level of 300 volts and beyond.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>随着实验的进行，学生会故意答错教师提出的问题，从而招致各种电击惩罚，甚至达到300伏及以上的危险级别。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>unfolded：展开，进行<br>deliberately：故意地<br>posed by：由……提出<br>thereby：因此，从而<br>bringing on：招致，引起<br>electrical punishments：电击惩罚<br>danger level：危险级别<br>beyond：超过</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>As the experiment unfolded 为时间状语从句；would deliberately give 表示惯常行为/过去将来；posed by the teacher 为过去分词短语作定语；thereby bringing on... 为现在分词短语作结果状语；even up to... and beyond 表示甚至达到并超过该级别。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>Many of the teacher-subjects balked at administering the higher levels of punishment, and turned to Milgram with questioning looks and/or complaints about continuing the experiment.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>许多教师被试在施加更高级别惩罚时犹豫不决，转向米尔格拉姆，面露疑惑和/或对继续实验提出抱怨。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>balked at：对……畏缩，犹豫<br>administering：施加<br>higher levels：更高级别<br>punishment：惩罚<br>turned to：转向<br>questioning looks：疑惑的表情<br>complaints：抱怨<br>continuing：继续</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>Many of the teacher-subjects 表示许多被试；balked at doing 表示不情愿/犹豫做某事；and turned to... 为并列谓语；with questioning looks and/or complaints 为伴随状语；about continuing 表示关于继续实验。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>In these situations, Milgram calmly explained that the teacher-subject was to ignore the pupil's cries for mercy and carry on with the experiment.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>在这些情况下，米尔格拉姆平静地解释说，教师被试应当忽略学生的求饶并继续实验。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>situations：情况<br>calmly：平静地<br>explained that：解释说<br>was to ignore：应当忽略，被要求忽略<br>cries for mercy：求饶<br>carry on with：继续</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>In these situations 作状语；calmly explained that... 中副词修饰动词；was to ignore 表示指令/规定；cries for mercy 为固定搭配；carry on with 等同于 continue。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>If the subject was still reluctant to proceed, Milgram said that it was important for the sake of the experiment that the procedure be followed through to the end.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>如果被试仍然不愿继续，米尔格拉姆说，为了实验起见，程序必须被贯彻到底。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>reluctant：不情愿的<br>proceed：继续进行<br>for the sake of：为了……起见<br>procedure：程序，步骤<br>be followed through：被执行到底<br>to the end：到最后</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>If the subject was still reluctant to proceed 为条件句；reluctant to do 表示不愿做某事；it was important... that the procedure be followed... 中 that 从句使用虚拟语气（be 前省略 should）；for the sake of 为固定短语。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>His final argument was, 'You have no other choice. You must go on.'</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>他最后的理由是：“你别无选择。你必须继续。”</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>final argument：最后的理由，最后的论点<br>no other choice：别无选择<br>must go on：必须继续</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>His final argument was, '...' 中直接引语作表语；You have no other choice. 表示别无选择；must go on 表示必须继续。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>What Milgram was trying to discover was the number of teacher-subjects who would be willing to administer the highest levels of shock, even in the face of strong personal and moral revulsion against the rules and conditions of the experiment.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>米尔格拉姆试图发现的是，即使面对个人和道德上对实验规则与条件的强烈反感，仍愿意施加最高级别电击的教师被试人数。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>discover：发现<br>the number of：……的数量<br>willing to：愿意<br>highest levels：最高级别<br>shock：电击<br>in the face of：面对<br>strong：强烈的<br>personal：个人的<br>moral：道德的<br>revulsion：强烈反感，厌恶<br>against：对……，反对<br>rules and conditions：规则和条件</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>What Milgram was trying to discover was... 为主语从句；the number of teacher-subjects who... 中 who 引导定语从句；even in the face of... 为让步状语；revulsion against... 表示对……的反感。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>Prior to carrying out the experiment, Milgram explained his idea to a group of 39 psychiatrists and asked them to predict the average percentage of people in an ordinary population who would be willing to administer the highest shock level of 450 volts.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>在进行实验之前，米尔格拉姆向由39名精神病学家组成的小组解释了他的想法，并请他们预测普通人群中愿意施加最高450伏电击的人的平均百分比。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>Prior to：在……之前<br>carrying out：进行，实施<br>psychiatrists：精神病学家<br>predict：预测<br>average percentage：平均百分比<br>ordinary population：普通人群<br>administer：施加<br>shock level：电击级别</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>Prior to carrying out 中 prior to 后接动名词；explained his idea to... 为双宾语结构；asked them to predict... 中不定式作宾补；people in an ordinary population who... 中 who 引导定语从句。</td>
-</tr>
-<tr>
-<td style='border: 1px solid #aaa; padding: 6px;'>The overwhelming consensus was that virtually all the teacher-subjects would refuse to obey the experiment.</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>压倒性的一致意见是，几乎所有教师被试都会拒绝服从这项实验。</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>overwhelming：压倒性的<br>consensus：共识，一致意见<br>virtually：几乎，实际上<br>all the teacher-subjects：所有教师被试<br>refuse to obey：拒绝服从<br>experiment：实验</td>
-<td style='border: 1px solid #aaa; padding: 6px;'>The overwhelming consensus was that... 为表语从句；virtually all 表示几乎全部；refuse to obey 表示拒绝服从。注意 obey 通常接人或指令，此处接 experiment 为略有省略的用法。</td>
-</tr>
-</tbody>
-</table>]]></description>
+        <description>&lt;p&gt;⏱ 预计阅读时间：60 分钟 (2961 字符)&lt;/p&gt;
+&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;
+&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;
+&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;
+&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;From then on, he was to become the Johnson of folklore.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;从那时起，他注定要成为民间传说中的约翰逊式人物。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;From then on：从那时起&lt;br&gt;was to become：注定要成为&lt;br&gt;folklore：民间传说&lt;br&gt;Johnson：约翰逊（此处代指民间传说式人物）&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;was to become 表示注定会/后来会，用于叙述过去将要发生的事；the Johnson of folklore 表示成为某种传说式的人物。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;A few years ago, in one of the most fascinating and disturbing experiments in behavioural psychology, Stanley Milgram of Yale University tested 40 subjects from all walks of life for their willingness to obey instructions given by a 'leader' in a situation in which the subjects might feel a personal distaste for the actions they were called upon to perform.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;几年前，在行为心理学领域最引人入胜也最令人不安的一项实验中，耶鲁大学的斯坦利·米尔格拉姆测试了来自各行各业的40名被试者，测试他们在可能会对所要求执行的行为感到个人反感的情境中，是否愿意服从“领导者”给出的指令。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;fascinating：引人入胜的&lt;br&gt;disturbing：令人不安的&lt;br&gt;behavioural psychology：行为心理学&lt;br&gt;subjects：被试者，实验对象&lt;br&gt;all walks of life：各行各业，各阶层&lt;br&gt;willingness：意愿&lt;br&gt;obey：服从&lt;br&gt;instructions：指令，指示&lt;br&gt;leader：领导者&lt;br&gt;situation：情境&lt;br&gt;personal distaste：个人反感&lt;br&gt;called upon to perform：被要求执行&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;tested 40 subjects for their willingness to obey 中 for 表示测试的方面；given by a 'leader' 为过去分词短语作后置定语修饰 instructions；in a situation in which... 为定语从句；called upon to perform 表示被要求执行。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Specifically, Milgram told each volunteer 'teacher-subject' that the experiment was in the noble cause of education, and was designed to test whether or not punishing pupils for their mistakes would have a positive effect on the pupils' ability to learn.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;具体来说，米尔格拉姆告诉每一位“教师被试”志愿者，这项实验是为了崇高的教育事业，旨在测试惩罚犯错的学生是否会对学生的学习能力产生积极影响。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Specifically：具体来说&lt;br&gt;volunteer：志愿者&lt;br&gt;teacher-subject：教师被试&lt;br&gt;noble cause：崇高的事业&lt;br&gt;education：教育&lt;br&gt;designed to：旨在，被设计用于&lt;br&gt;punishing：惩罚&lt;br&gt;pupils：学生&lt;br&gt;mistakes：错误&lt;br&gt;positive effect：积极影响&lt;br&gt;ability to learn：学习能力&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;told each volunteer that... 为宾语从句；in the noble cause of education 表示为崇高教育事业；was designed to test whether or not... 为被动语态加 whether 引导的宾语从句；punishing pupils for their mistakes 为动名词短语作主语。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Milgram's experimental set-up involved placing the teacher-subject before a panel of thirty switches with labels ranging from '15 volts of electricity (slight shock)' to '450 volts (danger - severe shock)' in steps of 15 volts each.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;米尔格拉姆的实验设置包括让教师被试坐在有30个开关的面板前，标签范围从“15伏电（轻微电击）”到“450伏（危险—严重电击）”，每隔15伏一级。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;experimental set-up：实验设置，实验装置&lt;br&gt;involved：涉及，包含&lt;br&gt;panel：面板&lt;br&gt;switches：开关&lt;br&gt;labels：标签&lt;br&gt;ranging from...to...：范围从……到……&lt;br&gt;volts：伏特&lt;br&gt;electricity：电&lt;br&gt;slight shock：轻微电击&lt;br&gt;severe shock：严重电击&lt;br&gt;in steps of：按……的间隔&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;involved placing... 中 involve 后接动名词；with labels ranging from...to... 为现在分词短语作定语；in steps of 15 volts each 表示按每15伏递增。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The teacher-subject was told that whenever the pupil gave the wrong answer to a question, a shock was to be administered, beginning at the lowest level and increasing in severity with each successive wrong answer.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;教师被试被告知，每当学生答错问题时，就要施加一次电击，从最低级别开始，并随着每一次连续答错而增强强度。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;whenever：每当&lt;br&gt;gave the wrong answer：答错&lt;br&gt;administered：施加，执行&lt;br&gt;beginning at：从……开始&lt;br&gt;lowest level：最低级别&lt;br&gt;increasing in severity：强度增加&lt;br&gt;successive：连续的&lt;br&gt;wrong answer：错误答案&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;was told that... 为被动语态加宾语从句；whenever... 引导时间状语从句；was to be administered 表示按规定将要施加；beginning at... and increasing... 为现在分词短语作方式/伴随状语。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The supposed 'pupil' was in reality an actor hired by Milgram to simulate receiving the shocks by emitting a spectrum of groans, screams and writhings together with an assortment of statements and expletives denouncing both the experiment and the experimenter.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;所谓的“学生”实际上是米尔格拉姆雇来的一名演员，通过发出一系列呻吟、尖叫和扭动，以及各种谴责实验和实验者的言辞和脏话来模拟受到电击。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;supposed：所谓的&lt;br&gt;in reality：实际上&lt;br&gt;actor：演员&lt;br&gt;hired by：被……雇用&lt;br&gt;simulate：模拟&lt;br&gt;receiving the shocks：接受电击&lt;br&gt;emitting：发出&lt;br&gt;spectrum：一系列，各种&lt;br&gt;groans：呻吟&lt;br&gt;screams：尖叫&lt;br&gt;writhings：扭动，翻滚&lt;br&gt;assortment：各种各样&lt;br&gt;statements：言辞，陈述&lt;br&gt;expletives：脏话，咒骂&lt;br&gt;denouncing：谴责&lt;br&gt;experimenter：实验者&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The supposed 'pupil' 表示所谓的“学生”；was in reality... 表示实际上；hired by Milgram to simulate... 为过去分词短语作后置定语；by emitting... 为方式状语；denouncing both... 为现在分词短语修饰 statements and expletives。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Milgram told the teacher-subject to ignore the reactions of the pupil, and to administer whatever level of shock was called for, as per the rule governing the experimental situation of the moment.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;米尔格拉姆告诉教师被试忽略学生的反应，并按照当时实验情境的规则施加所要求级别的电击。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;ignore：忽略&lt;br&gt;reactions：反应&lt;br&gt;administer：施加&lt;br&gt;whatever level：无论什么级别&lt;br&gt;called for：需要，要求&lt;br&gt;as per：按照&lt;br&gt;governing：规定，约束&lt;br&gt;experimental situation：实验情境&lt;br&gt;of the moment：当时的，当下的&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;told sb to ignore... and to administer... 中不定式作宾语补足语；whatever level of shock was called for 为名词性从句作 administer 的宾语；as per 为书面用语，表示按照；governing... 为现在分词作定语修饰 rule。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;As the experiment unfolded, the pupil would deliberately give the wrong answers to questions posed by the teacher, thereby bringing on various electrical punishments, even up to the danger level of 300 volts and beyond.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;随着实验的进行，学生会故意答错教师提出的问题，从而招致各种电击惩罚，甚至达到300伏及以上的危险级别。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;unfolded：展开，进行&lt;br&gt;deliberately：故意地&lt;br&gt;posed by：由……提出&lt;br&gt;thereby：因此，从而&lt;br&gt;bringing on：招致，引起&lt;br&gt;electrical punishments：电击惩罚&lt;br&gt;danger level：危险级别&lt;br&gt;beyond：超过&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;As the experiment unfolded 为时间状语从句；would deliberately give 表示惯常行为/过去将来；posed by the teacher 为过去分词短语作定语；thereby bringing on... 为现在分词短语作结果状语；even up to... and beyond 表示甚至达到并超过该级别。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Many of the teacher-subjects balked at administering the higher levels of punishment, and turned to Milgram with questioning looks and/or complaints about continuing the experiment.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;许多教师被试在施加更高级别惩罚时犹豫不决，转向米尔格拉姆，面露疑惑和/或对继续实验提出抱怨。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;balked at：对……畏缩，犹豫&lt;br&gt;administering：施加&lt;br&gt;higher levels：更高级别&lt;br&gt;punishment：惩罚&lt;br&gt;turned to：转向&lt;br&gt;questioning looks：疑惑的表情&lt;br&gt;complaints：抱怨&lt;br&gt;continuing：继续&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Many of the teacher-subjects 表示许多被试；balked at doing 表示不情愿/犹豫做某事；and turned to... 为并列谓语；with questioning looks and/or complaints 为伴随状语；about continuing 表示关于继续实验。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;In these situations, Milgram calmly explained that the teacher-subject was to ignore the pupil's cries for mercy and carry on with the experiment.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;在这些情况下，米尔格拉姆平静地解释说，教师被试应当忽略学生的求饶并继续实验。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;situations：情况&lt;br&gt;calmly：平静地&lt;br&gt;explained that：解释说&lt;br&gt;was to ignore：应当忽略，被要求忽略&lt;br&gt;cries for mercy：求饶&lt;br&gt;carry on with：继续&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;In these situations 作状语；calmly explained that... 中副词修饰动词；was to ignore 表示指令/规定；cries for mercy 为固定搭配；carry on with 等同于 continue。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;If the subject was still reluctant to proceed, Milgram said that it was important for the sake of the experiment that the procedure be followed through to the end.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;如果被试仍然不愿继续，米尔格拉姆说，为了实验起见，程序必须被贯彻到底。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;reluctant：不情愿的&lt;br&gt;proceed：继续进行&lt;br&gt;for the sake of：为了……起见&lt;br&gt;procedure：程序，步骤&lt;br&gt;be followed through：被执行到底&lt;br&gt;to the end：到最后&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;If the subject was still reluctant to proceed 为条件句；reluctant to do 表示不愿做某事；it was important... that the procedure be followed... 中 that 从句使用虚拟语气（be 前省略 should）；for the sake of 为固定短语。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;His final argument was, 'You have no other choice. You must go on.'&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;他最后的理由是：“你别无选择。你必须继续。”&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;final argument：最后的理由，最后的论点&lt;br&gt;no other choice：别无选择&lt;br&gt;must go on：必须继续&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;His final argument was, '...' 中直接引语作表语；You have no other choice. 表示别无选择；must go on 表示必须继续。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;What Milgram was trying to discover was the number of teacher-subjects who would be willing to administer the highest levels of shock, even in the face of strong personal and moral revulsion against the rules and conditions of the experiment.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;米尔格拉姆试图发现的是，即使面对个人和道德上对实验规则与条件的强烈反感，仍愿意施加最高级别电击的教师被试人数。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;discover：发现&lt;br&gt;the number of：……的数量&lt;br&gt;willing to：愿意&lt;br&gt;highest levels：最高级别&lt;br&gt;shock：电击&lt;br&gt;in the face of：面对&lt;br&gt;strong：强烈的&lt;br&gt;personal：个人的&lt;br&gt;moral：道德的&lt;br&gt;revulsion：强烈反感，厌恶&lt;br&gt;against：对……，反对&lt;br&gt;rules and conditions：规则和条件&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;What Milgram was trying to discover was... 为主语从句；the number of teacher-subjects who... 中 who 引导定语从句；even in the face of... 为让步状语；revulsion against... 表示对……的反感。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Prior to carrying out the experiment, Milgram explained his idea to a group of 39 psychiatrists and asked them to predict the average percentage of people in an ordinary population who would be willing to administer the highest shock level of 450 volts.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;在进行实验之前，米尔格拉姆向由39名精神病学家组成的小组解释了他的想法，并请他们预测普通人群中愿意施加最高450伏电击的人的平均百分比。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Prior to：在……之前&lt;br&gt;carrying out：进行，实施&lt;br&gt;psychiatrists：精神病学家&lt;br&gt;predict：预测&lt;br&gt;average percentage：平均百分比&lt;br&gt;ordinary population：普通人群&lt;br&gt;administer：施加&lt;br&gt;shock level：电击级别&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Prior to carrying out 中 prior to 后接动名词；explained his idea to... 为双宾语结构；asked them to predict... 中不定式作宾补；people in an ordinary population who... 中 who 引导定语从句。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The overwhelming consensus was that virtually all the teacher-subjects would refuse to obey the experiment.&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;压倒性的一致意见是，几乎所有教师被试都会拒绝服从这项实验。&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;overwhelming：压倒性的&lt;br&gt;consensus：共识，一致意见&lt;br&gt;virtually：几乎，实际上&lt;br&gt;all the teacher-subjects：所有教师被试&lt;br&gt;refuse to obey：拒绝服从&lt;br&gt;experiment：实验&lt;/td&gt;
+&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The overwhelming consensus was that... 为表语从句；virtually all 表示几乎全部；refuse to obey 表示拒绝服从。注意 obey 通常接人或指令，此处接 experiment 为略有省略的用法。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
         <pubDate>Mon, 24 Aug 2026 01:14:35 +0000</pubDate>
         <guid>1787534075.876749</guid>
     </item>
 <item>
-      <title><![CDATA[Unit 125-127]]></title>
+      <title>Unit 125-127</title>
       <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
-      <description><![CDATA[【介词 50%】in/at/on（位置）3；to/at/in/into（方向与到达）；in/on/at（其他用法）]]></description>
+      <description>【介词 50%】in/at/on（位置）3；to/at/in/into（方向与到达）；in/on/at（其他用法）</description>
       <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
       <pubDate>Mon, 24 Aug 2026 00:40:38 +0000</pubDate>
     </item>
@@ -616,37 +624,6 @@
 &lt;/table&gt;</description>
         <pubDate>Mon, 10 Aug 2026 01:53:40 +0000</pubDate>
         <guid>1786326820.776538</guid>
-    </item>
-<item>
-      <title>Unit 56-58</title>
-      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
-      <description>【非谓语动词 60%】remember/regret（ing vs to do）；try/need/help；like/would like（ing vs to do）</description>
-      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
-      <pubDate>Mon, 10 Aug 2026 00:51:26 +0000</pubDate>
-    </item>
-<item>
-        <title>[英语] IELTS4 Reading Passage 1 等多主题 - 2026-08-07 02:43</title>
-        <description>&lt;p&gt;⏱ 预计阅读时间：44 分钟 (2170 字符)&lt;/p&gt;
-&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
-&lt;tr&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;In answer to the final question about the importance of rainforest conservation, the majority of children simply said that we need rainforests to survive.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;在回答关于雨林保护重要性的最后一个问题时，大多数孩子仅表示我们需要雨林才能生存。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;in answer to：作为对……的回答&lt;br&gt;conservation：保护&lt;br&gt;the majority of：大多数&lt;br&gt;simply：仅仅，简单地&lt;br&gt;survive：生存&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“in answer to” 为固定短语，表示“作为对……的回答”；“the majority of + 复数名词” 作主语时，谓语可用单数或复数，此句用复数 said；“simply” 强调只说了一件事。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Only a few of the pupils (6%) mentioned that rainforest destruction may contribute to global warming.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;只有少数学生（6%）提到雨林破坏可能会导致全球变暖。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;a few of：几个，少数&lt;br&gt;pupils：学生&lt;br&gt;mentioned：提到&lt;br&gt;destruction：破坏&lt;br&gt;contribute to：促成，导致&lt;br&gt;global warming：全球变暖&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“Only a few of...” 表示数量很少；“contribute to” 意为“促成，是……的原因之一”，后接名词或动名词。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;This is surprising considering the high level of media coverage on this issue.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;考虑到媒体对这个问题的报道程度很高，这是令人惊讶的。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;surprising：令人惊讶的&lt;br&gt;considering：考虑到……&lt;br&gt;high level of：高水平的，大量的&lt;br&gt;media coverage：媒体报道&lt;br&gt;issue：问题&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“considering” 是介词或连词，意为“考虑到”，引导原因状语；“media coverage” 不可数，指媒体覆盖。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Some children expressed the idea that the conservation of rainforests is not important.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一些孩子表达了保护雨林并不重要的观点。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;expressed：表达&lt;br&gt;the idea that...：……的观点&lt;br&gt;conservation：保护&lt;br&gt;not important：不重要&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“expressed the idea that...” 后接同位语从句，解释 idea 的内容；注意 conservation 不可数。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The results of this study suggest that certain ideas predominate in the thinking of children about rainforests.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这项研究的结果表明，某些观念在孩子们关于雨林的想法中占主导地位。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;results：结果&lt;br&gt;suggest：表明&lt;br&gt;certain：某些&lt;br&gt;predominate：占优势，占主导地位&lt;br&gt;thinking：思维，想法&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“suggest” 此处不是“建议”，而是“表明”，后接宾语从句无需用虚拟语气。“predominate in” 意为“在……中占主导”。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Pupils' responses indicate some misconceptions in basic scientific knowledge of rainforests' ecosystems such as their ideas about rainforests as habitats for animals, plants and humans and the relationship between climatic change and destruction of rainforests.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;学生的回答表明，他们在雨林生态系统的基本科学知识上存在一些误解，比如他们认为雨林是动物、植物和人类的栖息地，以及气候变化与雨林破坏之间的关系等看法。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;responses：回答&lt;br&gt;indicate：表明&lt;br&gt;misconceptions：误解&lt;br&gt;scientific knowledge：科学知识&lt;br&gt;ecosystems：生态系统&lt;br&gt;habitats：栖息地&lt;br&gt;climatic change：气候变化&lt;br&gt;destruction：破坏&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“such as” 列举例子；句子较长，注意 “their ideas about... and the relationship...” 并列。“indicate” 后接宾语从句。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Pupils did not volunteer ideas that suggested that they appreciated the complexity of causes of rainforest destruction.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;学生们没有主动提出能表明他们认识到雨林破坏原因复杂性的观点。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;volunteer：自愿提供，主动说出&lt;br&gt;suggested：表明&lt;br&gt;appreciated：理解，认识到&lt;br&gt;complexity：复杂性&lt;br&gt;causes：原因&lt;br&gt;destruction：破坏&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“volunteer” 用作动词，表示主动提供信息；“that suggested that...” 定语从句修饰 ideas，第二个 that 引导宾语从句；“appreciate” 在此意为“理解，意识到”，而非“欣赏”。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;In other words, they gave no indication of an appreciation of either the range of ways in which rainforests are important or the complex social, economic and political factors which drive the activities which are destroying the rainforests.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;换句话说，他们丝毫没有表现出对雨林重要性的诸多方面，或驱动破坏雨林活动的复杂社会、经济和政治因素有所认识。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;in other words：换句话说&lt;br&gt;gave no indication of：没有表现出……的迹象&lt;br&gt;appreciation：理解，认识&lt;br&gt;range of：一系列&lt;br&gt;complex：复杂的&lt;br&gt;social, economic and political factors：社会、经济和政治因素&lt;br&gt;drive：驱动&lt;br&gt;activities：活动&lt;br&gt;destroying：破坏&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“gave no indication of an appreciation of...” 双重名词结构，表示未表现出理解；“either...or...” 连接两个并列的 of 宾语；“range of ways in which...” 定语从句；“factors which drive the activities which are destroying...” 多重定语从句。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;One encouragement is that the results of similar studies about other environmental issues suggest that older children seem to acquire the ability to appreciate, value and evaluate conflicting views.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;一个令人鼓舞的事实是，针对其他环境议题的类似研究结果表明，年龄较大的孩子似乎能够获得理解、重视和评估相互矛盾观点的能力。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;encouragement：令人鼓舞的事&lt;br&gt;similar studies：类似研究&lt;br&gt;environmental issues：环境问题&lt;br&gt;acquire：获得&lt;br&gt;ability：能力&lt;br&gt;appreciate：理解，赏析&lt;br&gt;value：重视&lt;br&gt;evaluate：评估&lt;br&gt;conflicting views：相互矛盾的观点&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“One encouragement is that...” 表语从句；“suggest” 表明；“seem to acquire” 似乎获得；“the ability to do...” 不定式作定语；列举三个动词。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Environmental education offers an arena in which these skills can be developed, which is essential for these children as future decision-makers.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;环境教育提供了一个舞台，这些技能可以在其中得到发展，这对作为未来决策者的孩子们至关重要。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;environmental education：环境教育&lt;br&gt;offers：提供&lt;br&gt;arena：舞台，领域&lt;br&gt;skills：技能&lt;br&gt;developed：发展&lt;br&gt;essential：至关重要的&lt;br&gt;decision-makers：决策者&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“offers an arena in which...” 定语从句；“which is essential...” 非限制性定语从句修饰整个主句或前文；“as future decision-makers” 作为未来决策者。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Some of the senses that we and other terrestrial mammals take for granted are either reduced or absent in cetaceans or fail to function well in water.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;我们和其他陆地哺乳动物视为理所当然的一些感官，在鲸目动物身上要么减弱或缺失，要么在水中无法正常工作。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;senses：感官&lt;br&gt;terrestrial mammals：陆地哺乳动物&lt;br&gt;take for granted：认为……理所当然&lt;br&gt;reduced：减弱&lt;br&gt;absent：缺失&lt;br&gt;cetaceans：鲸目动物&lt;br&gt;fail to function：无法工作&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“take for granted” 固定搭配，认为……理所当然；“either reduced or absent... or fail...” 并列结构；“fail to function” 无法正常运作。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;For example, it appears from their brain structure that toothed species are unable to smell.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;例如，从它们的大脑结构来看，齿鲸似乎没有嗅觉。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;appears：似乎&lt;br&gt;brain structure：大脑结构&lt;br&gt;toothed species：齿鲸类（有牙齿的物种）&lt;br&gt;unable to：不能&lt;br&gt;smell：嗅觉，闻&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“it appears that...” 句型，意为“似乎……”；“from their brain structure” 根据大脑结构；“toothed species” 指有齿的鲸类。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Baleen species, on the other hand, appear to have some related brain structures but it is not known whether these are functional.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;另一方面，须鲸似乎有一些相关的大脑结构，但尚不清楚这些结构是否起作用。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;baleen species：须鲸类&lt;br&gt;on the other hand：另一方面&lt;br&gt;related：相关的&lt;br&gt;brain structures：大脑结构&lt;br&gt;functional：起作用的，功能性的&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“on the other hand” 表示对比转折；“appear to have” 似乎有；“it is not known whether...” 主语从句，it 为形式主语。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;It has been speculated that, as the blowholes evolved and migrated to the top of the head, the neural pathways serving sense of smell may have been nearly all sacrificed.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;据推测，随着喷气孔进化并迁移到头顶，负责嗅觉的神经通路可能几乎全部牺牲了。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;speculated：推测&lt;br&gt;blowholes：喷气孔&lt;br&gt;evolved：进化&lt;br&gt;migrated：迁移&lt;br&gt;neural pathways：神经通路&lt;br&gt;serving：服务于，负责&lt;br&gt;sense of smell：嗅觉&lt;br&gt;sacrificed：牺牲，丧失&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“It has been speculated that...” 人们推测……；“as” 随着，引导时间状语从句；“serving sense of smell” 现在分词短语作定语；“may have been sacrificed” 可能已经被牺牲。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Similarly, although at least some cetaceans have taste buds, the nerves serving these have degenerated or are rudimentary.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;类似地，尽管至少有些鲸目动物有味蕾，但负责味蕾的神经已经退化或处于未发育状态。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;similarly：类似地&lt;br&gt;at least：至少&lt;br&gt;taste buds：味蕾&lt;br&gt;nerves：神经&lt;br&gt;serving：负责&lt;br&gt;degenerated：退化&lt;br&gt;rudimentary：未发育的，基本的&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“although” 引导让步状语从句；“serving these” 修饰 nerves；“have degenerated or are rudimentary” 并列谓语。&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
-        <pubDate>Fri, 07 Aug 2026 02:43:58 +0000</pubDate>
-        <guid>1786070638.857919</guid>
     </item>
 </channel>
 </rss>
