@@ -1,37 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-    <title>AI 语言学习推送源</title>
-    <link>https://github.com</link>
-    <description>由 DeepSeek 驱动的自动化语言学习 RSS 推送</description>
+  <title>每日更新推送</title>
+  <link>https://github.com/ZHENHUA001A307/EveningPathinTranslationGrove</link>
+  <description>自动更新的 RSS 列表 (保留最近 15 条)</description>
+  <lastBuildDate>Mon, 07 Sep 2026 01:52:57 +0000</lastBuildDate>
     <item>
+      <title><![CDATA[Unit 130-131]]></title>
+      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
+      <description><![CDATA[【介词 50%】形容词+介词 1&2（nice of/sorry about/angry with/afraid of/good at等）]]></description>
+      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
+      <pubDate>Mon, 07 Sep 2026 01:52:57 +0000</pubDate>
+    </item>
+<item>
         <title>[英语] IELTS5 Reading Passage 2 - 2026-08-31 03:50</title>
-        <description><![CDATA[<p>⏱ 预计阅读时间：54 分钟 (2675 字符)</p>
-<table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'>
-<tr><th style='border: 1px solid #aaa; padding: 6px;'>原文</th><th style='border: 1px solid #aaa; padding: 6px;'>翻译参考</th><th style='border: 1px solid #aaa; padding: 6px;'>词汇</th><th style='border: 1px solid #aaa; padding: 6px;'>表达讲解</th></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>The psychiatrists felt that 'most subjects would not go beyond 150 volts' and they further anticipated that only four per cent would go up to 300 volts.</td><td style='border: 1px solid #aaa; padding: 6px;'>精神科医生们认为“大多数受试者不会超过150伏”，而且他们进一步预计只有百分之四的人会达到300伏。</td><td style='border: 1px solid #aaa; padding: 6px;'>psychiatrists：精神科医生<br>subjects：受试者<br>anticipated：预期<br>go beyond：超过<br>volts：伏特</td><td style='border: 1px solid #aaa; padding: 6px;'>felt that 和 anticipated that 均引导宾语从句；would 表过去将来或推测；further 在此为副词“进一步”。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>Furthermore, they thought that only a lunatic fringe of about one in 1,000 would give the highest shock of 450 volts.</td><td style='border: 1px solid #aaa; padding: 6px;'>此外，他们认为只有大约千分之一的极端少数群体才会给出450伏的最高电击。</td><td style='border: 1px solid #aaa; padding: 6px;'>lunatic fringe：极端少数群体<br>shock：电击<br>highest：最高的</td><td style='border: 1px solid #aaa; padding: 6px;'>thought that 引导宾语从句；lunatic fringe 为固定短语，指“疯狂/极端的边缘群体”；one in 1,000 表示“千分之一”。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>What were the actual results?</td><td style='border: 1px solid #aaa; padding: 6px;'>实际结果是什么呢？</td><td style='border: 1px solid #aaa; padding: 6px;'>actual：实际的<br>results：结果（复数）</td><td style='border: 1px solid #aaa; padding: 6px;'>特殊疑问句，What 作表语；were 与复数 results 保持一致。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>Well, over 60 per cent of the teacher-subjects continued to obey Milgram up to the 450-volt limit!</td><td style='border: 1px solid #aaa; padding: 6px;'>嗯，超过60%的教师受试者继续服从Milgram，一直到450伏的极限！</td><td style='border: 1px solid #aaa; padding: 6px;'>teacher-subjects：教师受试者<br>obey：服从<br>up to：达到<br>limit：极限</td><td style='border: 1px solid #aaa; padding: 6px;'>over + 数字表示“超过”；continue to do sth. 表示“继续做某事”；up to 此处表上限。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>In repetitions of the experiment in other countries, the percentage of obedient teacher-subjects was even higher, reaching 85 per cent in one country.</td><td style='border: 1px solid #aaa; padding: 6px;'>在其他国家重复进行该实验时，服从的教师受试者比例甚至更高，在一个国家达到了85%。</td><td style='border: 1px solid #aaa; padding: 6px;'>repetitions：重复<br>percentage：百分比<br>obedient：服从的</td><td style='border: 1px solid #aaa; padding: 6px;'>In repetitions of... 介词短语作状语；reaching 85 per cent 为现在分词短语作伴随/结果状语；even 修饰比较级 higher。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>How can we possibly account for this vast discrepancy between what calm, rational, knowledgeable people predict in the comfort of their study and what pressured, flustered, but cooperative 'teachers' actually do in the laboratory of real life?</td><td style='border: 1px solid #aaa; padding: 6px;'>我们怎么可能解释这种巨大的差异呢——一边是冷静、理性、有见识的人在书房的舒适环境中所做的预测，另一边是受压力、慌乱但配合的“教师”在现实生活的实验室里实际所做的事？</td><td style='border: 1px solid #aaa; padding: 6px;'>account for：解释<br>vast discrepancy：巨大差异<br>rational：理性的<br>knowledgeable：有见识的<br>flustered：慌乱的<br>cooperative：合作的<br>laboratory：实验室</td><td style='border: 1px solid #aaa; padding: 6px;'>How can we possibly account for...? 中 account for 为固定搭配，表示“解释”；between what... and what... 为两个名词性从句并列作 between 的宾语；calm, rational, knowledgeable 与 pressured, flustered, but cooperative 形成对比。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>One's first inclination might be to argue that there must be some sort of built-in animal aggression instinct that was activated by the experiment, and that Milgram's teacher-subjects were just following a genetic need to discharge this pent-up primal urge onto the pupil by administering the electrical shock.</td><td style='border: 1px solid #aaa; padding: 6px;'>人们的第一反应可能会争辩说，必定有某种内置的动物攻击本能被实验激活了，而Milgram的教师受试者只是在遵循一种基因需要，即通过施加电击把这种被压抑的原始冲动释放到学生身上。</td><td style='border: 1px solid #aaa; padding: 6px;'>inclination：倾向<br>built-in：内置的<br>aggression：攻击性<br>instinct：本能<br>activated：被激活<br>genetic need：基因需要<br>discharge：释放<br>pent-up：被压抑的<br>primal urge：原始冲动<br>administering：施加</td><td style='border: 1px solid #aaa; padding: 6px;'>might be to argue that... 中不定式作表语；that 从句作 argue 的宾语；that was activated... 为定语从句修饰 instinct；to discharge... 不定式作 need 的后置定语；onto 与 discharge 搭配。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>A modern hard-core sociobiologist might even go so far as to claim that this aggressive instinct evolved as an advantageous trait, having been of survival value to our ancestors in their struggle against the hardships of life on the plains and in the caves, ultimately finding its way into our genetic make-up as a remnant of our ancient animal ways.</td><td style='border: 1px solid #aaa; padding: 6px;'>现代强硬的社会生物学家甚至可能声称，这种攻击本能是作为一种有利特征进化而来的，它对我们祖先在平原和洞穴中与艰难生活作斗争具有生存价值，最终作为我们远古动物行为的残余进入了我们的基因构成。</td><td style='border: 1px solid #aaa; padding: 6px;'>hard-core：强硬的<br>sociobiologist：社会生物学家<br>advantageous trait：有利特征<br>survival value：生存价值<br>ancestors：祖先<br>hardships：艰难<br>plains：平原<br>caves：洞穴<br>genetic make-up：基因构成<br>remnant：残余</td><td style='border: 1px solid #aaa; padding: 6px;'>go so far as to claim that... 表示“甚至声称……”；having been of survival value... 为现在分词完成式短语作状语，解释 advantageous trait；be of value 为固定搭配；finding its way into... 为现在分词短语作结果状语。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>An alternative to this notion of genetic programming is to see the teacher-subjects' actions as a result of the social environment under which the experiment was carried out.</td><td style='border: 1px solid #aaa; padding: 6px;'>与这种基因编程观念不同的另一种解释是，将教师受试者的行为看作实验进行时所处社会环境的结果。</td><td style='border: 1px solid #aaa; padding: 6px;'>alternative：替代方案<br>notion：观念<br>genetic programming：基因编程<br>carried out：实施</td><td style='border: 1px solid #aaa; padding: 6px;'>an alternative to... 表示“……的替代方案”；is to see... 不定式作表语；under which 引导定语从句，修饰 environment；carry out 为固定搭配，此处用被动语态。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>As Milgram himself pointed out, 'Most subjects in the experiment see their behaviour in a larger context that is benevolent and useful to society - the pursuit of scientific truth.</td><td style='border: 1px solid #aaa; padding: 6px;'>正如Milgram本人所指出的那样：“实验中的大多数受试者将自己的行为置于一个更宏大的、仁慈且对社会有益的背景下——即追求科学真理。</td><td style='border: 1px solid #aaa; padding: 6px;'>pointed out：指出<br>context：背景<br>benevolent：仁慈的<br>pursuit：追求</td><td style='border: 1px solid #aaa; padding: 6px;'>As Milgram himself pointed out 为方式/定语从句，as 指代后面引述内容；that is benevolent... 为定语从句修饰 context；破折号后 the pursuit of scientific truth 作同位语解释 larger context。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>The psychological laboratory has a strong claim to legitimacy and evokes trust and confidence in those who perform there.</td><td style='border: 1px solid #aaa; padding: 6px;'>心理学实验室具有强烈的合法性主张，并能在其中工作的人心中唤起信任和信心。</td><td style='border: 1px solid #aaa; padding: 6px;'>psychological：心理学的<br>claim：主张<br>legitimacy：合法性<br>evokes：唤起<br>perform：工作；执行</td><td style='border: 1px solid #aaa; padding: 6px;'>have a strong claim to... 表示“对……有强烈主张/权利”；evoke sth. in sb. 表示“在某人心中唤起……”；who 引导定语从句修饰 those。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>An action such as shocking a victim, which in isolation appears evil, acquires a completely different meaning when placed in this setting.'</td><td style='border: 1px solid #aaa; padding: 6px;'>像电击受害者这样的行为，孤立地看是邪恶的，但放在这种情境中时就获得了完全不同的意义。”</td><td style='border: 1px solid #aaa; padding: 6px;'>in isolation：孤立地<br>victim：受害者<br>evil：邪恶的<br>acquires：获得<br>setting：情境</td><td style='border: 1px solid #aaa; padding: 6px;'>such as 表示举例；which 引导非限制性定语从句修饰 an action；when placed in this setting 为“连词+过去分词”的省略时间状语从句，完整为 when it is placed...。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>Thus, in this explanation the subject merges his unique personality and personal and moral code with that of larger institutional structures, surrendering individual properties like loyalty, self-sacrifice and discipline to the service of malevolent systems of authority.</td><td style='border: 1px solid #aaa; padding: 6px;'>因此，在这种解释中，受试者将他独特的个性以及个人和道德准则与更大的制度结构相融合，把忠诚、自我牺牲和纪律等个人品质交出来，服务于恶性的权威体系。</td><td style='border: 1px solid #aaa; padding: 6px;'>merges：融合<br>moral code：道德准则<br>institutional structures：制度结构<br>surrendering：交出；放弃<br>loyalty：忠诚<br>self-sacrifice：自我牺牲<br>discipline：纪律<br>malevolent：恶性的；恶毒的</td><td style='border: 1px solid #aaa; padding: 6px;'>merge...with... 表示“将……与……融合”；that 指代 personality and personal and moral code，避免重复；surrendering... to... 为现在分词作伴随状语；like 表示举例。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>Here we have two radically different explanations for why so many teacher-subjects were willing to forgo their sense of personal responsibility for the sake of an institutional authority figure.</td><td style='border: 1px solid #aaa; padding: 6px;'>这里我们有两种截然不同的解释，说明为什么这么多教师受试者愿意为了机构权威人物而放弃他们的个人责任感。</td><td style='border: 1px solid #aaa; padding: 6px;'>radically：截然地<br>forgo：放弃<br>personal responsibility：个人责任感<br>for the sake of：为了<br>institutional authority figure：机构权威人物</td><td style='border: 1px solid #aaa; padding: 6px;'>for why... 中 why 引导宾语从句，作介词 for 的宾语；be willing to do 表示“愿意做”；for the sake of 为固定短语。</td></tr>
-<tr><td style='border: 1px solid #aaa; padding: 6px;'>The problem for biologists, psychologists and anthropologists is to sort out which of these two polar explanations is more plausible.</td><td style='border: 1px solid #aaa; padding: 6px;'>生物学家、心理学家和人类学家面临的问题是，要弄清这两种极端解释中哪一种更合理。</td><td style='border: 1px solid #aaa; padding: 6px;'>biologists：生物学家<br>psychologists：心理学家<br>anthropologists：人类学家<br>sort out：弄清<br>polar：极端的<br>plausible：合理的</td><td style='border: 1px solid #aaa; padding: 6px;'>The problem for... is to sort out... 不定式作表语；which of these two polar explanations is more plausible 为宾语从句，作 sort out 的宾语，which 表示“哪一个”。</td></tr>
-</table>]]></description>
+        <description>&lt;p&gt;⏱ 预计阅读时间：54 分钟 (2675 字符)&lt;/p&gt;
+&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
+&lt;tr&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The psychiatrists felt that 'most subjects would not go beyond 150 volts' and they further anticipated that only four per cent would go up to 300 volts.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;精神科医生们认为“大多数受试者不会超过150伏”，而且他们进一步预计只有百分之四的人会达到300伏。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;psychiatrists：精神科医生&lt;br&gt;subjects：受试者&lt;br&gt;anticipated：预期&lt;br&gt;go beyond：超过&lt;br&gt;volts：伏特&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;felt that 和 anticipated that 均引导宾语从句；would 表过去将来或推测；further 在此为副词“进一步”。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Furthermore, they thought that only a lunatic fringe of about one in 1,000 would give the highest shock of 450 volts.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;此外，他们认为只有大约千分之一的极端少数群体才会给出450伏的最高电击。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;lunatic fringe：极端少数群体&lt;br&gt;shock：电击&lt;br&gt;highest：最高的&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;thought that 引导宾语从句；lunatic fringe 为固定短语，指“疯狂/极端的边缘群体”；one in 1,000 表示“千分之一”。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;What were the actual results?&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;实际结果是什么呢？&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;actual：实际的&lt;br&gt;results：结果（复数）&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;特殊疑问句，What 作表语；were 与复数 results 保持一致。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Well, over 60 per cent of the teacher-subjects continued to obey Milgram up to the 450-volt limit!&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;嗯，超过60%的教师受试者继续服从Milgram，一直到450伏的极限！&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;teacher-subjects：教师受试者&lt;br&gt;obey：服从&lt;br&gt;up to：达到&lt;br&gt;limit：极限&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;over + 数字表示“超过”；continue to do sth. 表示“继续做某事”；up to 此处表上限。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;In repetitions of the experiment in other countries, the percentage of obedient teacher-subjects was even higher, reaching 85 per cent in one country.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;在其他国家重复进行该实验时，服从的教师受试者比例甚至更高，在一个国家达到了85%。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;repetitions：重复&lt;br&gt;percentage：百分比&lt;br&gt;obedient：服从的&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;In repetitions of... 介词短语作状语；reaching 85 per cent 为现在分词短语作伴随/结果状语；even 修饰比较级 higher。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;How can we possibly account for this vast discrepancy between what calm, rational, knowledgeable people predict in the comfort of their study and what pressured, flustered, but cooperative 'teachers' actually do in the laboratory of real life?&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;我们怎么可能解释这种巨大的差异呢——一边是冷静、理性、有见识的人在书房的舒适环境中所做的预测，另一边是受压力、慌乱但配合的“教师”在现实生活的实验室里实际所做的事？&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;account for：解释&lt;br&gt;vast discrepancy：巨大差异&lt;br&gt;rational：理性的&lt;br&gt;knowledgeable：有见识的&lt;br&gt;flustered：慌乱的&lt;br&gt;cooperative：合作的&lt;br&gt;laboratory：实验室&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;How can we possibly account for...? 中 account for 为固定搭配，表示“解释”；between what... and what... 为两个名词性从句并列作 between 的宾语；calm, rational, knowledgeable 与 pressured, flustered, but cooperative 形成对比。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;One's first inclination might be to argue that there must be some sort of built-in animal aggression instinct that was activated by the experiment, and that Milgram's teacher-subjects were just following a genetic need to discharge this pent-up primal urge onto the pupil by administering the electrical shock.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;人们的第一反应可能会争辩说，必定有某种内置的动物攻击本能被实验激活了，而Milgram的教师受试者只是在遵循一种基因需要，即通过施加电击把这种被压抑的原始冲动释放到学生身上。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;inclination：倾向&lt;br&gt;built-in：内置的&lt;br&gt;aggression：攻击性&lt;br&gt;instinct：本能&lt;br&gt;activated：被激活&lt;br&gt;genetic need：基因需要&lt;br&gt;discharge：释放&lt;br&gt;pent-up：被压抑的&lt;br&gt;primal urge：原始冲动&lt;br&gt;administering：施加&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;might be to argue that... 中不定式作表语；that 从句作 argue 的宾语；that was activated... 为定语从句修饰 instinct；to discharge... 不定式作 need 的后置定语；onto 与 discharge 搭配。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;A modern hard-core sociobiologist might even go so far as to claim that this aggressive instinct evolved as an advantageous trait, having been of survival value to our ancestors in their struggle against the hardships of life on the plains and in the caves, ultimately finding its way into our genetic make-up as a remnant of our ancient animal ways.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;现代强硬的社会生物学家甚至可能声称，这种攻击本能是作为一种有利特征进化而来的，它对我们祖先在平原和洞穴中与艰难生活作斗争具有生存价值，最终作为我们远古动物行为的残余进入了我们的基因构成。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;hard-core：强硬的&lt;br&gt;sociobiologist：社会生物学家&lt;br&gt;advantageous trait：有利特征&lt;br&gt;survival value：生存价值&lt;br&gt;ancestors：祖先&lt;br&gt;hardships：艰难&lt;br&gt;plains：平原&lt;br&gt;caves：洞穴&lt;br&gt;genetic make-up：基因构成&lt;br&gt;remnant：残余&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;go so far as to claim that... 表示“甚至声称……”；having been of survival value... 为现在分词完成式短语作状语，解释 advantageous trait；be of value 为固定搭配；finding its way into... 为现在分词短语作结果状语。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;An alternative to this notion of genetic programming is to see the teacher-subjects' actions as a result of the social environment under which the experiment was carried out.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;与这种基因编程观念不同的另一种解释是，将教师受试者的行为看作实验进行时所处社会环境的结果。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;alternative：替代方案&lt;br&gt;notion：观念&lt;br&gt;genetic programming：基因编程&lt;br&gt;carried out：实施&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;an alternative to... 表示“……的替代方案”；is to see... 不定式作表语；under which 引导定语从句，修饰 environment；carry out 为固定搭配，此处用被动语态。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;As Milgram himself pointed out, 'Most subjects in the experiment see their behaviour in a larger context that is benevolent and useful to society - the pursuit of scientific truth.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;正如Milgram本人所指出的那样：“实验中的大多数受试者将自己的行为置于一个更宏大的、仁慈且对社会有益的背景下——即追求科学真理。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;pointed out：指出&lt;br&gt;context：背景&lt;br&gt;benevolent：仁慈的&lt;br&gt;pursuit：追求&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;As Milgram himself pointed out 为方式/定语从句，as 指代后面引述内容；that is benevolent... 为定语从句修饰 context；破折号后 the pursuit of scientific truth 作同位语解释 larger context。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The psychological laboratory has a strong claim to legitimacy and evokes trust and confidence in those who perform there.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;心理学实验室具有强烈的合法性主张，并能在其中工作的人心中唤起信任和信心。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;psychological：心理学的&lt;br&gt;claim：主张&lt;br&gt;legitimacy：合法性&lt;br&gt;evokes：唤起&lt;br&gt;perform：工作；执行&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;have a strong claim to... 表示“对……有强烈主张/权利”；evoke sth. in sb. 表示“在某人心中唤起……”；who 引导定语从句修饰 those。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;An action such as shocking a victim, which in isolation appears evil, acquires a completely different meaning when placed in this setting.'&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;像电击受害者这样的行为，孤立地看是邪恶的，但放在这种情境中时就获得了完全不同的意义。”&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;in isolation：孤立地&lt;br&gt;victim：受害者&lt;br&gt;evil：邪恶的&lt;br&gt;acquires：获得&lt;br&gt;setting：情境&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;such as 表示举例；which 引导非限制性定语从句修饰 an action；when placed in this setting 为“连词+过去分词”的省略时间状语从句，完整为 when it is placed...。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Thus, in this explanation the subject merges his unique personality and personal and moral code with that of larger institutional structures, surrendering individual properties like loyalty, self-sacrifice and discipline to the service of malevolent systems of authority.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;因此，在这种解释中，受试者将他独特的个性以及个人和道德准则与更大的制度结构相融合，把忠诚、自我牺牲和纪律等个人品质交出来，服务于恶性的权威体系。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;merges：融合&lt;br&gt;moral code：道德准则&lt;br&gt;institutional structures：制度结构&lt;br&gt;surrendering：交出；放弃&lt;br&gt;loyalty：忠诚&lt;br&gt;self-sacrifice：自我牺牲&lt;br&gt;discipline：纪律&lt;br&gt;malevolent：恶性的；恶毒的&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;merge...with... 表示“将……与……融合”；that 指代 personality and personal and moral code，避免重复；surrendering... to... 为现在分词作伴随状语；like 表示举例。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Here we have two radically different explanations for why so many teacher-subjects were willing to forgo their sense of personal responsibility for the sake of an institutional authority figure.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这里我们有两种截然不同的解释，说明为什么这么多教师受试者愿意为了机构权威人物而放弃他们的个人责任感。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;radically：截然地&lt;br&gt;forgo：放弃&lt;br&gt;personal responsibility：个人责任感&lt;br&gt;for the sake of：为了&lt;br&gt;institutional authority figure：机构权威人物&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;for why... 中 why 引导宾语从句，作介词 for 的宾语；be willing to do 表示“愿意做”；for the sake of 为固定短语。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The problem for biologists, psychologists and anthropologists is to sort out which of these two polar explanations is more plausible.&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;生物学家、心理学家和人类学家面临的问题是，要弄清这两种极端解释中哪一种更合理。&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;biologists：生物学家&lt;br&gt;psychologists：心理学家&lt;br&gt;anthropologists：人类学家&lt;br&gt;sort out：弄清&lt;br&gt;polar：极端的&lt;br&gt;plausible：合理的&lt;/td&gt;&lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The problem for... is to sort out... 不定式作表语；which of these two polar explanations is more plausible 为宾语从句，作 sort out 的宾语，which 表示“哪一个”。&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
         <pubDate>Mon, 31 Aug 2026 03:50:43 +0000</pubDate>
         <guid>1788148243.534905</guid>
     </item>
 <item>
-      <title><![CDATA[Unit 128-129]]></title>
+      <title>Unit 128-129</title>
       <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
-      <description><![CDATA[【介词 50%】by（方式、被动、时间、by+ing）；名词+介词（reason for/cause of/damage to）]]></description>
+      <description>【介词 50%】by（方式、被动、时间、by+ing）；名词+介词（reason for/cause of/damage to）</description>
       <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
       <pubDate>Mon, 31 Aug 2026 02:20:25 +0000</pubDate>
     </item>
@@ -541,112 +549,6 @@
 &lt;/table&gt;</description>
         <pubDate>Tue, 11 Aug 2026 01:48:55 +0000</pubDate>
         <guid>1786412935.99761</guid>
-    </item>
-<item>
-      <title>Unit 59-61</title>
-      <link>https://llwslc.github.io/grammar-club/content/Chapter01.html</link>
-      <description>【非谓语动词 60%】prefer与would rather；介词+ing；be/get used to（重点：to是介词，后接ing）</description>
-      <guid isPermaLink="false">https://llwslc.github.io/grammar-club/content/Chapter01.html</guid>
-      <pubDate>Tue, 11 Aug 2026 00:50:45 +0000</pubDate>
-    </item>
-<item>
-        <title>[英语] IELTS4 Reading Passage 2 - 2026-08-10 01:53</title>
-        <description>&lt;p&gt;⏱ 预计阅读时间：49 分钟 (2420 字符)&lt;/p&gt;
-&lt;table border='1' cellspacing='0' style='border-collapse: collapse; width: 100%;'&gt;
-  &lt;tr&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;原文&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;翻译参考&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;词汇&lt;/th&gt;&lt;th style='border: 1px solid #aaa; padding: 6px;'&gt;表达讲解&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The sense of touch has sometimes been described as weak too, but this view is probably mistaken.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;触觉有时也被描述为很弱，但这种看法很可能是错误的。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;touch: 触觉&lt;br&gt;described as: 被描述为&lt;br&gt;view: 观点，看法&lt;br&gt;mistaken: 错误的&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“has been described as” 是现在完成时被动语态，表示“一直被描述为”；“this view is probably mistaken” 中 mistaken 是形容词作表语，表示“错误的”。注意转折连词 but。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Trainers of captive dolphins and small whales often remark on their animals&amp;#39; responsiveness to being touched or rubbed, and both captive and freeranging cetacean individuals of all species (particularly adults and calves, or members of the same subgroup) appear to make frequent contact.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;圈养海豚和小鲸鱼的训练师经常谈及它们的动物对被触摸或揉搓的反应性，而且所有物种的圈养和自由放养的鲸目动物个体（特别是成年和幼崽，或者同一亚群的成员）似乎会频繁接触。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;captive: 圈养的&lt;br&gt;remark on: 谈及，评论&lt;br&gt;responsiveness: 反应性&lt;br&gt;touched or rubbed: 被触摸或揉搓&lt;br&gt;freeranging: 自由放养的&lt;br&gt;cetacean: 鲸目动物&lt;br&gt;calves: 幼崽&lt;br&gt;subgroup: 亚群&lt;br&gt;make contact: 进行接触&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“remark on” 为固定搭配，表示“评论/谈及”；“responsiveness to being touched” 中 to 是介词，后接动名词被动式 being touched； “both captive and freeranging” 并列作定语修饰 cetacean individuals； “appear to make contact” 表示“似乎进行接触”。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;This contact may help to maintain order within a group, and stroking or touching are part of the courtship ritual in most species.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这种接触可能有助于维持群体内的秩序，而抚摸或触碰在大多数物种中是求偶仪式的一部分。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;maintain: 维持&lt;br&gt;order: 秩序&lt;br&gt;stroking: 抚摸&lt;br&gt;courtship: 求偶&lt;br&gt;ritual: 仪式&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“help to maintain” 中 help 后可接带 to 或不带 to 的不定式； “be part of” 意为“是……的一部分”； “courtship ritual” 为固定搭配“求偶仪式”。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The area around the blowhole is also particularly sensitive and captive animals often object strongly to being touched there.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;喷气孔周围的区域也特别敏感，圈养动物常常强烈反对被触摸那里。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;blowhole: 喷气孔&lt;br&gt;sensitive: 敏感的&lt;br&gt;object to: 反对&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“object to” 中 to 为介词，后接动名词被动式 being touched； “particularly sensitive” 作表语，表示“尤其敏感”。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The sense of vision is developed to different degrees in different species.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;视觉在不同物种中发展到了不同的程度。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;vision: 视觉&lt;br&gt;degree: 程度&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“is developed to different degrees” 被动语态，表示“被发展到不同程度”，强调客观描述。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Baleen species studied at close quarters underwater - specifically a grey whale calf in captivity for a year, and free-ranging right whales and humpback whales studied and filmed off Argentina and Hawaii - have obviously tracked objects with vision underwater, and they can apparently see moderately well both in water and in air.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;在水下近距离研究的须鲸物种——具体来说，一只被圈养了一年的灰鲸幼崽，以及在阿根廷和夏威夷附近研究并拍摄的自由放养的露脊鲸和座头鲸——显然在水下用视觉追踪物体，而且它们显然在水中和空气中都有中等的视力。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;baleen: 鲸须&lt;br&gt;at close quarters: 近距离地&lt;br&gt;grey whale: 灰鲸&lt;br&gt;right whale: 露脊鲸&lt;br&gt;humpback whale: 座头鲸&lt;br&gt;tracked: 追踪&lt;br&gt;moderately: 中等地&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“studied at close quarters” 是过去分词短语作定语；破折号之间是具体举例； “have tracked” 为现在完成时； “see moderately well” 表示视力中等； “both in water and in air” 并列状语。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;However, the position of the eyes so restricts the field of vision in baleen whales that they probably do not have stereoscopic vision.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;然而，眼睛的位置如此限制须鲸的视野，以至于它们可能没有立体视觉。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;restricts: 限制&lt;br&gt;field of vision: 视野&lt;br&gt;stereoscopic: 立体的&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“so... that...” 句型表示“如此……以至于……”； “restrict the field of vision” 搭配； “stereoscopic vision” 意为“立体视觉”。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;On the other hand, the position of the eyes in most dolphins and porpoises suggests that they have stereoscopic vision forward and downward.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;另一方面，大多数海豚和鼠海豚的眼睛位置表明它们有向前和向下的立体视觉。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;porpoises: 鼠海豚&lt;br&gt;stereoscopic: 立体的&lt;br&gt;forward and downward: 向前和向下&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“On the other hand” 表示对比； “suggests that” 后接宾语从句； “forward and downward” 作后置定语修饰 vision。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Eye position in freshwater dolphins, which often swim on their side or upside down while feeding, suggests that what vision they have is stereoscopic forward and upward.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;淡水海豚的眼睛位置——它们经常在进食时侧着身子或倒置游泳——表明它们所具有的视觉是向前和向上的立体视觉。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;freshwater: 淡水&lt;br&gt;upside down: 颠倒&lt;br&gt;feeding: 进食&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“which often swim...” 是非限制性定语从句； “what vision they have” 是主语从句，相当于 the vision that they have； “on their side or upside down” 方式状语。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;By comparison, the bottlenose dolphin has extremely keen vision in water.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;相比之下，宽吻海豚在水中有极其敏锐的视觉。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;bottlenose dolphin: 宽吻海豚&lt;br&gt;keen: 敏锐的&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“By comparison” 意为“相比之下”； “extremely keen vision” 表示“极其敏锐的视觉”。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Judging from the way it watches and tracks airborne flying fish, it can apparently see fairly well through the air-water interface as well.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;从它观察和追踪空中飞鱼的方式来看，它显然也能透过空气-水的界面看得相当清楚。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;judging from: 从……判断&lt;br&gt;airborne: 空中的&lt;br&gt;flying fish: 飞鱼&lt;br&gt;interface: 界面&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“Judging from...” 是垂悬分词作状语； “the way it watches” 方式状语从句； “see fairly well through the air-water interface” 动介搭配。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;And although preliminary experimental evidence suggests that their in-air vision is poor, the accuracy with which dolphins leap high to take small fish out of a trainer&amp;#39;s hand provides anecdotal evidence to the contrary.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;而且，尽管初步的实验证据表明它们的空中视觉很差，但海豚高高跳起从训练员手中取走小鱼的准确性提供了相反的轶事证据。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;preliminary: 初步的&lt;br&gt;experimental: 实验的&lt;br&gt;accuracy: 准确性&lt;br&gt;leap: 跳跃&lt;br&gt;anecdotal: 轶事的&lt;br&gt;to the contrary: 相反地&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“although” 引导让步状语从句； “the accuracy with which dolphins leap...” 是“介词+关系代词”引导的定语从句，先行词 accuracy； “provides anecdotal evidence to the contrary” 提供了相反的非正式证据。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;Such variation can no doubt be explained with reference to the habitats in which individual species have developed.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;这种差异无疑可以通过各个物种发展所处的栖息地来解释。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;variation: 差异&lt;br&gt;no doubt: 无疑&lt;br&gt;with reference to: 根据，参考&lt;br&gt;habitats: 栖息地&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“can no doubt be explained” 被动语态； “with reference to” 意为“根据，参考”； “in which individual species have developed” 定语从句修饰 habitats。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;For example, vision is obviously more useful to species inhabiting clear open waters than to those living in turbid rivers and flooded plains.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;例如，视觉对于栖息在清澈开阔水域的物种显然比对于生活在浑浊河流和泛滥平原的物种更有用。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;inhabiting: 栖息于&lt;br&gt;turbid: 浑浊的&lt;br&gt;flooded plains: 泛滥平原&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“more useful to... than to...” 比较结构； “species inhabiting...” 现在分词作定语； “those living in...” 中 those 指代 species。&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;The South American boutu and Chinese beiji, for instance, appear to have very limited vision, and the Indian susus are blind, their eyes reduced to slits that probably allow them to sense only the direction and intensity of light.&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;例如，南美洲的亚马逊河豚和中国的白鳍豚似乎视力非常有限，而印度河豚是盲的，它们的眼睛退化为狭缝，可能只能感知光的方向和强度。&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;boutu: 亚马逊河豚&lt;br&gt;beiji: 白鳍豚&lt;br&gt;susus: 印度河豚&lt;br&gt;blind: 盲的&lt;br&gt;slits: 狭缝&lt;br&gt;intensity: 强度&lt;/td&gt;
-    &lt;td style='border: 1px solid #aaa; padding: 6px;'&gt;“appear to have” 似乎有； “their eyes reduced to slits” 是独立主格结构，表示伴随状态； “that probably allow...” 定语从句修饰 slits； “sense the direction and intensity” 感知方向和强度。&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;</description>
-        <pubDate>Mon, 10 Aug 2026 01:53:40 +0000</pubDate>
-        <guid>1786326820.776538</guid>
     </item>
 </channel>
 </rss>
